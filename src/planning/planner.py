@@ -575,6 +575,10 @@ class PersonalizedPlanGenerator:
                 }
             }
 
+
+
+
+
         # ---------------------------------------------------------------------
         # 8. SECTION 05 — SCENARIO ANALYSIS & ACTION ROADMAP / GROWTH ROADMAP
         # ---------------------------------------------------------------------

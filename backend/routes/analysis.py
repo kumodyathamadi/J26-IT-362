@@ -463,6 +463,19 @@ def get_analysis_record(
                             d.get("feature", ""), d.get("raw_feature", ""), inp_row
                         )
 
+    # Ensure original_baseline is populated for comparison
+    if "original_baseline" not in profile or not profile.get("original_baseline"):
+        created_log = db.query(AnalysisAuditLog).filter(
+            AnalysisAuditLog.record_id == record_id,
+            AnalysisAuditLog.action == "created"
+        ).order_by(AnalysisAuditLog.created_at.asc()).first()
+        if created_log and created_log.inputs_snapshot:
+            profile["original_baseline"] = {
+                "business_input": created_log.inputs_snapshot,
+                "confidence_score": created_log.result_score,
+                "feasibility_label": created_log.result_label
+            }
+
     return profile
 
 
@@ -657,6 +670,29 @@ def apply_scenario_to_business(
         feasibility_data = new_structured_profile.get("feasibility_analysis", {})
         new_label = feasibility_data.get("predicted_label", rec.feasibility_label)
         new_conf = feasibility_data.get("confidence_score", rec.confidence_score)
+
+        # Preserve original intake baseline so comparison is never lost
+        orig_bl = None
+        if rec.structured_profile and isinstance(rec.structured_profile, dict):
+            orig_bl = rec.structured_profile.get("original_baseline")
+        if not orig_bl:
+            created_log = db.query(AnalysisAuditLog).filter(
+                AnalysisAuditLog.record_id == record_id,
+                AnalysisAuditLog.action == "created"
+            ).order_by(AnalysisAuditLog.created_at.asc()).first()
+            if created_log and created_log.inputs_snapshot:
+                orig_bl = {
+                    "business_input": created_log.inputs_snapshot,
+                    "confidence_score": created_log.result_score,
+                    "feasibility_label": created_log.result_label
+                }
+            else:
+                orig_bl = {
+                    "business_input": dict(existing_input),
+                    "confidence_score": rec.confidence_score,
+                    "feasibility_label": rec.feasibility_label
+                }
+        new_structured_profile["original_baseline"] = orig_bl
 
         # Update database record
         rec.feasibility_label = new_label

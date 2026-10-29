@@ -30,12 +30,17 @@ export default function WhatIfSimulator({ scenarioData: propScenario, currentInp
   const currentInput = propInput || profile?.business_input;
   const baselineFeasibility = profile?.feasibility_analysis || {};
 
-  const baselineCapital = currentInput?.available_capital_lkr || 500000;
-  const baselineBudget = currentInput?.monthly_budget_lkr || 150000;
-  const baselineCustomers = currentInput?.expected_customers_per_day || 40;
-  const baselinePrice = currentInput?.expected_price_lkr || 350;
-  const baselineScore = baselineFeasibility.confidence_score || baselineFeasibility.probability_score || 0.5;
-  const baselineLabel = baselineFeasibility.predicted_label || 'Conditionally Feasible';
+  // Preserve the true original baseline from initial intake if scenario was previously applied
+  const originalBaseline = profile?.original_baseline;
+  const initialInput = originalBaseline?.business_input || currentInput;
+  const initialFeasibility = originalBaseline?.feasibility_analysis || baselineFeasibility;
+
+  const baselineCapital = initialInput?.available_capital_lkr ?? (currentInput?.available_capital_lkr || 500000);
+  const baselineBudget = initialInput?.monthly_budget_lkr ?? (currentInput?.monthly_budget_lkr || 150000);
+  const baselineCustomers = initialInput?.expected_customers_per_day ?? (currentInput?.expected_customers_per_day || 40);
+  const baselinePrice = initialInput?.expected_price_lkr ?? (currentInput?.expected_price_lkr || 350);
+  const baselineScore = originalBaseline?.confidence_score ?? (initialFeasibility.confidence_score || initialFeasibility.probability_score || 0.5);
+  const baselineLabel = originalBaseline?.feasibility_label ?? (initialFeasibility.predicted_label || 'Conditionally Feasible');
 
   const paramCapital = searchParams.get('capital');
   const paramBudget = searchParams.get('budget');
@@ -43,19 +48,19 @@ export default function WhatIfSimulator({ scenarioData: propScenario, currentInp
   const paramStrategyName = searchParams.get('strategyName') || searchParams.get('strategy');
 
   const parsedCapital = paramCapital ? parseFloat(paramCapital) : null;
-  const initialCapital = parsedCapital && !isNaN(parsedCapital) ? parsedCapital : baselineCapital;
+  const initialCapital = parsedCapital && !isNaN(parsedCapital) ? parsedCapital : (currentInput?.available_capital_lkr || baselineCapital);
 
   const parsedBudget = paramBudget ? parseFloat(paramBudget) : null;
-  const initialBudget = parsedBudget && !isNaN(parsedBudget) ? parsedBudget : baselineBudget;
+  const initialBudget = parsedBudget && !isNaN(parsedBudget) ? parsedBudget : (currentInput?.monthly_budget_lkr || baselineBudget);
 
   const parsedCustomers = paramCustomers ? parseInt(paramCustomers, 10) : null;
-  const initialCustomers = parsedCustomers && !isNaN(parsedCustomers) ? parsedCustomers : baselineCustomers;
+  const initialCustomers = parsedCustomers && !isNaN(parsedCustomers) ? parsedCustomers : (currentInput?.expected_customers_per_day || baselineCustomers);
 
   // Interactive Scenario State
   const [customCapital, setCustomCapital] = useState(initialCapital);
   const [customBudget, setCustomBudget] = useState(initialBudget);
   const [customCustomers, setCustomCustomers] = useState(initialCustomers);
-  const [customPrice, setCustomPrice] = useState(baselinePrice);
+  const [customPrice, setCustomPrice] = useState(currentInput?.expected_price_lkr || baselinePrice);
   
   const [liveScoring, setLiveScoring] = useState(true);
   const [simulating, setSimulating] = useState(false);
@@ -96,6 +101,7 @@ export default function WhatIfSimulator({ scenarioData: propScenario, currentInp
         customers: customCustomers,
         price: customPrice
       });
+      setActiveCustomResult(null);
       const msg = "Scenario successfully applied! Your Business Plan and financial runway have been regenerated.";
       if (toast?.success) toast.success(msg);
       else if (toast?.showToast) toast.showToast(msg, 'success');
@@ -194,17 +200,18 @@ export default function WhatIfSimulator({ scenarioData: propScenario, currentInp
   };
 
   const scenarioFeasibility = activeCustomResult?.feasibility_analysis || null;
-  const scenarioLabel = scenarioFeasibility?.predicted_label || baselineLabel;
+  const scenarioLabel = scenarioFeasibility?.predicted_label || 
+    (isDifferentFromBaseline ? baselineLabel : (profile?.feasibility_analysis?.predicted_label || baselineLabel));
   const scenarioScore = scenarioFeasibility 
     ? (scenarioFeasibility.confidence_score || scenarioFeasibility.probability_score || 0)
-    : baselineScore;
+    : (isDifferentFromBaseline ? baselineScore : (profile?.feasibility_analysis?.confidence_score || baselineScore));
 
   // Viability Index delta represents true multi-class shift: P(Feas) + 0.5 * P(Cond)
-  const viabilityDelta = activeCustomResult?.viability_delta !== undefined 
+  const viabilityDelta = isDifferentFromBaseline && activeCustomResult?.viability_delta !== undefined 
     ? activeCustomResult.viability_delta 
-    : (scenarioFeasibility ? (scenarioScore - baselineScore) : 0);
+    : (isDifferentFromBaseline && scenarioFeasibility ? (scenarioScore - baselineScore) : 0);
   const viabilityDeltaPct = (viabilityDelta * 100).toFixed(1);
-  const probDeltas = activeCustomResult?.probability_deltas || {};
+  const probDeltas = isDifferentFromBaseline ? (activeCustomResult?.probability_deltas || {}) : {};
 
   const what_if_simulations = scenarioData?.what_if_simulations || [];
   const counterfactual_boundary = scenarioData?.counterfactual_boundary || {};

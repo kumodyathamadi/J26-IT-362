@@ -1226,12 +1226,6 @@ class BusinessPlanPDFGenerator:
             body_style
         ))
 
-        # 2.4 Evidence Basis & Market Assumptions
-        story.append(Spacer(1, 4))
-        story.append(Paragraph("<b>2.4 Evidence Basis & Market Validation Disclosures</b>", h2_style))
-        for m_assump in s2.get("market_assumptions_and_validation", []):
-            story.append(Paragraph(f"• {m_assump}", bullet_style))
-
         # Every section starts on a new page!
         story.append(PageBreak())
 
@@ -1393,32 +1387,6 @@ class BusinessPlanPDFGenerator:
         story.append(Paragraph("<b>4.4 Addressing Resource & Operational Gaps</b>", h2_style))
         for gap in s4.get("gap_mitigation_plan", []):
             story.append(Paragraph(f"• {gap}", bullet_style))
-
-        # 4.5 Sensitivity & Resilience Testing (What-If Scenario Analysis)
-        story.append(Spacer(1, 4))
-        story.append(Paragraph("<b>4.5 Sensitivity & Resilience Testing (What-If Scenarios)</b>", h2_style))
-        story.append(Paragraph(
-            "To stress-test business resilience before executing growth actions, SME360 AI simulated prospective operational shocks "
-            "through the trained model. These sensitivity scenarios identify how fluctuations in demand, budget, and capital impact feasibility:",
-            body_style
-        ))
-
-        for sc in s4.get("what_if_sensitivity_analysis", [])[:3]:
-            sc_name = sc.get("title") or sc.get("scenario_name", "Scenario")
-            sc_summary = sc.get("impact_summary") or sc.get("analytical_takeaway", "Simulation completed.")
-            sc_deltas = sc.get("class_shifts_percentage_points") or sc.get("probability_deltas_pp", {})
-            f_delta = sc_deltas.get("Feasible", "0.0 pp")
-            c_delta = sc_deltas.get("Conditionally Feasible", "0.0 pp")
-            i_delta = sc_deltas.get("Infeasible", "0.0 pp")
-
-            sc_box = [
-                Paragraph(f"<b>Scenario: {sc_name}</b>", ParagraphStyle('ScHead2', parent=body_style, fontName='Helvetica-Bold', fontSize=9, textColor=primary_color)),
-                Spacer(1, 1),
-                Paragraph(f"<b>Model Impact:</b> Feasible Δ: <b>{f_delta}</b> | Conditionally Feasible Δ: <b>{c_delta}</b> | Infeasible Δ: <b>{i_delta}</b>", body_style),
-                Paragraph(f"<b>Analytical Takeaway:</b> {sc_summary}", body_style)
-            ]
-            story.append(create_callout_box(sc_box, bg=colors.HexColor("#f8fafc"), border=card_border, padding=6))
-            story.append(Spacer(1, 3))
 
         # Every section starts on a new page!
         story.append(PageBreak())

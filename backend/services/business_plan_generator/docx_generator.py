@@ -1025,11 +1025,6 @@ class BusinessPlanDocxGenerator:
             f"{comp.get('positioning_strategy', 'Consistent operational execution and service differentiation.')}"
         )
 
-        # 2.4 Evidence Basis & Market Assumptions
-        add_h2("2.4 Evidence Basis & Market Validation Disclosures")
-        for m_assump in s2.get("market_assumptions_and_validation", []):
-            add_bullet_p(m_assump)
-
         # Every section starts on a new page!
         doc.add_page_break()
 
@@ -1158,27 +1153,6 @@ class BusinessPlanDocxGenerator:
         add_h2("4.4 Addressing Resource & Operational Gaps")
         for gap in s4.get("gap_mitigation_plan", []):
             add_bullet_p(gap)
-
-        # 4.5 Sensitivity & Resilience Testing (What-If Scenario Analysis)
-        add_h2("4.5 Sensitivity & Resilience Testing (What-If Scenarios)")
-        add_body_p(
-            "To stress-test business resilience before executing growth actions, SME360 AI simulated prospective operational shocks "
-            "through the trained model. These sensitivity scenarios identify how fluctuations in demand, budget, and capital impact feasibility:"
-        )
-
-        for sc in s4.get("what_if_sensitivity_analysis", [])[:3]:
-            sc_name = sc.get("title") or sc.get("scenario_name", "Scenario")
-            sc_summary = sc.get("impact_summary") or sc.get("analytical_takeaway", "Simulation completed.")
-            sc_deltas = sc.get("class_shifts_percentage_points") or sc.get("probability_deltas_pp", {})
-            f_delta = sc_deltas.get("Feasible", "0.0 pp")
-            c_delta = sc_deltas.get("Conditionally Feasible", "0.0 pp")
-            i_delta = sc_deltas.get("Infeasible", "0.0 pp")
-
-            sc_lines = [
-                f"Model Impact: Feasible Δ: {f_delta} | Conditionally Feasible Δ: {c_delta} | Infeasible Δ: {i_delta}",
-                f"Analytical Takeaway: {sc_summary}"
-            ]
-            add_callout_box(f"Scenario: {sc_name}", sc_lines, bg_hex="F8FAFC")
 
         # Every section starts on a new page!
         doc.add_page_break()

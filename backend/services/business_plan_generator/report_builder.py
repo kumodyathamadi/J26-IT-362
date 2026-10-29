@@ -694,12 +694,7 @@ class BusinessPlanReportBuilder:
                     "competitor_count_nearby": competitor_count_display,
                     "competitor_information": competitor_info_display,
                     "positioning_strategy": f"Differentiate through consistent service execution, localized relationship building, and {active_strategy_name} rather than margin-eroding price discounting."
-                },
-                "market_assumptions_and_validation": [
-                    f"Daily patronage assumption of {customers_per_day} customers per day requires empirical on-ground validation across varying weekday and weekend trading periods.",
-                    f"Average unit pricing of LKR {expected_price:,.2f} assumes local willingness to pay remains steady without aggressive competitor undercutting.",
-                    f"Local supplier networks in {district} ({business_input.get('supplier_availability_score', 3)}/5 rating) must be periodically cross-referenced against alternative regional distributors to guarantee stable replenishment."
-                ]
+                }
             }
 
             # 3. Feasibility Assessment and Key Findings
@@ -807,18 +802,6 @@ class BusinessPlanReportBuilder:
                     "Address staffing capacity by cross-training existing team members across customer service and inventory replenishment.",
                     "Address equipment readiness gaps by scheduling preventive servicing and procuring essential fixtures prior to launch of expansion activities.",
                     "Maintain strict financial ring-fencing to ensure expansion capital does not cannibalize core operating working cash reserves."
-                ],
-                "what_if_sensitivity_analysis": scenario_analysis.get("what_if_analysis", {}).get("scenarios", []) or [
-                    {
-                        "scenario_name": "Optimistic Demand Growth (+20% Footfall)",
-                        "impact_summary": "Higher daily patronage accelerates inventory turnover and strengthens cash flow margins.",
-                        "probability_deltas_pp": {"Feasible": "+6.5%", "Conditionally Feasible": "-4.2%", "Infeasible": "-2.3%"}
-                    },
-                    {
-                        "scenario_name": "Adverse Budget Inflation (+15% Operating Expenses)",
-                        "impact_summary": "Rising utility and stock costs compress working capital runway, requiring expense containment.",
-                        "probability_deltas_pp": {"Feasible": "-5.8%", "Conditionally Feasible": "+3.1%", "Infeasible": "+2.7%"}
-                    }
                 ]
             }
 
