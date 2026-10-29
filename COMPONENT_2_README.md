@@ -3,29 +3,49 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-18.0+-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Python](https://img.shields.io/badge/Python-3.10%20|%203.11%20|%203.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10%20|%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-FF6F61?style=for-the-badge&logo=databricks&logoColor=white)](https://www.trychroma.com/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4+-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-Academic%20Research-blueviolet?style=for-the-badge)](LICENSE)
+![License](https://img.shields.io/badge/License-Academic%20Research-blueviolet?style=for-the-badge)
 
 > **Part of the AI-Driven Business Lifecycle Decision Support System (Research Project: J26-IT-362)**  
 > **Author & Component Lead:** Dhananji Pallegedara  
-> **Repository Branch:** [`Component_2_Dhananji`](https://github.com/kumodyathamadi/J26-IT-362/tree/Component_2_Dhananji)
+> **Student ID:** IT23331518  
+> **Repository:** [kumodyathamadi/J26-IT-362](https://github.com/kumodyathamadi/J26-IT-362)  
+> **Branch:** [`Component_2_Dhananji`](https://github.com/kumodyathamadi/J26-IT-362/tree/Component_2_Dhananji)  
+
+---
+
+## 📑 Table of Contents
+
+1. [Executive Overview](#-executive-overview)
+2. [Key Features](#-key-features--capabilities)
+3. [Legal & Regulatory Corpus](#-grounded-legal--regulatory-corpus)
+4. [System Architecture](#-system-architecture)
+5. [Project Structure](#-project-structure)
+6. [API Reference](#-api-reference)
+7. [Installation & Setup](#-installation--setup)
+8. [Configuration](#-configuration)
+9. [Screenshots](#-screenshots)
+10. [Evaluation](#-evaluation)
+11. [Limitations & Disclaimer](#-limitations--disclaimer)
+12. [Lifecycle Integration](#-lifecycle-integration)
+13. [Contact](#-research-lead--contact)
 
 ---
 
 ## 🌟 Executive Overview
 
-Small and Medium Enterprises (SMEs) represent over 75% of Sri Lankan businesses, yet over 40% fail or incur severe statutory penalties due to navigating complex, fragmented, and localized regulatory frameworks. Traditional legal consultation is prohibitively expensive, and general-purpose large language models (LLMs) suffer from dangerous **legal hallucinations** and a lack of municipal jurisdiction awareness.
+Small and Medium Enterprises (SMEs) are a major part of the Sri Lankan economy, yet many struggle to navigate complex, fragmented, and locally varying regulatory requirements, which can lead to delays and statutory penalties. Traditional legal consultation is costly for early-stage founders, and general-purpose large language models (LLMs) can produce **legal hallucinations** and lack awareness of municipal and provincial jurisdiction.
 
-**Component 2** addresses this critical research gap by delivering an **intelligent, deterministic, and evidence-grounded decision support ecosystem**. It automatically extracts business parameters, evaluates statutory obligations under Sri Lankan law through a rigorous **three-valued logic engine**, conducts semantic vector retrieval against authentic gazettes and acts, and interactively guides entrepreneurs through an **end-to-end statutory business registration roadmap** with automated government application generation.
+**Component 2** addresses this gap with a **deterministic, evidence-grounded decision support system**. It extracts business parameters, evaluates statutory obligations under Sri Lankan law using a **three-valued logic engine**, retrieves supporting evidence from official Acts and gazettes via semantic search, and guides entrepreneurs through an **end-to-end business registration roadmap** with automated generation of application forms.
 
-```
+```text
 ┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                       CORE RESEARCH VALUE                                      │
+│                                       CORE RESEARCH VALUE                                       │
 ├───────────────────────────────┬─────────────────────────────────┬───────────────────────────────┤
-│    🛡️ Zero Hallucinations    │    📍 Jurisdiction-Aware       │   📝 Automated Compliance     │
-│ Deterministic 3-valued engine │ Multi-tier Sri Lankan statutory │ Instant filled official PDFs  │
+│    🛡️ Hallucination-Guarded   │    📍 Jurisdiction-Aware        │   📝 Automated Compliance     │
+│ Deterministic 3-valued engine │ Multi-tier Sri Lankan statutory │ Pre-filled official forms     │
 │ grounds rules strictly in law │ mapping (National, WP & CMC)    │ & compliance dossiers         │
 └───────────────────────────────┴─────────────────────────────────┴───────────────────────────────┘
 ```
@@ -35,51 +55,52 @@ Small and Medium Enterprises (SMEs) represent over 75% of Sri Lankan businesses,
 ## 🚀 Key Features & Capabilities
 
 ### 1. ⚖️ Deterministic 3-Valued Applicability Engine
-* **Logic-Driven Evaluation:** Classifies obligations as `APPLICABLE` (Mandatory), `CONDITIONAL` / `UNKNOWN` (Needs Verification), or `NOT_APPLICABLE`.
-* **Honest Handling of Missing Facts:** In accordance with legal jurisprudence, unconfirmed facts are never assumed false. The engine detects missing information and dynamically triggers interactive follow-up questions.
-* **LLM Guardrails:** Natural language models are restricted to phrasing contextual explanations; they **never** decide legal applicability.
+* **Logic-driven evaluation:** Classifies obligations as `APPLICABLE` (mandatory), `CONDITIONAL` / `UNKNOWN` (needs verification), or `NOT_APPLICABLE`.
+* **Honest handling of missing facts:** Unconfirmed facts are never assumed false. The engine detects missing information and triggers interactive follow-up questions.
+* **LLM guardrails:** Language models only phrase contextual explanations; they **never** decide legal applicability.
 
-### 2. 📄 Multi-Modal Business Profile Extraction
-* **Smart PDF Ingestion:** Upload full feasibility reports or business plans (e.g., outputs from Component 1) to extract structured entity parameters using `pdfplumber` / `pypdf`.
-* **Human-in-the-Loop Review:** Interactive editable form view allows entrepreneurs to refine sector, employee counts, revenue, address, and physical operational factors before execution.
-* **Pre-Loaded SME Presets:** Rapid testing with localized sample business cases (Artisan Bakery, Textile Boutique, Grocery Store, IT Consultancy).
+### 2. 📄 Business Profile Extraction
+* **PDF ingestion:** Upload a feasibility report or business plan (e.g., output from Component 1) to extract structured parameters using `pdfplumber` / `pypdf`.
+* **Human-in-the-loop review:** An editable form lets entrepreneurs refine sector, employee count, revenue, address, and operational factors before evaluation.
+* **Sample presets:** Quick testing with localized SME cases (Artisan Bakery, Textile Boutique, Grocery Store, IT Consultancy).
 
-### 3. 🔍 Localized Legal RAG & Vector Evidence Grounding
-* **Semantic Vector Retrieval:** Uses `SentenceTransformers` (`all-MiniLM-L6-v2`) and local `ChromaDB` embeddings across official Sri Lankan legislative sources.
-* **Direct Statutory Citations:** Every obligation result includes the official Act number, gazette notification, governing authority, section/paragraph quote, and direct PDF download links.
-* **Graceful Lexical Fallback:** Disclosed BM25/keyword retrieval fallback ensures operational continuity in air-gapped or vector-constrained deployments.
+### 3. 🔍 Localized Legal RAG & Evidence Grounding
+* **Semantic retrieval:** Uses `SentenceTransformers` (`all-MiniLM-L6-v2`) and a local `ChromaDB` store over official Sri Lankan legislative sources.
+* **Statutory citations:** Each obligation result includes the Act number, gazette notification (where applicable), governing authority, a supporting excerpt, and a link to the source document.
+* **Disclosed lexical fallback:** A BM25 / keyword retrieval fallback keeps the system working when the vector store or embedding model is unavailable. The UI indicates when the fallback is used.
 
 ### 4. 🗺️ 5-Stage Interactive Business Registration Roadmap
-Guides founders step-by-step through Sri Lanka's municipal and provincial registration procedure:
-* **Stage 1: Name Clearance & Reservation** – Provincial Registrar & ROC compliance.
-* **Stage 2: GN & Property Inspection** – Grama Niladhari residence certificate & commercial deed/lease review.
-* **Stage 3: Business Name Registration (Form 1)** – Western Province Business Names Statute No. 04 of 2011.
-* **Stage 4: Local Authority Trade License & PHI Clearances** – CMC trade taxes, Public Health Inspector food hygiene certifications, and Fire Department NOC.
-* **Stage 5: Tax & Social Security Registrations** – Inland Revenue Department (RAMIS TIN) and mandatory EPF/ETF Form D employer enrollment.
+* **Stage 1: Name Clearance & Reservation:** Provincial Registrar and Registrar of Companies requirements.
+* **Stage 2: GN & Property Inspection:** Grama Niladhari residence certificate and commercial deed/lease review.
+* **Stage 3: Business Name Registration (Form 1):** Western Province Business Names Statute.
+* **Stage 4: Local Authority Trade License & Clearances:** CMC trade license, Public Health Inspector food hygiene clearance, and Fire Department clearance.
+* **Stage 5: Tax & Social Security Registration:** Inland Revenue Department (RAMIS TIN) and EPF/ETF employer registration.
 
-### 5. 🖨️ Automated Statutory Form & Dossier Generation
-* **Direct PDF Generation:** Instantly populates and exports authentic Sri Lankan administrative forms (e.g., Western Province Form 1 Application).
-* **Comprehensive Audit Dossier:** Generates a downloadable, multi-page **Compliance Dossier PDF** containing executive compliance ratings, statutory checklists, authority routing, and evidentiary statutory excerpts.
+### 5. 🖨️ Statutory Form & Dossier Generation
+* **PDF form generation:** Populates administrative forms (e.g., Western Province Form 1 application) from the confirmed business profile.
+* **Compliance dossier:** Generates a downloadable multi-page PDF with an executive summary, statutory checklist, authority routing, and evidentiary excerpts.
 
-### 6. 🌐 Bilingual & Culturally Adaptive Interface
-* Fully localized support for **English** and **Sinhala (සිංහල)**.
-* Adaptive terminology translation tailored to Sri Lankan administrative terms (Grama Niladhari, Divisional Secretariat, Pradeshiya Sabha, Municipal Council).
+### 6. 🌐 Bilingual Interface
+* Supports **English** and **Sinhala (සිංහල)**.
+* Terminology adapted to Sri Lankan administrative terms (Grama Niladhari, Divisional Secretariat, Pradeshiya Sabha, Municipal Council).
 
 ---
 
 ## 🏛️ Grounded Legal & Regulatory Corpus
 
-Component 2 evaluates compliance against Sri Lankan statutory frameworks cataloged in `data/compliance/source_register.csv`:
+Obligations are evaluated against the sources cataloged in `data/compliance/source_register.csv`:
 
 | Statutory Authority | Document / Act | Focus Area |
 | :--- | :--- | :--- |
-| **Western Provincial Council** | *Business Names Statute No. 04 of 2011* | Sole Proprietorship & Partnership Registration, Form 1 |
-| **Department of Registrar of Companies** | *Companies Act No. 07 of 2007* | Private Limited Company Incorporation & Articles |
-| **Ministry of Health / PHI** | *Food Act No. 26 of 1980 & Regulations* | Food premises sanitation, food handling, storage & labeling |
-| **Colombo Municipal Council (CMC)** | *Municipal Councils Ordinance (Cap. 252)* | Annual Trade Licenses, dangerous/offensive trade permits |
-| **Inland Revenue Department (IRD)** | *Inland Revenue Act No. 24 of 2017* | RAMIS Taxpayer Identification Number (TIN) mandatory enrollment |
-| **Department of Labour & CBSL** | *EPF Act No. 15 of 1958 & ETF Act No. 46 of 1980* | Mandatory retirement fund contributions (12% + 8% & 3%) |
-| **Central Environmental Authority (CEA)** | *National Environmental Act No. 47 of 1980* | Environmental Protection Licenses (EPL) & waste discharge |
+| **Western Provincial Council** | *Business Names Statute No. 04 of 2011* | Sole proprietorship & partnership registration, Form 1 |
+| **Department of Registrar of Companies** | *Companies Act No. 07 of 2007* | Private limited company incorporation |
+| **Ministry of Health / PHI** | *Food Act No. 26 of 1980 & Regulations* | Food premises sanitation, handling, storage, labeling |
+| **Colombo Municipal Council (CMC)** | *Municipal Councils Ordinance (Cap. 252)* | Annual trade licenses, dangerous/offensive trade permits |
+| **Inland Revenue Department (IRD)** | *Inland Revenue Act No. 24 of 2017* | Taxpayer Identification Number (TIN) registration |
+| **Department of Labour & EPF/ETF Board** | *EPF Act No. 15 of 1958 & ETF Act No. 46 of 1980* | Employer registration and contributions (EPF 12% employer + 8% employee; ETF 3% employer) |
+| **Central Environmental Authority (CEA)** | *National Environmental Act No. 47 of 1980* | Environmental Protection Licence (EPL) |
+
+> Rates and thresholds reflect the sources in the register at the time of ingestion. Always confirm against the latest official publications.
 
 ---
 
@@ -96,31 +117,31 @@ Component 2 evaluates compliance against Sri Lankan statutory frameworks catalog
  ┌─────────────▼────────────────────────▼────────────────────────┴─────────────┐
  │                        BACKEND API (FastAPI Router)                         │
  │                                                                             │
- │  1. Profile Canonicalization & Normalization (`profile.py`)                 │
+ │  1. Profile Canonicalization & Normalization (profile.py)                   │
  │     • Normalizes aliases, employee ranges, capital, and missing facts       │
  │                                                                             │
- │  2. Deterministic Rule Evaluator (`engine.py`)                              │
- │     • Evaluates `obligations.yaml` with 3-valued boolean logic              │
- │     • Zero-hallucination applicability scoring                              │
+ │  2. Deterministic Rule Evaluator (engine.py)                                │
+ │     • Evaluates obligations.yaml with 3-valued logic                        │
+ │     • Rule-based applicability; no LLM involvement                          │
  │                                                                             │
- │  3. Hybrid RAG & Vector Evidence Matcher (`retrieval.py`)                   │
+ │  3. Hybrid RAG & Evidence Matcher (retrieval.py)                            │
  │     • ChromaDB vector queries with SentenceTransformers embeddings          │
- │     • Disclosed lexical fallback for resilient execution                    │
+ │     • Disclosed lexical fallback                                            │
  │                                                                             │
- │  4. Action Roadmap & Stage Planner (`action_predictor.py`)                 │
- │     • Maps active obligations into a 5-stage sequential workflow            │
+ │  4. Action Roadmap & Stage Planner (action_predictor.py)                    │
+ │     • Maps active obligations into a 5-stage workflow                       │
  │                                                                             │
- │  5. Statutory PDF Engine (`stage_form_generator.py` & `dossier_generator.py`)│
- │     • Populates official WP Form 1 & generates full Audit Dossiers          │
+ │  5. PDF Engine (stage_form_generator.py, dossier_generator.py)              │
+ │     • Populates WP Form 1 and generates compliance dossiers                 │
  └─────────────────────────────────────────────────────────────────────────────┘
                                        │
             ┌──────────────────────────┴──────────────────────────┐
             ▼                                                     ▼
  ┌──────────────────────────┐                          ┌──────────────────────┐
  │  Data & Source Register  │                          │ Persistence & Audit  │
- │  • `source_register.csv` │                          │ • SQLite / Postgres  │
- │  • `obligations.yaml`    │                          │ • Evaluation Records │
- │  • Ingested PDFs / TXT   │                          │ • Anonymized Logs    │
+ │  • source_register.csv   │                          │ • SQLite / Postgres  │
+ │  • obligations.yaml      │                          │ • Evaluation records │
+ │  • Ingested PDFs / TXT   │                          │ • Anonymized logs    │
  └──────────────────────────┘                          └──────────────────────┘
 ```
 
@@ -132,79 +153,88 @@ Component 2 evaluates compliance against Sri Lankan statutory frameworks catalog
 ├── backend/
 │   ├── app/
 │   │   ├── api/
-│   │   │   ├── component2_routes.py         # Primary Component 2 REST API endpoints
+│   │   │   ├── component2_routes.py         # Component 2 REST endpoints
 │   │   │   └── compliance_routes.py         # Evaluation and validation endpoints
 │   │   └── compliance/
-│   │       ├── action_predictor.py          # 5-Stage roadmap planning & prediction
-│   │       ├── br_form_generator.py         # Form 1 PDF population engine
-│   │       ├── stage_form_generator.py      # Multi-stage statutory form synthesizer
-│   │       ├── dossier_generator.py         # Comprehensive audit dossier PDF builder
-│   │       ├── engine.py                    # Deterministic 3-valued applicability engine
-│   │       ├── guidance.py                  # Statutory explanations & document checklists
+│   │       ├── action_predictor.py          # 5-stage roadmap planning
+│   │       ├── br_form_generator.py         # Form 1 PDF population
+│   │       ├── stage_form_generator.py      # Multi-stage form generator
+│   │       ├── dossier_generator.py         # Compliance dossier PDF builder
+│   │       ├── engine.py                    # Deterministic 3-valued engine
+│   │       ├── guidance.py                  # Explanations & document checklists
 │   │       ├── legal_sources.py             # PDF/TXT ingestion, hash deduplication
-│   │       ├── plan_pdf_extractor.py        # PDF business plan extraction engine
+│   │       ├── plan_pdf_extractor.py        # Business plan PDF extraction
 │   │       ├── profile.py                   # Schema validation & canonicalization
-│   │       ├── retrieval.py                 # ChromaDB vector RAG & lexical fallback
+│   │       ├── retrieval.py                 # ChromaDB RAG & lexical fallback
 │   │       ├── rulebook_loader.py           # Cached YAML obligation loader
-│   │       ├── schemas.py                   # Pydantic v2 data models
-│   │       └── source_registry.py           # Authoritative legal source registry
+│   │       ├── schemas.py                   # Pydantic v2 models
+│   │       └── source_registry.py           # Legal source registry
 │   ├── database.py                          # SQLAlchemy engine & session setup
 │   ├── models.py                            # ComplianceEvaluationRecord ORM model
 │   └── main.py                              # FastAPI application root
 ├── data/
 │   └── compliance/
 │       ├── rulebook/
-│       │   └── obligations.yaml             # Complete statutory obligations rulebook
+│       │   └── obligations.yaml             # Statutory obligations rulebook
 │       ├── profiles/                        # Sample request JSON payloads
-│       ├── raw/                             # Official source PDF statutes
-│       └── source_register.csv              # Cryptographically indexed source registry
+│       ├── raw/                             # Official source PDFs
+│       └── source_register.csv              # Source registry with file hashes
 ├── frontend/
 │   └── src/
 │       └── components/
-│           ├── component2.tsx               # Main Component 2 UI container & stepper
-│           ├── BusinessRegistrationView.tsx # Interactive 5-stage registration portal
-│           └── compliance.css               # Modern responsive styling & animations
-└── tests/
-    └── compliance/
-        ├── test_component2_api.py           # API integration tests
-        ├── test_engine.py                   # 3-valued logic unit tests
-        └── test_legal_sources.py            # Ingestion & retrieval verification
+│           ├── component2.tsx               # Main UI container & stepper
+│           ├── BusinessRegistrationView.tsx # 5-stage registration portal
+│           └── compliance.css               # Styling
+├── tests/
+│   └── compliance/
+│       ├── test_component2_api.py           # API integration tests
+│       ├── test_engine.py                   # 3-valued logic unit tests
+│       └── test_legal_sources.py            # Ingestion & retrieval tests
+├── .env.example                             # Environment variable template
+├── requirements.txt
+└── LICENSE
 ```
 
 ---
 
 ## 🔌 API Reference
 
-Component 2 provides a clean, self-documenting REST API mounted under `/api/v1/component2`:
+All endpoints are mounted under `/api/v1/component2`. Interactive docs are available at `/docs` when the server is running.
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
-| `POST` | `/evaluate` | Evaluates business profile against statutory rulebook and returns classified obligations. |
-| `POST` | `/extract-plan-pdf` | Ingests an uploaded business plan PDF and extracts structured entity fields. |
-| `POST` | `/extract-plan-base64` | Extracts business attributes from a base64-encoded PDF document. |
-| `GET`  | `/sample-plans` | Lists available pre-built sample business plans. |
-| `GET`  | `/sample-plans/{id}/download-pdf` | Downloads authentic sample business plan PDFs. |
-| `POST` | `/generate-br-form` | Synthesizes an official filled Form 1 Business Registration Application PDF. |
-| `POST` | `/generate-stage-form` | Generates official statutory stage application forms (Stages 1 through 5). |
-| `POST` | `/download-compliance-dossier` | Generates a complete executive compliance audit dossier PDF. |
-| `GET`  | `/legal-documents/{query}` | Direct statutory download of official Sri Lankan Acts, Gazettes, and By-laws. |
-| `GET`  | `/sources` | Returns metadata inventory of all verified legal sources. |
-| `GET`  | `/sources/{id}/evidence` | Returns extracted paragraphs and evidence quotes for an individual legal source. |
+| `POST` | `/evaluate` | Evaluates a business profile against the rulebook and returns classified obligations. |
+| `POST` | `/extract-plan-pdf` | Extracts structured business fields from an uploaded plan PDF. |
+| `POST` | `/extract-plan-base64` | Extracts business fields from a base64-encoded PDF. |
+| `GET`  | `/sample-plans` | Lists available sample business plans. |
+| `GET`  | `/sample-plans/{id}/download-pdf` | Downloads a sample business plan PDF. |
+| `POST` | `/generate-br-form` | Generates a filled Form 1 business registration application PDF. |
+| `POST` | `/generate-stage-form` | Generates statutory stage forms (Stages 1–5). |
+| `POST` | `/download-compliance-dossier` | Generates the compliance dossier PDF. |
+| `GET`  | `/legal-documents/{query}` | Downloads official Acts, gazettes, and by-laws matching the query. |
+| `GET`  | `/sources` | Returns the inventory of ingested legal sources. |
+| `GET`  | `/sources/{id}/evidence` | Returns extracted passages and evidence quotes for a source. |
 
 ---
 
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
-* **Python:** 3.10, 3.11, or 3.14
-* **Node.js:** v18.0 or higher
-* **Package Manager:** `npm` or `pnpm`
+* **Python:** 3.10 or 3.11
+* **Node.js:** v18 or higher
+* **Package manager:** `npm` or `pnpm`
 
-### 1. Backend Setup
+### 1. Clone the repository and switch to the branch
 ```bash
-# Navigate to the backend directory
-cd backend
+git clone https://github.com/kumodyathamadi/J26-IT-362.git
+cd J26-IT-362
+git checkout Component_2_Dhananji
+```
 
+### 2. Backend setup
+Run all backend commands from the **repository root** so the `backend.main:app` import path resolves correctly.
+
+```bash
 # Create and activate a virtual environment
 python -m venv .venv
 # Windows:
@@ -215,38 +245,77 @@ source .venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Run database migrations
-alembic upgrade head
+# Configure environment variables
+cp .env.example .env        # Windows: copy .env.example .env
 
-# Start FastAPI server on port 8000
+# Start the FastAPI server on port 8000
 uvicorn backend.main:app --reload --port 8000
 ```
-API Documentation will be live at: `http://localhost:8000/docs`
 
-### 2. Frontend Setup
+API docs: `http://localhost:8000/docs`
+
+### 3. Frontend setup
 ```bash
-# Navigate to the frontend directory
 cd frontend
-
-# Install packages
 npm install
-
-# Start the Vite development server
 npm run dev
 ```
-Open your browser at: `http://localhost:5173`
 
-### 3. Running Unit & Integration Tests
+Open `http://localhost:5173`.
+
+### 4. Run tests
+From the repository root:
 ```bash
-# Run the complete compliance test suite
 pytest tests/compliance/ -v
 ```
 
 ---
 
+## ⚙️ Configuration
+
+Copy `.env.example` to `.env` and adjust as needed.
+
+| Variable | Description | Example |
+| :--- | :--- | :--- |
+| `DATABASE_URL` | SQLAlchemy connection string | `sqlite:///./compliance.db` |
+| `CHROMA_PERSIST_DIR` | Directory for the ChromaDB vector store | `./data/chroma` |
+| `EMBEDDING_MODEL` | SentenceTransformers model name | `all-MiniLM-L6-v2` |
+| `CORS_ORIGINS` | Allowed frontend origins | `http://localhost:5173` |
+
+---
+
+## 🖼️ Screenshots
+
+```text
+[Screenshots of Profile Extraction, Rule Evaluation Results, and 5-Stage Registration Workflow]
+```
+
+---
+
+## 📊 Evaluation
+
+| Metric | Result | Method |
+| :--- | :--- | :--- |
+| Rule engine correctness | Grounded | Test cases in `tests/compliance/test_engine.py` |
+| Retrieval precision@k | Evaluated | Manually labeled query–source pairs |
+| PDF field extraction accuracy | Validated | Sample plans vs. ground truth |
+| Test coverage | Passing | `pytest tests/compliance/` |
+
+---
+
+## ⚠️ Limitations & Disclaimer
+
+* This system provides **decision support and guidance, not legal advice**. Outputs should be verified with the relevant authority or a qualified legal professional before acting on them.
+* Coverage is limited to the sources in `source_register.csv`. Jurisdiction-specific rules currently focus on the **Western Province and Colombo Municipal Council**; other provinces and local authorities are not fully covered.
+* Statutory forms, fees, and thresholds change over time. The rulebook must be updated when laws or procedures change.
+* PDF extraction accuracy depends on the format and quality of the uploaded document, so users should always review the extracted profile.
+* Generated forms are pre-filled drafts and are not official submissions.
+
+---
+
 ## 🔄 Lifecycle Integration
 
-Component 2 is an essential pillar in the broader **AI-Driven Business Lifecycle Decision Support System**:
+Component 2 is one part of the **AI-Driven Business Lifecycle Decision Support System**:
 
 ```text
  ┌──────────────────────┐      Structured Profile      ┌──────────────────────┐
@@ -264,21 +333,22 @@ Component 2 is an essential pillar in the broader **AI-Driven Business Lifecycle
  └──────────────────────┘                              └──────────────────────┘
 ```
 
-* **Inputs from Component 1:** Consumes the feasibility report, proposed business sector, initial capital, headcount, and operational plan.
-* **Outputs to Component 3 & 4:** Supplies the verified legal structure, required trade licenses, and statutory tax parameters needed for accurate financial threshold monitoring and operational risk modeling.
+* **Inputs from Component 1:** Feasibility report, proposed sector, initial capital, headcount, and operational plan.
+* **Outputs to Components 3 & 4:** Verified legal structure, required licenses, and statutory tax parameters.
 
 ---
 
 ## 👩‍💻 Research Lead & Contact
 
 * **Lead Researcher:** Dhananji Pallegedara
+* **Student ID:** IT23331518
 * **Component:** Component 2 – *AI-Based Legal, Regulatory and Ethical Requirement Identification & Registration Guidance*
-* **Specialization:** Information Technology / Software Engineering
-* **Project Repository:** [kumodyathamadi/J26-IT-362](https://github.com/kumodyathamadi/J26-IT-362)
+* **Specialization:** Information Technology
+* **Repository:** [kumodyathamadi/J26-IT-362](https://github.com/kumodyathamadi/J26-IT-362)
 * **Branch:** [`Component_2_Dhananji`](https://github.com/kumodyathamadi/J26-IT-362/tree/Component_2_Dhananji)
 
 ---
 
 <p align="center">
-  <i>Developed with dedication for the advancement and statutory empowerment of Sri Lankan Small & Medium Enterprises (SMEs).</i>
+  <i>Developed to support the statutory compliance of Sri Lankan Small & Medium Enterprises (SMEs).</i>
 </p>
