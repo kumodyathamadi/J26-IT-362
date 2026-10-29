@@ -26,11 +26,10 @@
 6. [API Reference](#-api-reference)
 7. [Installation & Setup](#-installation--setup)
 8. [Configuration](#-configuration)
-9. [Screenshots](#-screenshots)
-10. [Evaluation](#-evaluation)
-11. [Limitations & Disclaimer](#-limitations--disclaimer)
-12. [Lifecycle Integration](#-lifecycle-integration)
-13. [Contact](#-research-lead--contact)
+9. [Evaluation](#-evaluation)
+10. [Limitations & Disclaimer](#-limitations--disclaimer)
+11. [Lifecycle Integration](#-lifecycle-integration)
+12. [Contact](#-research-lead--contact)
 
 ---
 
@@ -282,13 +281,6 @@ Copy `.env.example` to `.env` and adjust as needed.
 | `EMBEDDING_MODEL` | SentenceTransformers model name | `all-MiniLM-L6-v2` |
 | `CORS_ORIGINS` | Allowed frontend origins | `http://localhost:5173` |
 
----
-
-## 🖼️ Screenshots
-
-```text
-[Screenshots of Profile Extraction, Rule Evaluation Results, and 5-Stage Registration Workflow]
-```
 
 ---
 
