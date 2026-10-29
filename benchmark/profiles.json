@@ -1,0 +1,197 @@
+[
+  {
+    "profile_id": "BENCH-001",
+    "description": "Standard dine-in food bakery/restaurant in Colombo with physical premises",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "food",
+      "has_physical_premises": true,
+      "handles_food": true,
+      "serves_cooked_food": true,
+      "legal_form": "sole_proprietorship",
+      "number_of_employees": 4
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-002",
+    "description": "Home-based catering / food delivery without separate commercial physical premises",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "food",
+      "has_physical_premises": false,
+      "handles_food": true,
+      "serves_cooked_food": true,
+      "legal_form": "sole_proprietorship",
+      "number_of_employees": 1
+    },
+    "expected": {
+      "OBL-COMMON-001": "NOT_APPLICABLE",
+      "OBL-FOOD-001": "APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-003",
+    "description": "Commercial clothing retail boutique with storefront premises in Western Province",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "clothing",
+      "has_physical_premises": true,
+      "legal_form": "partnership",
+      "number_of_employees": 3,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-004",
+    "description": "Online clothing store without physical retail premises",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "clothing",
+      "has_physical_premises": false,
+      "legal_form": "sole_proprietorship",
+      "number_of_employees": 1,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "NOT_APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-005",
+    "description": "Beauty salon using chemical cosmetics and hair dyes with fixed premises",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "salon",
+      "has_physical_premises": true,
+      "uses_chemicals_or_cosmetics": true,
+      "legal_form": "sole_proprietorship",
+      "number_of_employees": 2,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-006",
+    "description": "Natural herbal barber shop that does not use chemical cosmetics",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "salon",
+      "has_physical_premises": true,
+      "uses_chemicals_or_cosmetics": false,
+      "legal_form": "sole_proprietorship",
+      "number_of_employees": 1,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-007",
+    "description": "Auto spare parts shop handling used vehicle batteries and waste oil",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "vehicle_parts",
+      "has_physical_premises": true,
+      "handles_waste_oil_or_batteries": true,
+      "legal_form": "private_limited",
+      "number_of_employees": 5,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-008",
+    "description": "Car interior accessories and seat covers retailer (no battery/lubricant waste)",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "vehicle_parts",
+      "has_physical_premises": true,
+      "handles_waste_oil_or_batteries": false,
+      "legal_form": "partnership",
+      "number_of_employees": 2,
+      "handles_food": false
+    },
+    "expected": {
+      "OBL-COMMON-001": "APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-009",
+    "description": "Out of province business (Central Province, Kandy)",
+    "profile": {
+      "province": "Central Province",
+      "business_type": "food",
+      "has_physical_premises": true,
+      "handles_food": true,
+      "legal_form": "sole_proprietorship"
+    },
+    "expected": {
+      "OBL-COMMON-001": "NOT_APPLICABLE",
+      "OBL-FOOD-001": "NOT_APPLICABLE",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  },
+  {
+    "profile_id": "BENCH-010",
+    "description": "Incomplete food profile with missing physical premises and food handling info",
+    "profile": {
+      "province": "Western Province",
+      "business_type": "food",
+      "has_physical_premises": null,
+      "handles_food": null,
+      "serves_cooked_food": null,
+      "legal_form": "sole_proprietorship"
+    },
+    "expected": {
+      "OBL-COMMON-001": "UNKNOWN",
+      "OBL-FOOD-001": "UNKNOWN",
+      "OBL-CLOTHING-001": "NOT_APPLICABLE",
+      "OBL-SALON-001": "NOT_APPLICABLE",
+      "OBL-VEHICLE-001": "NOT_APPLICABLE"
+    }
+  }
+]

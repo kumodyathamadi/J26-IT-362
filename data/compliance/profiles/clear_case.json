@@ -1,0 +1,14 @@
+{
+  "business_type": "food",
+  "province": "Western Province",
+  "local_authority": "Colombo Municipal Council",
+  "legal_form": "sole_proprietorship",
+  "number_of_employees": 4,
+  "has_physical_premises": true,
+  "handles_food": true,
+  "serves_cooked_food": true,
+  "sells_alcohol": false,
+  "is_manufacturing": false,
+  "is_importing": false,
+  "turnover_band": "1m_10m"
+}

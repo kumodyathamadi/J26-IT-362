@@ -326,16 +326,22 @@ class BusinessPlanPDFGenerator:
 
         story.append(Paragraph("<b>Top Positive Supporting Factors (+):</b>", h2_style))
         for item in positives:
-            feat_name = item.get('feature', '').replace('_', ' ').title()
-            feat_val = item.get('feature_value', 'N/A')
-            story.append(Paragraph(f"• <b>{feat_name}</b> (Recorded Value: {feat_val}) — Provided strong positive support for predicted feasibility.", bullet_style))
+            if isinstance(item, dict):
+                feat_name = item.get('feature', '').replace('_', ' ').title()
+                feat_val = item.get('feature_value', 'N/A')
+                story.append(Paragraph(f"• <b>{feat_name}</b> (Recorded Value: {feat_val}) — Provided strong positive support for predicted feasibility.", bullet_style))
+            else:
+                story.append(Paragraph(f"• {item}", bullet_style))
 
         story.append(Spacer(1, 8))
         story.append(Paragraph("<b>Areas Needing Strategic Attention (-):</b>", h2_style))
         for item in negatives:
-            feat_name = item.get('feature', '').replace('_', ' ').title()
-            feat_val = item.get('feature_value', 'N/A')
-            story.append(Paragraph(f"• <b>{feat_name}</b> (Recorded Value: {feat_val}) — Identified risk hurdle requiring resource or operational mitigation.", bullet_style))
+            if isinstance(item, dict):
+                feat_name = item.get('feature', '').replace('_', ' ').title()
+                feat_val = item.get('feature_value', 'N/A')
+                story.append(Paragraph(f"• <b>{feat_name}</b> (Recorded Value: {feat_val}) — Identified risk hurdle requiring resource or operational mitigation.", bullet_style))
+            else:
+                story.append(Paragraph(f"• {item}", bullet_style))
 
         story.append(Spacer(1, 15))
 

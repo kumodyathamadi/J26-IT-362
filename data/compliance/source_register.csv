@@ -1,0 +1,8 @@
+source_id,authority,title,doc_type,jurisdiction,language,url,retrieved_date,effective_date,status,file_path,sha256
+SL-WESTERNPROV-BUSINESSNAMES-1990,Western Province Governor's Office,Business Names Statute No. 6 of 1990 (Western Province),statute,Western Province,en,,1990-01-01,1990-01-01,active,data/compliance/raw/business_names_statute_1990.pdf,
+SL-CMC-TRADELIC-1980,Colombo Municipal Council,CMC Trade Licence By-Laws 1980 (as amended),bylaw,Colombo Municipal Council,en,,1980-01-01,1980-01-01,active,data/compliance/raw/cmc_trade_licence_bylaws.pdf,
+SL-FOOD-CONTROL-2011,Sri Lanka Standards Institution / Ministry of Health,Food (Labelling and Advertising) Regulations 2011,regulation,Sri Lanka (National),en,,2011-03-15,2011-03-15,active,data/compliance/raw/food_labelling_regulations_2011.pdf,
+SL-IRD-TIN-2017,Inland Revenue Department,Inland Revenue Act No. 24 of 2017,act,Sri Lanka (National),en,https://www.ird.gov.lk,2017-10-01,2018-04-01,active,data/compliance/raw/inland_revenue_act_2017.pdf,
+SL-FOODCONTROL-ACT-1980,Ministry of Health,Food Control Act No. 26 of 1980,act,Sri Lanka (National),en,,1980-01-01,1980-01-01,active,data/compliance/raw/food_control_act_1980.pdf,
+SL-EMPLOYERSVNF-2012,Employees Trust Fund Board,Employees Trust Fund Act No. 46 of 1980 (as amended),act,Sri Lanka (National),en,https://www.etfb.lk,1980-01-01,1980-01-01,active,data/compliance/raw/etf_act_1980.pdf,
+SL-EPF-1958,Department of Labour,Employees Provident Fund Act No. 15 of 1958,act,Sri Lanka (National),en,https://www.labour.gov.lk,1958-01-01,1958-01-01,active,data/compliance/raw/epf_act_1958.pdf,

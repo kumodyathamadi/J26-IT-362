@@ -1,0 +1,363 @@
+{
+  "evaluation_id": "c2d05365-d4e4-48c7-91b8-d0f2a13dd360",
+  "business_context": {
+    "business_type": "food manufacturing & agriculture",
+    "sector": "food manufacturing & agriculture",
+    "location": {
+      "address": null,
+      "district": "Gampaha",
+      "province": null,
+      "local_authority": null
+    },
+    "ownership": null,
+    "employees": null,
+    "products_services": [],
+    "activities": [],
+    "business_size": null,
+    "premises": {
+      "has_physical_premises": null
+    },
+    "operational_characteristics": {
+      "handles_food": null,
+      "is_manufacturing": null,
+      "is_importing": null,
+      "serves_cooked_food": null,
+      "sells_alcohol": null,
+      "uses_chemicals_or_cosmetics": null,
+      "handles_waste_oil_or_batteries": null,
+      "turnover_band": null
+    }
+  },
+  "profile_validation": {
+    "complete": false,
+    "missing_required_fields": [
+      "ownership",
+      "employees",
+      "products_services",
+      "business_size"
+    ],
+    "note": "Partial profiles are accepted; omitted facts remain unknown and may result in conditional classifications."
+  },
+  "summary": {
+    "total": 1,
+    "applicable": 0,
+    "not_applicable": 0,
+    "unknown": 0,
+    "needs_verification": 1
+  },
+  "obligations": [
+    {
+      "obligation_id": "SCOPE-001",
+      "obligation": "Sector-specific requirements not assessed",
+      "title": "Sector-specific requirements not assessed",
+      "classification": "Needs Verification",
+      "priority": "review",
+      "status": "NEEDS_VERIFICATION",
+      "authority": "Relevant Sri Lankan national and local authorities",
+      "jurisdiction": "Gampaha",
+      "source_reference": null,
+      "source_id": "not_registered",
+      "source_paragraph": "Reference not verified",
+      "source_text": "",
+      "explanation": "Business type 'food manufacturing & agriculture' is not covered by the current rulebook; no absence of obligations should be inferred.",
+      "action": "",
+      "triggering_facts": {
+        "business_type": "food manufacturing & agriculture"
+      },
+      "applicability_conditions": {},
+      "exceptions": [],
+      "missing_facts": [],
+      "required_documents": [],
+      "documents_needed": [],
+      "documents_status": "not_listed",
+      "documents_notice": "The current rulebook does not list a document checklist. Confirm required documents directly with the authority.",
+      "registration_steps": [
+        "Verify the source document, applicable provision, authority, and current legal status before relying on this candidate requirement."
+      ],
+      "next_action": "Verify this candidate requirement with an official Sri Lankan source and the responsible authority before taking action.",
+      "evidence_source": [],
+      "verification_status": "needs_verification",
+      "has_verified_source": false
+    }
+  ],
+  "guidance": [
+    {
+      "obligation_id": "SCOPE-001",
+      "obligation": "Sector-specific requirements not assessed",
+      "title": "Sector-specific requirements not assessed",
+      "classification": "Needs Verification",
+      "priority": "review",
+      "status": "NEEDS_VERIFICATION",
+      "authority": "Relevant Sri Lankan national and local authorities",
+      "jurisdiction": "Gampaha",
+      "source_reference": null,
+      "source_id": "not_registered",
+      "source_paragraph": "Reference not verified",
+      "source_text": "",
+      "explanation": "Business type 'food manufacturing & agriculture' is not covered by the current rulebook; no absence of obligations should be inferred.",
+      "action": "",
+      "triggering_facts": {
+        "business_type": "food manufacturing & agriculture"
+      },
+      "applicability_conditions": {},
+      "exceptions": [],
+      "missing_facts": [],
+      "required_documents": [],
+      "documents_needed": [],
+      "documents_status": "not_listed",
+      "documents_notice": "The current rulebook does not list a document checklist. Confirm required documents directly with the authority.",
+      "registration_steps": [
+        "Verify the source document, applicable provision, authority, and current legal status before relying on this candidate requirement."
+      ],
+      "next_action": "Verify this candidate requirement with an official Sri Lankan source and the responsible authority before taking action.",
+      "evidence_source": [],
+      "verification_status": "needs_verification",
+      "has_verified_source": false
+    }
+  ],
+  "source_discovery": [
+    {
+      "source_id": "SL-C2-PDF-f48be05c10893dd7b17e",
+      "title": "National Food Safety Policy",
+      "authority": null,
+      "excerpt": "iii \n \n \n \nAcronyms \n \nADB \nAsian Development Bank \nCAA \nConsumer Affairs Authority \nCBSL \nCentral Bank of Sri Lanka \nCCC \nCeylon Chamber of Commerce \nCFA \nChief Food Authority \nDAPH \nDepartment of Animal Production & Health \nDGHS \nDeputy Director General of Health Services \nDFAR \nDepartment of Fisheries & Aquatic Resources \nDGHS \nDirector General of Health Services \nDoA \nDepartment of Agriculture \nDoC \nDepartment of Commerce \nDoEA \nDepartment of Export Agriculture \nDTIP \nDepartment of Trade & Investment Policy under MoF \nEDB \nExport Development Board \nEU \nEuropean Union \nFAC \nFood Advisory Committee \nFAO \nFood & Agriculture Organization  \nFBO \nFood Business Organizations \nFCAU \nFood Control Administration Unit \nFSB \nFood Safety Bureau \nFPA \nFood Processors Association \nGAP \nGood Agricultural Practices \nGHP \nGood Hygienic Practices \nGMP \nGood Manufacturing Practices",
+      "url": null,
+      "effective_date": null,
+      "retrieval_score": 0.75,
+      "page": 4,
+      "reviewer_status": "draft",
+      "contains_placeholder": false,
+      "verification_status": "needs_verification",
+      "title_is_filename_guess": true,
+      "section_reference": null,
+      "paragraph_number": null,
+      "file_type": "pdf",
+      "source_file": "data/compliance/raw/Component2_Legal_Sources/02_Food_Business/National_Food_Safety_Policy.pdf",
+      "action_guidance": {
+        "rule_title": "National Food Safety Policy",
+        "category": "food_business",
+        "predicted_action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+        "rule_purpose": "Regulates food premises hygiene, sanitation standards, and food-handler medical fitness before preparing, handling, or selling food items to the public.",
+        "where_to_go": "Public Health Department / PHI Office (Gampaha Municipal Council or MOH Office)",
+        "office_location": "Town Hall / Chief Medical Officer of Health (MOH) Office, Gampaha",
+        "action_needed": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+        "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+        "required_documents": [
+          "Business and premises details",
+          "Description of food preparation, storage and sale activities",
+          "Premises/layout information if requested by the official checklist",
+          "Food-handler or hygiene evidence only if required by current rules",
+          "Current official application form"
+        ],
+        "procedural_steps": [
+          "Describe the food activities and premises accurately.",
+          "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+          "Confirm required inspections, food-handler conditions and forms.",
+          "Prepare only the documents listed in the verified checklist.",
+          "Submit the application and follow inspection or correction instructions."
+        ]
+      }
+    },
+    {
+      "source_id": "SL-C2-PDF-16f7b579c22c5694e6e3",
+      "title": "Order published under the Gazette Notification No. 153316 dated 25.01.2008Re Environmental Protection License Prescribed Activities",
+      "authority": null,
+      "excerpt": "stries or commercial laundries where 10 or more workers are employed.\n25. Tanneries.\n26. Lather finishing industries having effluent generating operations.\n27. Jute processing industries.\n28. Industries involved in bleaching or dyeing of natural fibre or natural fibre based industries where 25 or more\nworkers are employed.\n29. Power looms having 25 or more machines or power looms with sizing activities.\n30. Sugar manufacturing industries or sugar refineries.\n31. Fermentation industries (Distilleries, Breweries) or alcoholic beverages bottling plants or bottling plants having\nbottle washing operations.\n32. Food manufacturing and processing industries including bakery products and confectioneries where 25 or more\nworkers are employed.\n33. Abattoirs.\n34. Coconut oil or cinnamon oil extraction industries where 25 or more workers are employed.\n35. Plants or animal oil/fats extraction industri",
+      "url": null,
+      "effective_date": null,
+      "retrieval_score": 0.5,
+      "page": 2,
+      "reviewer_status": "draft",
+      "contains_placeholder": false,
+      "verification_status": "needs_verification",
+      "title_is_filename_guess": true,
+      "section_reference": null,
+      "paragraph_number": null,
+      "file_type": "pdf",
+      "source_file": "data/compliance/raw/Component2_Legal_Sources/03_Environmental_and_Waste/Order-published-under-the-Gazette-Notification-No.-153316-dated-25.01.2008Re-Environmental-Protection-License-Prescribed-Activities.pdf",
+      "action_guidance": {
+        "rule_title": "Order published under the Gazette Notification No. 153316 dated 25.01.2008Re Environmental Protection License Prescribed Activities",
+        "category": "environmental_waste",
+        "predicted_action_type": "VERIFY_ENVIRONMENTAL_APPLICABILITY",
+        "rule_purpose": "Regulates industrial emissions, waste disposal, effluent treatment, and environmental clearances to prevent environmental pollution under the Central Environmental Authority.",
+        "where_to_go": "Central Environmental Authority (CEA) / Local Council Environment Unit",
+        "office_location": "CEA Provincial/District Office (Gampaha) or Local Council Environment Unit",
+        "action_needed": "Environmental Protection Licence (EPL), other environmental approval, or no such approval depending on verified activity and current rules",
+        "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+        "required_documents": [
+          "Exact activity/process description and scale",
+          "Premises location and site information",
+          "Wastewater, emissions, noise and waste-handling details where relevant",
+          "Current official application/checklist only after confirming the applicable pathway"
+        ],
+        "procedural_steps": [
+          "Record the exact activity, process, scale and premises.",
+          "Compare the activity with the current official prescribed-activity list and applicable regulations.",
+          "Confirm the competent authority and licence/approval category.",
+          "Obtain the current application and document checklist.",
+          "Submit only if the verified rules require it and retain the decision/evidence."
+        ]
+      }
+    },
+    {
+      "source_id": "SL-C2-PDF-16f7b579c22c5694e6e3",
+      "title": "Order published under the Gazette Notification No. 153316 dated 25.01.2008Re Environmental Protection License Prescribed Activities",
+      "authority": null,
+      "excerpt": "5A\nI fldgi ( ^I& fPoh - YS% ,xld m%cd;dka;s%l iudcjd§ ckrcfha w;s úfYI .eiÜ m;%h - 2008'01'25\nPART I : SEC. (I) - GAZETTE EXTRAORDINARY OF THE DEMOCRATIC SOCIALIST REPUBLIC OF SRI LANKA - 25.01.2008\n10. Natural fibre based industries where less than 25 workers are employed excluding industries involved in bleaching\nor dyeing of natural fibre.\n11. Power looms having less than 25 machines.\n12. Hand Looms or knitting or embroidery industry having more than 10 looms.\n13. Garment industries where 25 or more workers and less than 200 workers per shift are employed.\n14. Sugar cane based industries excluding sugar factories of sugar refineries.\n15. Food manufacturing and processing industries including bakery products and  confectioneries where 5 or more\nworkers and less than 25 workers are employed.\n16. Cinnamon oil extracting industry where less than 25 workers are employed.\n17. Rice mills hav",
+      "url": null,
+      "effective_date": null,
+      "retrieval_score": 0.5,
+      "page": 5,
+      "reviewer_status": "draft",
+      "contains_placeholder": false,
+      "verification_status": "needs_verification",
+      "title_is_filename_guess": true,
+      "section_reference": null,
+      "paragraph_number": null,
+      "file_type": "pdf",
+      "source_file": "data/compliance/raw/Component2_Legal_Sources/03_Environmental_and_Waste/Order-published-under-the-Gazette-Notification-No.-153316-dated-25.01.2008Re-Environmental-Protection-License-Prescribed-Activities.pdf",
+      "action_guidance": {
+        "rule_title": "Order published under the Gazette Notification No. 153316 dated 25.01.2008Re Environmental Protection License Prescribed Activities",
+        "category": "environmental_waste",
+        "predicted_action_type": "VERIFY_ENVIRONMENTAL_APPLICABILITY",
+        "rule_purpose": "Regulates industrial emissions, waste disposal, effluent treatment, and environmental clearances to prevent environmental pollution under the Central Environmental Authority.",
+        "where_to_go": "Central Environmental Authority (CEA) / Local Council Environment Unit",
+        "office_location": "CEA Provincial/District Office (Gampaha) or Local Council Environment Unit",
+        "action_needed": "Environmental Protection Licence (EPL), other environmental approval, or no such approval depending on verified activity and current rules",
+        "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+        "required_documents": [
+          "Exact activity/process description and scale",
+          "Premises location and site information",
+          "Wastewater, emissions, noise and waste-handling details where relevant",
+          "Current official application/checklist only after confirming the applicable pathway"
+        ],
+        "procedural_steps": [
+          "Record the exact activity, process, scale and premises.",
+          "Compare the activity with the current official prescribed-activity list and applicable regulations.",
+          "Confirm the competent authority and licence/approval category.",
+          "Obtain the current application and document checklist.",
+          "Submit only if the verified rules require it and retain the decision/evidence."
+        ]
+      }
+    },
+    {
+      "source_id": "SL-C2-PDF-f48be05c10893dd7b17e",
+      "title": "National Food Safety Policy",
+      "authority": null,
+      "excerpt": "iv \n \nGAHP \nGood Animal Husbandry Practices \nHACCP \nHazard Analysis and Critical Control Point \nHARTI \nHector Kobbakaduwa Agrarian Research & Training Institute \nICTA \nInformation Communication Technology Agency \nIDB \nIndustrial Development Board \nINFOSAN \nInternational Food Safety Authorities Network \nISO \nInternational Organization for Standardization \nITI \nIndustrial Technology Institute \nMoA \nMinistry of Agriculture  \nMoF \nMinistry of Fishery \nMoH \nMedical Officer of Health \nMoI \nMinistry of Industries \nMOP \nMinistry of Plantations \nMOT \nMinistry of Trade, Commerce and Food Security  \nMRI \nMedical Research Institute \nMRL \nMaximum Residue Limits \nNARA \nNational Aquatic Resources and Development Agency \nNFS \nNational Fertilizer Secretariat \nNPQS \nNational Plant Quarantine Service \nNTFC \nNational Trade Facilitation Committee \nPHI \nPublic Health Inspector \nRASFF \nRapid Alert System for F",
+      "url": null,
+      "effective_date": null,
+      "retrieval_score": 0.5,
+      "page": 5,
+      "reviewer_status": "draft",
+      "contains_placeholder": false,
+      "verification_status": "needs_verification",
+      "title_is_filename_guess": true,
+      "section_reference": null,
+      "paragraph_number": null,
+      "file_type": "pdf",
+      "source_file": "data/compliance/raw/Component2_Legal_Sources/02_Food_Business/National_Food_Safety_Policy.pdf",
+      "action_guidance": {
+        "rule_title": "National Food Safety Policy",
+        "category": "food_business",
+        "predicted_action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+        "rule_purpose": "Regulates food premises hygiene, sanitation standards, and food-handler medical fitness before preparing, handling, or selling food items to the public.",
+        "where_to_go": "Public Health Department / PHI Office (Gampaha Municipal Council or MOH Office)",
+        "office_location": "Town Hall / Chief Medical Officer of Health (MOH) Office, Gampaha",
+        "action_needed": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+        "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+        "required_documents": [
+          "Business and premises details",
+          "Description of food preparation, storage and sale activities",
+          "Premises/layout information if requested by the official checklist",
+          "Food-handler or hygiene evidence only if required by current rules",
+          "Current official application form"
+        ],
+        "procedural_steps": [
+          "Describe the food activities and premises accurately.",
+          "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+          "Confirm required inspections, food-handler conditions and forms.",
+          "Prepare only the documents listed in the verified checklist.",
+          "Submit the application and follow inspection or correction instructions."
+        ]
+      }
+    },
+    {
+      "source_id": "SL-C2-PDF-f48be05c10893dd7b17e",
+      "title": "National Food Safety Policy",
+      "authority": null,
+      "excerpt": "1 \n \n \n1. INTRODUCTION  \n \nThe World Health Organization (WHO) and Food and Agriculture Organization (FAO) define a \nfood commodity as safe when free from all hazards, which may make food injurious to the health \nof the consumers whether for chronic or acute consequences (FAO 2003). This concept may \nassume a number of conjugations that include both microbiological, chemical and physical hazards \nand nutritional aspects.  \n \nThe food trade has evolved rapidly in the recent past because of emerging economic policies, \nindustrialization, globalization, urbanization, and online trade. The processed food market is \ngrowing, while more people are relying on commercially available ready-to-eat food. In the \nmeantime, more chemical substances are used at the agricultural and animal husbandry level. \nHence, the use of chemicals at the primary food production level and various stages of processin",
+      "url": null,
+      "effective_date": null,
+      "retrieval_score": 0.5,
+      "page": 7,
+      "reviewer_status": "draft",
+      "contains_placeholder": false,
+      "verification_status": "needs_verification",
+      "title_is_filename_guess": true,
+      "section_reference": null,
+      "paragraph_number": null,
+      "file_type": "pdf",
+      "source_file": "data/compliance/raw/Component2_Legal_Sources/02_Food_Business/National_Food_Safety_Policy.pdf",
+      "action_guidance": {
+        "rule_title": "National Food Safety Policy",
+        "category": "food_business",
+        "predicted_action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+        "rule_purpose": "Regulates food premises hygiene, sanitation standards, and food-handler medical fitness before preparing, handling, or selling food items to the public.",
+        "where_to_go": "Public Health Department / PHI Office (Gampaha Municipal Council or MOH Office)",
+        "office_location": "Town Hall / Chief Medical Officer of Health (MOH) Office, Gampaha",
+        "action_needed": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+        "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+        "required_documents": [
+          "Business and premises details",
+          "Description of food preparation, storage and sale activities",
+          "Premises/layout information if requested by the official checklist",
+          "Food-handler or hygiene evidence only if required by current rules",
+          "Current official application form"
+        ],
+        "procedural_steps": [
+          "Describe the food activities and premises accurately.",
+          "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+          "Confirm required inspections, food-handler conditions and forms.",
+          "Prepare only the documents listed in the verified checklist.",
+          "Submit the application and follow inspection or correction instructions."
+        ]
+      }
+    }
+  ],
+  "source_discovery_mode": "lexical_legal_source_candidates",
+  "action_roadmap": {
+    "model_status": "active",
+    "predicted_action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+    "category": "food_business",
+    "target_authority": "Contact the relevant local authority and its authorised public-health/food-safety office for the exact premises; verify the competent officer and procedure.",
+    "office_location": "nan",
+    "required_action_name": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Business and premises details",
+      "Description of food preparation, storage and sale activities",
+      "Premises/layout information if requested by the official checklist",
+      "Food-handler or hygiene evidence only if required by current rules",
+      "Current official application form"
+    ],
+    "procedural_steps": [
+      "Describe the food activities and premises accurately.",
+      "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+      "Confirm required inspections, food-handler conditions and forms.",
+      "Prepare only the documents listed in the verified checklist.",
+      "Submit the application and follow inspection or correction instructions."
+    ],
+    "governing_laws": [
+      "food_act_no26_1980_en.pdf",
+      "food_amendment_act_no20-_1991_en.pdf",
+      "food_amendment_act2011_en.pdf",
+      "National_Food_Safety_Policy.pdf"
+    ],
+    "estimated_cost_lkr": null,
+    "estimated_timeline_days": null
+  },
+  "follow_up_questions": [],
+  "retrieval_mode": "chroma_sentence_transformers",
+  "disclaimer": "This is preliminary decision-support guidance, not legal advice. Applicability is determined by the rule engine, not by an LLM. The current corpus contains draft or placeholder material; verify all requirements with the responsible Sri Lankan authority."
+}

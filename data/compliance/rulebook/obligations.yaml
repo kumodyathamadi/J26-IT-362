@@ -1,0 +1,203 @@
+# ============================================================
+# Component 2 — Obligation Rulebook
+# Sri Lanka SME Regulatory Compliance (Colombo District)
+# Scope: Food businesses — bakery, cake shop, sweets, restaurant
+# Schema: see backend/app/compliance/schemas.py (ObligationRule)
+# reviewer_status: draft | verified
+# IMPORTANT: Never invent legal content. Leave evidence.quote
+# empty and reviewer_status: draft when source text is not confirmed.
+# ============================================================
+
+obligations:
+
+  - id: OBL-001
+    name: Business Name Registration (Western Province)
+    actor: business_owner
+    authority: Western Province Governor's Office
+    jurisdiction: Western Province
+    required_action: >
+      Register the business name with the Department of Business Names
+      (Western Province) within 14 days of commencing business.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      has_physical_premises: true
+      jurisdiction_matches:
+        - Western Province
+        - Colombo Municipal Council
+        - Kotte Municipal Council
+        - Dehiwala-Mount Lavinia Municipal Council
+    exceptions:
+      - description: Sole proprietors trading under their own full legal name may be exempt.
+        source_id: SL-WESTERNPROV-BUSINESSNAMES-1990
+        confirmed: false
+    evidence:
+      source_id: SL-WESTERNPROV-BUSINESSNAMES-1990
+      page:
+      quote: ""
+    effective_from: "1990-01-01"
+    reviewer_status: draft
+
+  - id: OBL-002
+    name: CMC / Local Authority Trade Licence
+    actor: business_owner
+    authority: Colombo Municipal Council
+    jurisdiction: Colombo Municipal Council
+    required_action: >
+      Obtain a Trade Licence from the relevant Municipal or Urban Council
+      before commencing business within the council area.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      has_physical_premises: true
+      local_authority_matches:
+        - Colombo Municipal Council
+        - Kotte Municipal Council
+        - Dehiwala-Mount Lavinia Municipal Council
+    exceptions: []
+    evidence:
+      source_id: SL-CMC-TRADELIC-1980
+      page:
+      quote: ""
+    effective_from: "1980-01-01"
+    reviewer_status: draft
+
+  - id: OBL-003
+    name: Food Business Registration / Food Hygiene Licence
+    actor: business_owner
+    authority: Municipal Health Officer
+    jurisdiction: Colombo Municipal Council
+    required_action: >
+      Obtain a Food Hygiene / Public Health Licence from the Public Health
+      Inspector (PHI) of the relevant local authority before handling,
+      preparing, or selling food to the public.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      handles_food: true
+    exceptions: []
+    evidence:
+      source_id: SL-FOODCONTROL-ACT-1980
+      page:
+      quote: ""
+    effective_from: "1980-01-01"
+    reviewer_status: draft
+
+  - id: OBL-004
+    name: Taxpayer Identification Number (TIN) Registration
+    actor: business_owner
+    authority: Inland Revenue Department
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Register with the Inland Revenue Department (RAMIS system) to obtain
+      a Taxpayer Identification Number (TIN) before opening a business
+      bank account or issuing VAT invoices.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      legal_form_matches:
+        - sole_proprietorship
+        - partnership
+        - private_limited
+    exceptions: []
+    evidence:
+      source_id: SL-IRD-TIN-2017
+      page:
+      quote: ""
+    effective_from: "2018-04-01"
+    reviewer_status: draft
+
+  - id: OBL-005
+    name: Employees Provident Fund (EPF) Registration
+    actor: employer
+    authority: Department of Labour
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Register as an employer with the Department of Labour for EPF
+      contributions when employing one or more workers.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      employee_band_min: 1
+    exceptions:
+      - description: Family-only businesses (owner and immediate family, no paid employees) may be exempt.
+        source_id: SL-EPF-1958
+        confirmed: false
+    evidence:
+      source_id: SL-EPF-1958
+      page:
+      quote: ""
+    effective_from: "1958-01-01"
+    reviewer_status: draft
+
+  - id: OBL-006
+    name: Employees Trust Fund (ETF) Registration
+    actor: employer
+    authority: Employees Trust Fund Board
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Register with the Employees Trust Fund Board and contribute 3% of
+      each employee's monthly gross earnings when employing one or more workers.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - restaurant
+        - food_business
+      employee_band_min: 1
+    exceptions: []
+    evidence:
+      source_id: SL-EMPLOYERSVNF-2012
+      page:
+      quote: ""
+    effective_from: "1980-01-01"
+    reviewer_status: draft
+
+  - id: OBL-007
+    name: Food Labelling Compliance
+    actor: business_owner
+    authority: Sri Lanka Standards Institution / Ministry of Health
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Ensure all pre-packaged food products bear labels compliant with
+      the Food (Labelling and Advertising) Regulations 2011, including
+      product name, ingredient list, net weight, manufacturer details,
+      and best-before date.
+    applies_if:
+      business_type:
+        - bakery
+        - cake_shop
+        - sweets_shop
+        - food_business
+      is_manufacturing: true
+    exceptions:
+      - description: Unpackaged food sold directly to consumers at point of preparation (e.g. open counter) may have reduced labelling requirements.
+        source_id: SL-FOOD-CONTROL-2011
+        confirmed: false
+    evidence:
+      source_id: SL-FOOD-CONTROL-2011
+      page:
+      quote: ""
+    effective_from: "2011-03-15"
+    reviewer_status: draft

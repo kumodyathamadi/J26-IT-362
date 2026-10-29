@@ -1,0 +1,4480 @@
+--- PAGE 1 ---
+National Food Safety 
+Policy 
+ 
+                           
+ 
+ 
+ 
+ 
+ 
+ 
+Ministry of Health and Mass Media 
+2025
+
+--- PAGE 2 ---
+i 
+ 
+ 
+Contents 
+1 
+Introduction 
+1 
+1.1 
+Background 
+1 
+1.2 
+Purpose and context 
+2 
+1.3 
+Rationale 
+3 
+2 
+Policy principles 
+4 
+3 
+Policy statements 
+4 
+4 
+Policy goals 
+5 
+5 
+Applicability and scope 
+5 
+6 
+Policy implementation 
+6 
+6.1 
+Strategies 
+6 
+6.2 
+Responsibility and authority 
+8 
+6.3 
+Monitoring and evaluation 
+9 
+7 
+Glossary 
+9
+
+--- PAGE 3 ---
+ii 
+ 
+List of Annexes 
+Annexure 1 
+Strategies, Sub strategies and relevant agencies responsible for 
+implementing the food safety policy under each strategy. 
+11 
+Annexure 11 
+List of existing policies relevant to the Food Safety Policy 
+ 
+46 
+Annexure 111 
+List of Contributors 
+47
+
+--- PAGE 4 ---
+iii 
+ 
+ 
+ 
+Acronyms 
+ 
+ADB 
+Asian Development Bank 
+CAA 
+Consumer Affairs Authority 
+CBSL 
+Central Bank of Sri Lanka 
+CCC 
+Ceylon Chamber of Commerce 
+CFA 
+Chief Food Authority 
+DAPH 
+Department of Animal Production & Health 
+DGHS 
+Deputy Director General of Health Services 
+DFAR 
+Department of Fisheries & Aquatic Resources 
+DGHS 
+Director General of Health Services 
+DoA 
+Department of Agriculture 
+DoC 
+Department of Commerce 
+DoEA 
+Department of Export Agriculture 
+DTIP 
+Department of Trade & Investment Policy under MoF 
+EDB 
+Export Development Board 
+EU 
+European Union 
+FAC 
+Food Advisory Committee 
+FAO 
+Food & Agriculture Organization  
+FBO 
+Food Business Organizations 
+FCAU 
+Food Control Administration Unit 
+FSB 
+Food Safety Bureau 
+FPA 
+Food Processors Association 
+GAP 
+Good Agricultural Practices 
+GHP 
+Good Hygienic Practices 
+GMP 
+Good Manufacturing Practices
+
+--- PAGE 5 ---
+iv 
+ 
+GAHP 
+Good Animal Husbandry Practices 
+HACCP 
+Hazard Analysis and Critical Control Point 
+HARTI 
+Hector Kobbakaduwa Agrarian Research & Training Institute 
+ICTA 
+Information Communication Technology Agency 
+IDB 
+Industrial Development Board 
+INFOSAN 
+International Food Safety Authorities Network 
+ISO 
+International Organization for Standardization 
+ITI 
+Industrial Technology Institute 
+MoA 
+Ministry of Agriculture  
+MoF 
+Ministry of Fishery 
+MoH 
+Medical Officer of Health 
+MoI 
+Ministry of Industries 
+MOP 
+Ministry of Plantations 
+MOT 
+Ministry of Trade, Commerce and Food Security  
+MRI 
+Medical Research Institute 
+MRL 
+Maximum Residue Limits 
+NARA 
+National Aquatic Resources and Development Agency 
+NFS 
+National Fertilizer Secretariat 
+NPQS 
+National Plant Quarantine Service 
+NTFC 
+National Trade Facilitation Committee 
+PHI 
+Public Health Inspector 
+RASFF 
+Rapid Alert System for Food and Feed 
+RRI 
+Rice Research Institute 
+SLAB 
+Sri Lanka Accreditation Board 
+SLSI 
+Sri Lanka Standards Institute 
+SME 
+Small and Medium Enterprises 
+SOP 
+Standard Operational Procedure 
+SPS 
+Sanitary and Phytosanitary aspects related to WTO
+
+--- PAGE 6 ---
+v 
+ 
+TBT 
+Technical Barriers to Trade agreement related to WTO 
+UN 
+United Nations 
+UNIDO 
+United Nations Industrial Development Organization 
+USAID 
+United States Agency for International Development 
+WB 
+World Bank 
+WHO 
+World Health Organization 
+WTO 
+World Trade Organization
+
+--- PAGE 7 ---
+1 
+ 
+ 
+1. INTRODUCTION  
+ 
+The World Health Organization (WHO) and Food and Agriculture Organization (FAO) define a 
+food commodity as safe when free from all hazards, which may make food injurious to the health 
+of the consumers whether for chronic or acute consequences (FAO 2003). This concept may 
+assume a number of conjugations that include both microbiological, chemical and physical hazards 
+and nutritional aspects.  
+ 
+The food trade has evolved rapidly in the recent past because of emerging economic policies, 
+industrialization, globalization, urbanization, and online trade. The processed food market is 
+growing, while more people are relying on commercially available ready-to-eat food. In the 
+meantime, more chemical substances are used at the agricultural and animal husbandry level. 
+Hence, the use of chemicals at the primary food production level and various stages of processing, 
+storage and transport poses a challenge for food safety under this situation.  
+ 
+Safe food is a primary determinant of human health and having access to safe, quality and healthy 
+food is a basic human right. Assurance of food safety is a key driving force for better human health 
+and for trading of safe and quality food. It is vital to highlight that food security cannot be achieved 
+without food safety, and therefore food security and food safety are inextricably linked.  
+ 
+1.1  Background  
+ 
+Food Safety is a key component of the public health and falls under the mandate of the Ministry 
+of Health (MoH). The food safety control system of the country currently operates based on the 
+legislative framework stipulated under the Food Act enacted by the Parliament 
+in 1980.  Accordingly, the main administrative responsibility for food safety lies with the Ministry 
+of Health (MoH), with the Director General of Health Services serving as the Chief Food 
+Authority (CFA). In addition, there are food authorities, identified by the Food Act. Food 
+Authorities are persons responsible to ensure the implementing of the Food Act and its regulation 
+to ensure food safety in his administrative area / sector as specified by the Food Act. The Food 
+Control Administration Unit (FCAU) is the central body under the Ministry of Health that 
+oversees and coordinates food safety in the country.  
+ 
+Different food safety data reveal that there is a gap in controlling contaminants that are originating 
+at the primary food production level, food processing and storage level or unsatisfactory cold 
+chain maintenance during the food chain.
+
+--- PAGE 8 ---
+2 
+ 
+1.2 Purpose & Context 
+ 
+The current country context in relation to food is defined by the expansion of the global food 
+trade, new concepts, agreements, and interactions as well as lifestyles and consumption habits. 
+This has changed the food safety focus and approaches to accept international food standards 
+and norms.  
+ 
+Foodborne diseases still remain as a public health problem. Although, food regulations to 
+maintain Good Manufacturing Practices (GMP) and Good Hygienic Practices (GHP) are in place, 
+implementation of such regulations such as Food (hygiene) and Food (premises registration) 
+regulations are relatively poor compared to the implementation of other food regulations. Hence, 
+priority should be given to implementing GMP and GHP according to the regulations throughout 
+the food chain and Hazard Analyses and Critical Control Point (HACCP) should be strengthened 
+to prevent food borne illnesses.  
+ 
+The lack of knowledge and financial constraints to invest better food safety mechanisms are 
+potential reasons specially in the Small and Medium Enterprises (SME) sector as well as in street 
+food sector. Lack of formal food handlers’ registration system following a basic food safety 
+training have also been identified as a gap in the system. Inadequate laboratory facilities 
+especially in the government sector, seriously impact ensuring domestic food safety control. Lack 
+of a reference food laboratory and inadequate laboratory facilities to implement newly developed 
+food regulations have been identified as major issues related to food testing. In addition, lack of 
+human capacity at the government laboratories have led to utilization of private food laboratories 
+which has created potential food safety issues, especially at the border control. 
+ 
+All players of the food chain need varying levels of information and capacity to ensure food 
+safety. It could vary from basic food safety knowledge to scientific risk analyses, management, 
+and risk communication as well as practical knowledge on monitoring and implementation of risk 
+management system such as HACCP. Therefore, it is emphasized that capacity building of the 
+players of the food chain is a priority and a responsibility of all relevant sectors, including food 
+industries.  
+ 
+Food transport and storage is a segment of the food chain which has been identified as poorly 
+regulated and not directly under any key government agency. Therefore, special focus should be 
+made to prevent food safety during food storage and transport, especially for perishable food and 
+food with high risk of fungal growth resulting in toxin contamination. Many informal food outlets, 
+cooked food transportation and food redistribution mechanisms have commenced following the 
+COVID-19 pandemic and economic crisis. Accordingly, new food safety issues and challenges 
+have begun during the recent past. Therefore, assurance of food safety in these new food 
+innovations including street food sector require specific food safety measures.
+
+--- PAGE 9 ---
+3 
+ 
+ 
+As food safety information are very sensitive, only the proven and estimated risks must be 
+communicated to the community to avoid unwarranted fear which may cause undue public unrest 
+and food insecurity. Formal risk analysis is the scientific method behind risk assessment, risk 
+management and risk communication which need a specially trained team and resources. 
+However, the lack of capability on risk analysis of food safety hazards is a major drawback in the 
+current context. The lack of efficient systems to address social unrest and public complaints also 
+have been identified as a key issue in the current food safety system.  
+ 
+Unethical food marketing practices and the promotion of food that are not identified as a 
+component of a healthy diet, specially to pregnant and lactating mothers and children have been 
+identified as another problem, which has been proven as one determinant for child obesity and 
+long-term health consequences. Global evidence shows that availability of robust regulations and 
+strict enforcement restricts consumption of unhealthy food.  Therefore, it is emphasized and 
+expected food industries to understand their national responsibility related to food marketing, 
+comply with food regulations and maintain food ethics in fair trade.  
+ 
+1.3 Rationale  
+ 
+Despite a widened scope of the food sector and its operators, at present, there is no available 
+policy on food safety to guide and streamline the food safety system at the national level. Ensuring 
+the safety of food is essential for maintaining an acceptable standard of healthy living. Hence, it 
+is government's responsibility to establish a sustainable system that ensures the safety and quality 
+of food available for both national and international consumers. Hence, a robust food 
+safety control mechanism should be introduced incorporating new approaches to the existing 
+system and in aligned with international food safety management systems to increase 
+consumer acceptance locally and globally. 
+ 
+Some major issues identified in the existing food control system include inadequate responsibility 
+and accountability for food safety by key stakeholders, deficient intersectoral monitoring and 
+coordination mechanism, lack of adequate laboratory facilities and inadequate implementation of 
+food safety activities due to lack of officers exclusively dedicated for food safety at the national 
+and peripheral levels.  
+ 
+Food safety cannot be achieved only through end-product testing. Hence, preventative measures 
+must be implemented throughout the food chain as many food safety hazards are originating 
+somewhere at the food chain from farm to table. It is important to note that some of the 
+contaminants such as aflatoxins, heavy metals and pesticide residues originating at the primary 
+food production level, and cannot be rectified at a later stage. Therefore, ensuring food safety at 
+the primary food production level are essential with special emphasis on promoting Good
+
+--- PAGE 10 ---
+4 
+ 
+Agricultural Practices (GAP) and Good Animal Husbandry Practices (GAHP), through 
+establishing district food authorities at the primary food production level and empowering them 
+under the Food Act. Strengthening preventative food safety approaches at all levels would ensure 
+not only the food safety, but food security and facilitation of safe food export. The Situational 
+Analysis Report (2023) on food safety control system in Sri Lanka was prepared under the overall 
+supervision of the Ministry of Health in collaboration with Food and Agriculture Organization and funded 
+by the European Union. The report highlighted several structural and operational deficiencies, including 
+inadequate staffing, lack of specialized technical expertise, and fragmentation across multiple technical 
+units. The report recommended establishing a Food Safety Bureau under the Chief Food Authority 
+(DGHS). As such the Food Act is to be updated providing provisions to establish a high level 
+multisectoral committee (Food Safety Council) with sharing responsibility and accountability of 
+ensuring food safety of the country. The legal power under the Food Act for supervising and 
+monitoring of the district level food authorities to be given to the relevant department heads who 
+would represent the Food Safety Council. Monitoring and coordination committees also need to 
+be included to the existing food safety framework for effective monitoring, coordination and 
+implementation of the food safety policy and strategies. Well-established food safety systems 
+contribute to improved public health, increased food security, protection of environment, 
+increased demand for food trade and promote sustainable economic development.  
+ 
+2. POLICY PRINCIPLES  
+1. Access to safe, quality, and healthy food through governance and surveillance. 
+2. Risk-based, evidence- driven, preventative food safety approaches. 
+3. Public health approach and multi-sectoral collaboration for food safety. 
+4. Community engagement and empowerment. 
+5. Transparency, traceability, and equity of food safety system. 
+3. POLICY STATEMENTS  
+ 
+1. A national food safety governance framework in place to ensure safe and quality food to 
+promote and protect public health and facilitate domestic and international food trade. 
+2. Food safety legislation and standards across the food chain are aligned with scientific evidence 
+and national requirements.  
+3. National food safety surveillance and, risk analysis, are in operation to respond to food safety 
+emergencies and challenges. 
+4. Sustainable mechanisms established to implement food safety policy and to address food 
+safety challenges effectively.
+
+--- PAGE 11 ---
+5 
+ 
+4. POLICY GOALS 
+ 
+Ensure safe, healthy, and quality food to protect health of national and international consumers 
+and to develop economic growth through a coordinated, collaborative, and accountable approach 
+among stakeholders throughout the food chain.  
+ 
+5. APPLICABILITY & SCOPE  
+ 
+The Ministry of Health (MoH) is mandated with ensuring food safety in the country. Hence, the 
+policy recognizes Director General of Health Service as the Chief Food Authority (CFA) and 
+Chair of the proposed Food Safety Council. MoH collaborates and coordinates with other relevant 
+agencies including private sector and consumers to promote and protect public health and to 
+facilitate fair food trade.  
+ 
+Food safety has a broader concept and encompasses prevention of consumers from all kinds of 
+health hazards in food. The food safety policy covers the entire food chain, including primary 
+production sectors incorporating small, medium, and large enterprises, transportation, storage, 
+processing, preparation, advertising, sale, and distribution for consumption to ensure safe, quality, 
+and healthy food through promulgation and enforcement of appropriate laws and regulations, 
+aligned with scientific evidence and country requirements. The policy integrates all pertinent 
+sectors and stakeholders, both from the government and private entities emphasizing shared 
+responsibility and accountability. The policy also engages and empowers the community with 
+food safety information, education, and communication.  
+ 
+Furthermore, the policy guides the provincial, district and divisional bodies to ensure effective 
+policy implementation through monitoring and coordination at central and peripheral level. This 
+policy is coherent with the upcoming National Policy on Health and Wellbeing 2026-2035 and 
+other health policies such as National Nutrition Policy 2021-2030 and National Policy on 
+Maternal Child Health. It also complements other policies related to food safety and global needs 
+leading to an improved food safety management system.
+
+--- PAGE 12 ---
+6 
+ 
+6. POLICY IMPLEMENTATION  
+ 
+The National Food Safety Policy is planned to be implemented over a period of ten years from 
+2025 to 2035. The Ministry of Health and Mass Media is the leading authority to oversee the 
+implementation of the policy in close collaboration with other responsible agencies and 
+consumers.  
+6.1 Strategies 
+ 
+1 Strengthen institutional framework and preventive food safety approaches in food production 
+sectors 
+2 Ensure the safety of the domestic, import and export food, while assuring food security 
+3 Strengthen Food safety legislation, standards, guidelines, codes of practices, and standard 
+operating procedures 
+4 Strengthen food safety surveillance, risk analysis and respond to food safety emergencies and 
+challenges 
+5 Capacity development of stakeholders throughout the food chain, risk communication, 
+research and development on healthy and safe food to the consumer 
+6 Establishment of mechanism for sustainable implementation and monitoring of food safety 
+policy. 
+ 
+ 
+Strategy 01 - Strengthen institutional framework and preventive food safety approaches in 
+food production sectors 
+ 
+Sub Strategies 
+1.1 Strengthen existing institutional framework to support food control systems at all levels.  
+1.2 Strengthen preventive food safety approaches in primary food production sectors. 
+1.3 Strengthen preventive food safety approaches in industrial food production sectors.  
+ 
+Strategy 02 - Ensure the safety of the domestic, import, export food, while assuring food 
+security. 
+ 
+Sub Strategies 
+2.1 Strengthen mechanisms to ensure domestic food safety 
+2.2 Ensure imported foods comply with country food safety requirements. 
+2.3 Strengthen mechanisms to promote exportation of safe food 
+2.4 Strengthen risk-based food import inspection system  
+2.5 Ensure food security, environmental safety and support the climate change issues.
+
+--- PAGE 13 ---
+7 
+ 
+Strategy 03 – Strengthen Food safety legislation, standards, guidelines, codes of practices, 
+and standard operating procedures. 
+ 
+Sub Strategies 
+3.1 Develop and update food legislations including Food Act. 
+3.2 Develop and update food standards, guidelines, codes of practices, SOPs and food ethics. 
+3.3 Strengthen monitoring and enforcement of food legislation. 
+ 
+Strategy 04 – Strengthen food safety surveillance, risk analysis and respond to food safety 
+emergencies and challenges 
+ 
+Sub Strategies 
+4.1 Establish a centrally coordinated, an integrated food safety surveillance and information 
+system. 
+4.2 Strengthen analytical capacity of food laboratory system and laboratory network  
+4.3 Establish a formal risk assessment, management and communication system. 
+4.4 Improve responding mechanisms for food safety emergencies and challenges resulting from 
+local and global changes. 
+ 
+Strategy 05 - Capacity development of stakeholders throughout the food chain, risk 
+communication, research and development on healthy and safe food to the consumer 
+ 
+Sub Strategies 
+5.1 Enhance the capacity of stakeholders along the food chain 
+5.2 Strengthen risk communication system and public awareness on healthy and safe food. 
+5.3 Promote research and development on food safety and integrate findings into policy and 
+practice. 
+5.4 Disseminate evidence based scientific information for improvement of food safety and for 
+integration of findings into policy and practice 
+5.5 Strengthen consumer awareness on food safety through health education and Social and 
+Behavioral Change Communication (SBCC)
+
+--- PAGE 14 ---
+8 
+ 
+Strategy 06 - Establishment of mechanism for sustainable implementation and monitoring 
+of food safety policy. 
+ 
+Sub Strategies 
+6.1 Strengthen the existing institutional framework and mechanism for implementation of the 
+Food Safety Policy. 
+6.2 Identify new innovative financial modalities that do not entail conflicts of interest to support 
+policy implementation. 
+6.3 Strengthen monitoring and evaluation mechanisms for the implementation of food safety 
+policy throughout the food chain. 
+ 
+6.2 Responsibility and authority  
+ 
+National Level 
+• The administrative authority for the food safety policy rests with the Director General of 
+Health Services (DGHS), who serves as the Chief Food Authority (CFA).   
+• The current Food Control and Administrative Unit of the Ministry of Health to be expanded 
+as the Food Safety Bureau (FSB) under the Ministry of Health. 
+ 
+Provincial Level 
+• Provincial level food safety monitoring and coordination committee, headed by the Provincial 
+Directors of Health Services (PDHS) and composed of heads of the relevant sectors to be 
+established with the responsibility of monitoring and coordinating policy implementation and 
+preventing of food safety hazards arising from their administrative areas.  
+ 
+District Level.  
+• It is proposed that RDHS also to be appointed as Food Authority.  
+• Food authorities and authorized officers for selected primary food production sectors to be 
+established at district level with the responsibility of preventing food safety hazards arising 
+from their sectors.  They will be monitored and supervised by the head of the department who 
+will be a member of the FSC 
+ 
+Divisional / Ground Level 
+• Medical Officer of Health (MOH) and the Municipal Councils will be the Food Authorities at 
+divisional level.  
+• Existing authorized officers under the Food Act will remain without any change. 
+• A mechanism to be developed to ensure that all authorized officers working under Municipal 
+Councils to be legally responsible to the relevant MOH with regards to food safety of 
+municipal council areas (to be further discussed).
+
+--- PAGE 15 ---
+9 
+ 
+6.3 Monitoring and Evaluation  
+ 
+The monitoring and evaluation of the food safety policy will be overseen by a high-level multi-
+sectoral committee and proposed FSB of the Ministry of Health in accordance with the targets and 
+indicators outlined in the strategic framework. 
+ 
+7. GLOSSARY  
+Animal Feed: Food whether processed, semi-processed or raw, given to domestic animals, 
+especially livestock, in the course of animal husbandry  
+Authorized Officer: Officer appointed under a Food Authority to implement the Food Act and its 
+regulations by enforcing legal powers including inspection and prosecution. 
+Codex Alimentarius: Collection of standards, guidelines and codes of practice adopted by the Codex 
+Alimentarius Commission. 
+Chief Food Authority: Person responsible to ensure the implementing of the Food Act and its 
+regulation to ensure food safety in the entire country. 
+Contaminant: Any biological, or chemical agent, foreign matter, other substances, not 
+intentionally added to food which may compromise food safety or suitability  
+Food Authority: Person responsible to ensure the implementing of the Food Act and its regulation to 
+ensure food safety in in his administrative area. 
+Food: Any substance, whether processed, semi-processed or raw, which is intended for human 
+consumption, and includes drink, chewing gum and any substance which has been used in the 
+manufacture, preparation or treatment of "food" but does not include cosmetics or tobacco or substances 
+used only as drugs. 
+Food Chain: The series of processes that involves set of people, Institutions, industries, infrastructure 
+where food is grown or produced, sold, and eventually consumed. 
+Food control system: Collection of activities carried out by the government to ensure food safety 
+throughout the food chain.  
+Food handler: any person who directly handles packaged or unpackaged food, food equipment and 
+utensils or food contact surfaces and is therefore expected to comply with food hygiene requirements 
+Food hygiene: all conditions, measures, and practices necessary to ensure the safety and suitability of 
+food at all stages of the food chain  
+Food premises: includes any shop, stall, or place where a food is sold or manufactured or stored for 
+sale
+
+--- PAGE 16 ---
+10 
+ 
+Food safety: Food safety is defined as “the assurance that food will not cause harm to the consumer 
+when it is prepared and/or eaten according to its intended use 
+Food surveillance: Continuous, systematic collection, analysis and interpretation of food safety 
+information and timely sharing of such information with relevant stakeholders with the objective of 
+risk assessment and taking control / preventive measures.  
+Food borne disease: Illnesses contracted from eating contaminated food or beverages. Illnesses 
+include food borne intoxication and infections ranging from diarrhoea to cancers 
+Hazard: A biological, chemical, or physical agent in or condition of food with the potential to cause 
+and adverse health effect  
+HACCP: A system which provides the framework for monitoring the total food system, from 
+harvesting to consumption, to reduce the risk of food borne illness. The system is designed to identify 
+and control potential problems before they occur. 
+Risk assessment: The scientific evaluation of known or potential adverse health effects resulting from 
+human exposure to food borne hazards. 
+Risk assessment team: Scientific multidisciplinary team appointed by the CFA with the objective of 
+food safety risk assessment and advise on risk management and communication.  
+Risk communication:  refers to the interactive exchange of information and opinions throughout the 
+risk analysis process concerning hazards and risks, risk-related factors and risk perceptions, among risk 
+assessors, risk managers, consumers, industry, the academic community and other interested parties, 
+including the explanation of risk assessment findings and the basis of risk management decisions. 
+Risk management: Involves both the identification of the standards of acceptable risk appropriate to 
+different types of food hazards, and the establishment of procedures to ensure that the risks are kept 
+within the limits set by those standards
+
+--- PAGE 17 ---
+11 
+ 
+ Annexures  
+ 
+Annexure 1 - Strategies, Sub strategies and relevant agencies responsible for implementing the 
+food safety policy under each strategy. 
+ 
+STRATEGIC FRAMEWORK  
+ 
+Strategy 1 - Strengthen institutional framework and preventive food safety approaches in 
+food production sectors 
+Sub 
+Strategies  
+Key actions 
+Expected outputs / 
+outcomes for key 
+actions  
+Monitoring 
+indicators  
+Key 
+Responsible 
+Entities 
+1.1 Strengthen 
+existing 
+institutional 
+framework to 
+support food 
+control 
+systems at all 
+levels  
+1. Establish a 
+central level 
+institution (Food 
+Safety Bureau) 
+under the MoH 
+Food Safety Bureau 
+established and 
+functioned to 
+strengthen 
+institutional 
+framework to 
+support food control 
+systems at all level  
+Availability of 
+Food safety 
+Bureau under the 
+MoH 
+MoH, all 
+relevant 
+Ministries 
+(DAPH, 
+Agriculture, 
+Export, 
+Fisheries, 
+Plantation 
+etc.) and 
+departments, 
+Provincial 
+ministries 
+and 
+departments, 
+IDB, Food 
+Industries 
+and Food 
+Associations 
+(CCC, 
+FPA),  
+2. Formation of a 
+Food Safety 
+Monitoring and 
+Coordinating 
+Committee at the 
+provincial level.  
+Provincial level 
+food safety 
+monitoring and 
+coordinating 
+committee created 
+and available  
+1. Availability of 
+food safety 
+monitoring and 
+coordinating 
+committee at the 
+provincial level  
+2. No of 
+provincial 
+coordinating 
+committees 
+available  
+3.Food Authorities 
+at divisional level 
+will be the Medical 
+Officer of Health 
+and Municipal 
+Councils. 
+Food authorities as 
+Medical Officer of 
+Health and 
+Municipal Councils 
+at divisional level 
+made available 
+Availability of 
+food authorities 
+as Medical 
+Officer of Health 
+and Municipal 
+Councils at 
+divisional level  
+4.A system to be 
+developed that all 
+authorized officers 
+working under 
+Municipal 
+Councils also to be 
+Institutional 
+framework was 
+strengthened to 
+support food control 
+systems at all levels. 
+Availability of a 
+system with all 
+authorized 
+officers working 
+under Municipal 
+Councils for the
+
+--- PAGE 18 ---
+12 
+ 
+legally responsible 
+for the relevant 
+MOH to ensure 
+food safety of 
+municipal council 
+areas.  (Special 
+note - Need to 
+discuss in the 
+presence of 
+Chairman 
+/Commissioner in 
+the Municipal 
+Council and about 
+the Municipality 
+Vet. Surgeons in 
+Municipal 
+Councils) 
+relevant MOH to 
+be legally 
+responsible     
+1.2 Strengthen 
+preventive 
+food safety 
+approaches 
+in primary 
+food 
+production 
+sectors 
+1. Promote GAP 
+(Good 
+Agricultural 
+Practices) and 
+GAHP (Good 
+Animal 
+husbandry 
+practices) in all 
+primary food 
+production 
+sectors.  
+All primary food 
+production sectors 
+strengthened with 
+GAP and GAHP 
+1. Number of 
+primary food 
+production 
+sectors available 
+with GAP  
+2. Number of 
+primary food 
+production 
+sectors available 
+with GAHP  
+All primary 
+food 
+production 
+sectors 
+(MoA, 
+DoA, MoF, 
+DAPH, 
+DFAR, 
+MoP, CDA, 
+SLTB), 
+NARA, 
+Police and 
+National 
+security 
+forces, NFS 
+2. Strength 
+registering and 
+mapping all 
+commercial 
+level farmers 
+including 
+primary milk 
+processors, 
+secondary milk 
+processors, 
+meat 
+processors 
+under the 
+relevant Food 
+Authorities and 
+facilitate 
+producer 
+organization. 
+Commercial level 
+farmers including 
+secondary milk 
+processes, meat 
+processes registered 
+and mapped under 
+relevant food 
+authorities  
+ 
+1. No:/Proportion 
+of commercial 
+level farmers 
+including primary 
+milk processors 
+registered and 
+mapped under 
+each MOH 
+2. No:/Proportion 
+of commercial 
+level secondary 
+milk processors 
+registered and 
+mapped under 
+each MOH 
+3. No:/Proportion 
+of commercial 
+level meat
+
+--- PAGE 19 ---
+13 
+ 
+processors 
+registered under 
+each MOH 
+3. Regularize and 
+monitor the 
+importation, 
+local 
+manufacturing 
+and 
+distribution 
+marketing of 
+farming inputs. 
+Eg; usage of 
+pesticides, 
+fertilizers and 
+veterinary 
+Biologicals.  
+(Special note 
+by DAPH - 
+Registrar of 
+veterinary 
+drugs is 
+carrying out 
+and responsible 
+for all these 
+activities 
+mentioned 
+herewith) 
+Importation, 
+distribution 
+marketing and 
+usage of pesticides, 
+fertilizers and 
+veterinary 
+Biologicals 
+regularized and 
+monitored to ensure 
+food safety  
+1. Availability of 
+mechanism for 
+regularization the 
+importation of 
+pesticides, 
+fertilizers and 
+veterinary 
+biologicals 
+ 
+2. Availability of 
+monitoring 
+mechanism for 
+distribution & 
+marketing of 
+pesticides, 
+fertilizers and 
+veterinary 
+biologicals 
+ 
+3. Availability of 
+monitoring 
+mechanism of 
+usage of 
+pesticides, 
+fertilizers and 
+veterinary 
+biologicals 
+4. Develop / 
+Strengthen 
+mechanisms to 
+ensure safety 
+of animal feed 
+by the relevant 
+food 
+authorities 
+ 
+Mechanisms to 
+ensure safety of 
+Animal Feed by the 
+relevant food 
+authorities 
+improved  
+ 
+Availability of 
+mechanism to 
+ensure safety of 
+animal feed by 
+the relevant food 
+authorities 
+5.Develop / 
+Strengthen 
+mechanisms to 
+Infrastructure 
+developed/improved 
+1. Availability of 
+mechanism to 
+ensure safety of
+
+--- PAGE 20 ---
+14 
+ 
+ensure safety of 
+livestock by the 
+relevant food 
+authorities 
+ 
+at livestock to 
+ensure food safety  
+livestock by the 
+relevant food 
+authorities 
+2. Proportion of 
+financial 
+allocation 
+available to 
+develop 
+infrastructure 
+facilities at 
+livestock to 
+ensure food safety 
+6.Develop / 
+Strengthen 
+mechanisms to 
+ensure safety of 
+fish and fish 
+products by the 
+relevant food 
+authorities 
+ 
+Infrastructure 
+developed/improved 
+at Fisheries 
+department to 
+ensure food safety  
+1. Availability of 
+mechanism to 
+ensure safety of 
+fish and fish 
+products by the 
+relevant food 
+authorities 
+2. Proportion of 
+financial 
+allocation 
+available to 
+develop 
+infrastructure 
+facilities at 
+Fisheries 
+department to 
+ensure food safety  
+ 
+7.Develop a 
+periodical 
+reporting system 
+data base) in 
+primary food 
+production sectors 
+ 
+Reporting system 
+established in 
+primary food 
+production sectors 
+Availability of a 
+reporting system 
+from primary 
+food production 
+sectors to 
+generate the data 
+ 
+1.3 Strengthen 
+preventive 
+food safety 
+approaches 
+in 
+industrial 
+food 
+1. Ensure Good 
+Manufacturing 
+Practices 
+(GMP) and 
+Good Hygienic 
+Practices 
+(GHP) in all 
+Food safety 
+approaches 
+improved by 
+industrial food 
+production sectors 
+Proportion of 
+ensured GMP and 
+GHP of food 
+manufacturing 
+industries out of 
+all food 
+All 
+industrial 
+food 
+production 
+sectors
+
+--- PAGE 21 ---
+15 
+ 
+production 
+sectors 
+food 
+manufacturing 
+industries.  
+ 
+ensuring GMP and 
+GHP 
+manufacturing 
+industries 
+2. Strength 
+registering of 
+food premises 
+including 
+commercial 
+cottage 
+kitchens, as a 
+priority at the 
+relevant Food 
+Authority. 
+ 
+Food premises 
+registration 
+improved including 
+commercial cottage 
+kitchens 
+Proportion of 
+registered food 
+premises 
+including 
+commercial 
+cottage kitchens 
+in each 
+MOH/RDHS 
+3. All food 
+handlers 
+employed in 
+food industries 
+to be registered 
+under the 
+relevant 
+Medical 
+Officer of 
+Health, 
+following a 
+formal food 
+safety training.  
+ 
+Registration of all 
+food handlers in 
+food industries 
+completed under 
+MOH with a formal 
+food safety training 
+1. No of training 
+conducted for 
+food handlers 
+under relevant 
+MOH 
+2. Proportion of 
+registered food 
+handlers 
+employed in food 
+industries under 
+the relevant 
+Medical Officer 
+of Health 
+following a 
+formal food 
+safety training 
+4. Establish a new 
+technology and 
+mechanism to 
+prevent 
+potential food 
+safety hazards 
+specially in 
+high-risk food 
+commodities. 
+ 
+New technology 
+and mechanism 
+developed and 
+implemented to 
+prevent potential 
+food safety hazards 
+in high-risk 
+commodities 
+Availability of a 
+new technology 
+and a mechanism 
+to prevent 
+potential food 
+safety hazards in 
+high-risk food 
+commodities
+
+--- PAGE 22 ---
+16 
+ 
+5. Periodical 
+surveillance 
+system of food 
+safety hazards at 
+local level and 
+reporting system to 
+focal point 
+Reporting system 
+developed at local 
+level to report food 
+safety hazards 
+1. Availability of 
+a reporting 
+system at MOH 
+level to report 
+food safety 
+hazards 
+2.No of reports 
+received quarterly 
+on food safety 
+hazards by each 
+RDHS 
+FCAU, 
+RDHS 
+6. Food industries 
+to conduct 
+periodical 
+surveillance of 
+potential food 
+safety hazards and 
+report them to 
+proposed Food 
+Safety Council. 
+ 
+6. Periodical 
+surveillance 
+of potential 
+food safety 
+hazards 
+conducted 
+by food 
+industries 
+and report 
+them to 
+proposed 
+Food Safety 
+Council. 
+ 
+1. Number of 
+surveillance 
+conducted 
+quarterly/ 
+annually for 
+potential food 
+safety hazards by 
+food industries 
+2. Number of 
+reports received 
+quarterly/annually 
+by Food Safety 
+Council  
+ 
+Food 
+industries
+
+--- PAGE 23 ---
+17 
+ 
+Strategy 2 - Ensure the safety of domestic, import, export food while assuring food 
+security 
+Sub Strategies  
+Key actions 
+Expected 
+outputs / 
+outcomes for 
+key actions  
+Monitoring 
+indicators  
+Key 
+Responsibl
+e Entities 
+2.1 Strengthen 
+mechanisms 
+to ensure 
+domestic 
+food safety 
+ 
+1. Strengthen 
+mechanisms to 
+ensure food 
+safety at 
+manufacturing 
+level, during 
+transportation, 
+and storage. 
+Transportation 
+and storage of 
+food at domestic 
+level improved to 
+ensure food 
+safety 
+1. Availability of 
+an appropriate 
+mechanism to 
+ensure food safety 
+during 
+transportation and 
+storage 
+2. Proportion of 
+financial 
+allocation 
+available to 
+develop 
+infrastructure 
+facilities to ensure 
+food safety during 
+transportation 
+3. Proportion of 
+financial 
+allocation 
+available to 
+develop 
+infrastructure 
+facilities to ensure 
+food safety for 
+storage 
+ 
+MoH, CAA, 
+MoI, NFS, 
+all relevant 
+Ministries 
+and 
+departments
+, Provincial 
+ministries 
+and 
+departments
+, IDB, Food 
+Industries 
+and Food 
+Association
+s (CCC, 
+FPA) 
+2. Strengthen 
+mechanisms to 
+ensure food 
+safety at Wet 
+Markets and 
+Slaughterhouse
+s 
+Improved food 
+safety at Wet 
+Markets and 
+Slaughterhouses 
+while assuring 
+food security 
+1. Availability of 
+an appropriate 
+mechanism to 
+ensure food safety 
+at Wet Markets 
+and 
+Slaughterhouses 
+2. No of wet 
+markets available 
+ensuring food 
+safety 
+3. No of slaughter 
+houses available
+
+--- PAGE 24 ---
+18 
+ 
+ensuring food 
+safety 
+3. Strengthen food 
+inspection, 
+enforcement 
+and food 
+recalls. 
+Food inspection, 
+enforcement and 
+food recalls 
+improved to 
+ensure domestic 
+food safety 
+1. Proportion of 
+completed food 
+premises 
+inspections out of 
+planned  
+2. No: of 
+enforcement and 
+food recalls 
+carried out by 
+each MOH 
+4. Strengthen 
+mechanisms to 
+ensure street 
+food safety. 
+Street food safety 
+improved under 
+hygiene 
+regulation 
+1. Availability of 
+a mechanism/ 
+guideline to 
+ensure street food 
+safety under 
+hygiene regulation 
+2. No of street 
+food outlets 
+inspected annually 
+by each MOH 
+5. Strengthen 
+mechanisms to 
+ensure safe 
+food for 
+vulnerable / 
+special groups 
+Mechanism to 
+ensure safe food 
+for 
+vulnerable/specia
+l groups 
+improved 
+Availability of a 
+mechanism to 
+ensure safe food 
+for vulnerable/ 
+special groups 
+2.2 Ensure 
+imported 
+foods to 
+comply with 
+country food 
+safety 
+requirements 
+ 
+1. Conduct a need 
+assessment and 
+strengthen the 
+ASYCUDA 
+system. 
+Food safety for 
+imported foods 
+improved with 
+ASYCUDA 
+system after need 
+assessment 
+1. Need 
+assessment 
+conducted to 
+ensure imported 
+foods to comply 
+with country food 
+safety requirement 
+2. ASYCUDA 
+system 
+strengthened 
+following a need 
+assessment 
+ 
+SL Customs 
+and Border 
+control 
+agencies, 
+(MoH, 
+SLSI, DoA, 
+DAPH) 
+Police, MoI, 
+Food 
+importers, 
+IDB, Food 
+Industries 
+and Food 
+Association
+2. Registration of 
+all food 
+importers 
+1.Availability of 
+a mechanism to 
+No: food 
+importers 
+registered under
+
+--- PAGE 25 ---
+19 
+ 
+under chief 
+food authority. 
+register food 
+importers 
+2.Registration of 
+all food 
+importers 
+completed 
+chief food 
+authority 
+s (CCC, 
+FPA) 
+3. Implement pre-
+import 
+certification 
+requirement for 
+selected/high-
+risk food 
+categories 
+identified 
+based on food 
+surveillance. 
+pre-import 
+certification 
+requirement for 
+selected/high-
+risk food 
+categories 
+identified based 
+on food 
+surveillance 
+implemented  
+Availability of pre 
+import 
+certification 
+requirement for 
+selected/high risk 
+food categories 
+identified based 
+on food 
+surveillance  
+4. Develop a 
+traceability 
+mechanism for 
+food items 
+released from 
+Customs.   
+Traceability 
+mechanism made 
+available and 
+implemented for 
+food released 
+from Customs 
+Traceability 
+mechanism for 
+food items 
+released from 
+customs 
+developed 
+5. Strengthen and 
+streamline the 
+food safety / 
+sample testing 
+mechanism at 
+the border. 
+Food safety 
+testing 
+mechanism 
+improved at 
+boarder level for 
+food safety 
+requirement in 
+the country 
+Appropriate food 
+safety/sample 
+testing mechanism 
+at the boarder 
+incorporated 
+6. Importers and 
+relevant food 
+industries to 
+take 
+responsibility 
+for tracing food 
+(ingredients) 
+imported for 
+industrial 
+Responsibility 
+taken by 
+importers and 
+relevant food 
+industries for 
+tracing of food 
+(ingredients) 
+imported for 
+industrial 
+1. No of importers 
+carried out to 
+tracing food 
+(ingredients) 
+imported for 
+industrial 
+purposes, after 
+being released 
+from Customs. 
+2. No of industries 
+carried out to
+
+--- PAGE 26 ---
+20 
+ 
+purposes, after 
+being released 
+from Customs. 
+purposes after 
+being released 
+from customs  
+tracing food 
+(ingredients) 
+imported for 
+industrial 
+purposes, after 
+being released 
+from Customs. 
+ 
+7. Strengthen 
+mechanisms to 
+prevent mixing 
+of rejected 
+food at the 
+border with 
+human food.   
+Mechanisms 
+improved to 
+prevent mixing 
+rejected food at 
+border with 
+human food for 
+food safety 
+requirement in 
+the country 
+1. Availability of 
+mechanisms to 
+establish to 
+prevent mixing of 
+rejected food at 
+the border with 
+human food 
+ 
+8. Introduce new 
+mechanisms to 
+prevent 
+importation of 
+food items not 
+align with local 
+food 
+regulations.  
+Mechanism 
+introduced and 
+implemented to 
+prevent 
+importation of 
+food items not 
+align with local 
+food regulations   
+1.Availability of a 
+mechanisms to 
+establish to 
+prevent 
+importation of 
+food items which 
+was not align with 
+local food 
+regulations  
+2.Proportion of 
+food items found 
+which not aligned 
+with local food 
+regulations  
+2.3 Strengthen 
+mechanisms 
+to promote 
+exportation 
+of safe food 
+ 
+1. Establish a 
+mechanism to 
+monitor the 
+safety of 
+exported foods 
+as per 
+requirements of 
+the destination 
+country. 
+Mechanism to 
+monitor the 
+safety of 
+exported foods as 
+per requirements 
+of the destination 
+country 
+established 
+Availability of a 
+mechanism to 
+monitor the safety 
+of exported foods 
+as per 
+requirements of 
+the destination 
+EDB, MoH, 
+Food 
+certification 
+bodies 
+including 
+SLSI, 
+SLAB, food 
+exporters,
+
+--- PAGE 27 ---
+21 
+ 
+2. Strengthen 
+interaction 
+between 
+national 
+agencies 
+facilitating 
+international 
+fair-trading 
+practices 
+ 
+Appropriate 
+interaction 
+between national 
+agencies 
+facilitating 
+international fair-
+trading practices 
+improved 
+No of national 
+agencies 
+facilitating 
+international fair-
+trading practices  
+DoEA, 
+SLTB, MoI, 
+Food 
+Exporters, 
+IDB, Food 
+Industries 
+and Food 
+Association
+s (CCC, 
+FPA), 
+NPQS, 
+DFAR 
+3. Development of 
+a system to 
+promote 
+exporting GAP 
+/ GAHP or 
+organic 
+certified food 
+products with 
+the view of 
+exporting only 
+such products 
+in future.  
+ 
+A system to 
+promote 
+exporting GAP 
+/GAHP or 
+organic certified 
+food products  
+Availability of a 
+system to promote 
+exporting GAP 
+/GAHP or organic 
+certified food 
+products 
+4. International 
+food alerts to 
+be investigated 
+promptly with 
+the view of 
+taking 
+corrective 
+action to 
+promote food 
+exports.  
+ 
+International 
+food alerts 
+investigated 
+promptly with 
+the view of 
+corrective action 
+to promote food 
+export 
+Number/proportio
+n  of international 
+food alerts 
+investigated to 
+take corrective 
+action to promote 
+food experts 
+2.4 Assure food 
+security, 
+environmenta
+l safety and 
+address the 
+climate 
+change issues 
+ 
+1. Reduce the 
+food waste 
+resulting from 
+climate 
+anomalies. 
+ 
+Mechanism 
+established to 
+reduce food 
+waste resulting 
+from climate 
+anomalies  
+Availability of a 
+system to reduce 
+the food waste 
+resulting from 
+climate anomalies  
+MoH, MoE, 
+MoI, Other 
+relevant 
+Ministries, 
+Primary 
+Food 
+Production 
+sectors, 
+Food 
+2. Introduce 
+intervention to 
+reduce food 
+Interventions 
+introduced and 
+made available to 
+No of 
+interventions 
+carried out to
+
+--- PAGE 28 ---
+22 
+ 
+losses along 
+the food chain 
+due to poor 
+storage and 
+transport 
+practices. 
+ 
+reduce food 
+losses along the 
+food chain due to 
+poor storage and 
+transport 
+practices. 
+ 
+reduce food loses 
+along the food 
+chain due to poor 
+storage and 
+transport practices 
+ 
+Industries 
+and Food 
+Association
+s (CCC, 
+FPA), 
+Research 
+Institutes 
+and 
+Academia, 
+UN 
+Agencies.  
+3. Encourage re-
+distribution of 
+food that is 
+safe for human 
+consumption. 
+Re distribution 
+of food that is 
+safe is assured 
+Availability of 
+redistribution 
+method for food 
+that is safe for 
+human 
+consumption 
+4. Develop 
+measures to 
+stop use of 
+materials such 
+as non-
+recyclable 
+polyethene for 
+food packaging 
+while 
+introducing 
+environmentall
+y friendly 
+options. 
+Environmentally 
+friendly food 
+packaging 
+materials 
+developed and 
+made available  
+1.Availability of 
+environmentally 
+friendly food 
+packaging 
+materials  
+2.Availability of 
+legislation to stop 
+the usage of non-
+recyclable 
+polythene 
+ 
+Strategy 03 – Strengthen Food safety legislation, standards, guidelines, codes of 
+practices, and standard operating procedures 
+Sub Strategies  
+Key actions 
+Expected 
+outputs / 
+outcomes for 
+key actions  
+Monitoring 
+indicators  
+Key 
+Responsible 
+Entities 
+3.1 Develop, 
+update food 
+legislations and 
+align other 
+enactments 
+related to food 
+with the Food 
+Act.  
+1.Conduct a 
+comprehensive gap 
+analysis of existing 
+food safety 
+legislations and 
+policy instruments 
+by identifying 
+1. Advocacy 
+meeting 
+conducted with 
+relevant 
+stakeholders 
+2. Gap analysis 
+conducted on 
+1. Availability 
+of amended 
+and reviewed 
+Food act or 
+new Food act 
+2. No of 
+updated food 
+MoH, MoF, 
+MOF, AG’s 
+Dept., Legal 
+Draftsman, 
+Ministry of 
+Justice, 
+legal
+
+--- PAGE 29 ---
+23 
+ 
+ 
+relevant 
+stakeholders 
+2.Amend the Food 
+Act and review 
+periodically or as 
+required to support 
+the implementation 
+of food safety 
+policy. 
+3. 
+Develop/formulate 
+and disseminate 
+food safety 
+standards, 
+guidelines, SOPs, 
+for specific sectors 
+according to the 
+requirement 
+existing food act 
+and regulations 
+3. Food act 
+amended and 
+reviewed 
+periodically and 
+made available 
+to improve food 
+safety standards 
+in the country 
+legislations 
+available to 
+support the 
+implementation 
+of food safety 
+policy  out of 
+planned 
+ 
+ 
+draftsman, 
+other 
+relevant 
+Ministries 
+and 
+departments, 
+food 
+research 
+institutes 
+and 
+Academia, 
+CDA, IDB, 
+Food 
+Industries 
+and Food 
+Associations 
+(CCC, FPA) 
+4.Review and revise 
+existing regulations 
+under the Food Act 
+periodically, based 
+on risk assessment, 
+scientific evidence 
+and country 
+requirements. 
+Existing 
+regulations 
+reviewed and 
+revised 
+periodically 
+based on risk 
+assessment, 
+scientific 
+evidence and 
+country 
+requirements 
+according to risk 
+assessment, 
+scientific 
+evidence and 
+country 
+requirement and 
+made available 
+1. No of 
+regulation 
+meetings 
+conducted to 
+review and 
+revise existing 
+regulations 
+under the food 
+Act out of 
+planned 
+2. No of food 
+regulations 
+revised under 
+the food act 
+3. No of new 
+food 
+regulations 
+available
+
+--- PAGE 30 ---
+24 
+ 
+5. Develop new 
+regulations 
+under the Food 
+Act based on 
+priority areas, 
+risk assessment, 
+scientific 
+evidence and 
+country 
+requirements.  
+New regulations 
+developed and 
+enforced under 
+food act with 
+risk assessment, 
+scientific 
+evidence and 
+country 
+requirement  
+1. Number of 
+new 
+regulations 
+were 
+developed 
+under the Food 
+Act based on 
+priority areas, 
+risk 
+assessment, 
+scientific 
+evidence and 
+country 
+requirements 
+2. No of new 
+regulations 
+implemented 
+ 
+6.Control unethical 
+marketing through a 
+robust legislative 
+mechanism.  
+1. Mechanism 
+to control 
+unethical 
+marketing 
+through a robust 
+legislative 
+mechanism 
+developed and 
+made available 
+ 
+1.Availability 
+of a 
+mechanism to 
+control 
+unethical 
+marketing 
+through a 
+robust 
+legislative 
+mechanism  
+2. No of 
+legislative 
+actions carried 
+out for 
+unethical 
+marketing 
+ 
+7.Develop / amend 
+food regulations 
+under the Food Act 
+to support adoption 
+of GAP, GAHP 
+HACCP, GHP and 
+GMP principles. 
+Food regulations 
+under the Food 
+Act to support 
+adoption of 
+GAP, GAHP 
+HACCP, GHP 
+and GMP 
+principles 
+No: of Food 
+regulations 
+developed/ 
+amended under 
+the Food act to 
+support 
+adoption of 
+GAP, GAHP,
+
+--- PAGE 31 ---
+25 
+ 
+developed and 
+made available 
+HACCP, GHP 
+and GMP 
+principles 
+8.Harmonizing all 
+food related 
+regulations with 
+Food Act 
+regulations or 
+update Food Act 
+regulations to 
+protect public 
+health. 
+All food related 
+regulations 
+harmonized with 
+food act or 
+updated food act 
+regulations to 
+protect public 
+health 
+1 No: of food 
+related 
+regulations 
+harmonized 
+with food act 
+regulations  
+2.No of food 
+regulations 
+implemented to 
+protect public 
+health 
+ 
+9.Harmonize 
+national regulations 
+with international 
+food safety 
+framework 
+National 
+regulations are 
+harmonized with 
+international 
+standards 
+No of 
+regulations 
+harmonized 
+with 
+international 
+standards 
+MoH 
+3.2 Develop and 
+update food 
+standards, 
+guidelines, 
+codes of 
+practices, SOPs 
+and food 
+ethics. 
+ 
+1. Develop and 
+implement fit-for-
+purpose food 
+safety standards 
+and guidelines. 
+Fit for purpose 
+food safety 
+standards and 
+guidelines 
+implemented 
+1.Fit for 
+purpose food 
+safety 
+standards and 
+guidelines 
+developed  
+2. Proportion 
+of food safety 
+standards and 
+guidelines 
+developed  
+3. Proportion 
+of food safety 
+standards and 
+guidelines 
+implemented 
+out of 
+developed 
+guidelines 
+MoH, SLSI, 
+CAA, MoI, 
+other 
+relevant 
+Ministries 
+and 
+departments, 
+HARTI, 
+Food 
+Research 
+Institutes 
+and 
+Academia, 
+CDA, IDB, 
+Food 
+Industries 
+and Food 
+Associations 
+(CCC, FPA)
+
+--- PAGE 32 ---
+26 
+ 
+4. No of SOPs 
+developed  
+2. Local 
+certification 
+standards (such 
+as GAP, GAHP, 
+GMP, HACCP) 
+to be 
+harmonized with 
+international 
+standards. 
+Local 
+certification 
+standards 
+harmonized with 
+international 
+standards to 
+strengthen food 
+safety  
+Percentage of 
+local 
+certification 
+standards 
+harmonized 
+with 
+international 
+standards out 
+of planned 
+3. Develop codes 
+of practices, 
+Standard 
+Operating 
+Practices (SOPs) 
+and Food Safety 
+Ethics.  
+Codes of 
+practices, SOPs 
+and Food Safety 
+Ethics made 
+available to 
+strengthen food 
+safety 
+1. No of Codes 
+of practices 
+developed 
+2. No of SOPs 
+developed  
+3. No of Food 
+Safety Ethics 
+developed 
+4. Sri Lanka 
+Standard 
+Institution (SLSI) 
+to work and 
+coordinate with 
+other stakeholders 
+including MoH, 
+MoA, MoF in the 
+process of 
+developing food 
+standards.  
+SLSI 
+coordinated with 
+other 
+stakeholders in 
+the process of 
+developing 
+standards 
+1. Availability 
+of food 
+standards 
+developed by 
+SLSI by 
+coordinating 
+with other 
+stakeholder 
+2. Number of 
+meetings 
+conducted by 
+SLSI to work 
+and coordinate 
+with 
+stakeholders to 
+develop food 
+standards out 
+of planned  
+5. Ensure that 
+national food 
+safety systems are 
+aligned with the 
+standards of the 
+Codex 
+Alimentarius 
+Commission to 
+National food 
+safety system 
+aligned with 
+standards of 
+Codex 
+No of food 
+regulations in 
+National food 
+safety system 
+align with 
+standards of
+
+--- PAGE 33 ---
+27 
+ 
+protect public 
+health and 
+facilitate fare 
+trade for safe and 
+healthier food 
+options. 
+Alimentarius 
+commission 
+Codex 
+Alimentarius 
+commission  
+3.3 Strengthen 
+monitoring and 
+implementation 
+of food 
+legislations. 
+ 
+1. Establish the 
+mechanism (as 
+specified under 
+sub strategy 1.1) 
+to monitor and 
+evaluate the 
+implementation 
+of food safety 
+policy.  
+• Establishment 
+of FSC 
+• Establishment 
+of FSB 
+ 
+1.FSC 
+established 
+2.FSB 
+established 
+Sri Lanka 
+Customs, 
+MoH, CAA, 
+MoI, other 
+relevant 
+Ministries 
+and 
+departments, 
+Food 
+Industries 
+and Food 
+Associations 
+(CCC, 
+FPA), 
+Provincial 
+ministries 
+and 
+departments, 
+CDA, IDB, 
+Food 
+Industries 
+and Food 
+Associations 
+(CCC, FPA) 
+2. Strengthen 
+monitoring and 
+implementation 
+of Animal Feed 
+Act and other 
+relevant Acts. 
+ 
+Monitoring and 
+implementation 
+of Animal Feed 
+act and other 
+relevant acts 
+improved 
+1.Animal feed 
+act monitored 
+and 
+implemented 
+2.No of 
+reviews 
+conducted to 
+ensure animal 
+feed
+
+--- PAGE 34 ---
+28 
+ 
+Strategy 04 – Strengthen food safety surveillance, risk analysis and respond to food 
+safety emergencies and challenges 
+Sub Strategies  
+Key actions 
+Expected 
+outputs / 
+outcomes for 
+key actions  
+Monitoring 
+indicators  
+Key 
+Responsible 
+Entities 
+4.5 Establish a 
+centrally 
+coordinated 
+food safety 
+surveillance 
+and 
+information 
+system. 
+ 
+1. Establish a 
+centrally 
+coordinated food 
+safety 
+surveillance & 
+information 
+system under the 
+Ministry of 
+Health 
+ 
+Food safety 
+surveillance 
+system 
+established and 
+made available 
+at central level 
+Availability of 
+centrally 
+coordinated 
+food safety 
+surveillance 
+system  
+MoH, All 
+Ministries 
+and 
+departments, 
+all 
+stakeholders 
+throughout 
+the food 
+chain, CDA, 
+IDB, Food 
+Industries 
+and Food 
+Associations 
+(CCC, FPA), 
+Research 
+Institutes 
+and 
+Academia, 
+Public and 
+Private Food 
+Laboratories, 
+DAPH, 
+Agriculture,  
+2. Develop 
+integrating food 
+safety 
+surveillance 
+systems of 
+relevant sectors 
+in coordination 
+with existing 
+food-borne 
+disease 
+surveillance 
+system of the 
+Ministry of 
+Health for real-
+time data sharing 
+among relevant 
+stakeholders.  
+3. Develop 
+integrated 
+surveillance of 
+chemicals 
+(antibiotic 
+residues, heavy 
+Integrated 
+surveillance 
+system 
+developed  
+Availability of 
+an integrated 
+food safety 
+surveillance 
+system
+
+--- PAGE 35 ---
+29 
+ 
+metals, 
+pesticides, 
+mycotoxins etc)  
+4. Strengthen / 
+Establish food 
+safety hazard 
+surveillance 
+within each 
+primary food 
+production 
+sectors and all 
+other key sectors 
+including food 
+industries to 
+identify sector 
+specific food 
+safety hazards. 
+ 
+Food safety 
+hazard 
+surveillance 
+developed and 
+improved to 
+identify sector 
+specific food 
+hazards 
+Availability of 
+Food safety 
+hazard 
+surveillance 
+systems in food 
+production 
+sectors/ food 
+industries  
+5. Expand the 
+integrated AMR 
+surveillance of 
+food borne 
+pathogens in 
+collaboration 
+with other 
+relevant sectors.   
+ 
+Integrated 
+AMR 
+surveillance of 
+food borne 
+pathogens 
+integrated and 
+expanded with 
+other relevant 
+sectors 
+AMR 
+surveillance 
+system 
+integrated and 
+expanded with 
+relevant sectors 
+4.6 Strengthen 
+analytical 
+capacity of 
+food laboratory 
+system & 
+laboratory 
+network 
+ 
+1. Develop and 
+upgrade 
+laboratory 
+infrastructure 
+nationally & 
+regionally to 
+meet the 
+sophisticated 
+food safety 
+demands and 
+establish well 
+equipped 
+accredited 
+laboratories to 
+Accredited 
+food safety 
+laboratory 
+developed at 
+national level 
+ 
+Availability of 
+Accredited 
+food safety 
+laboratory to 
+generate 
+laboratory data 
+MoH, All 
+relevant 
+Ministries 
+and 
+departments, 
+Public and 
+Private Food 
+Laboratories, 
+Research 
+Institutes, 
+relevant 
+professional
+
+--- PAGE 36 ---
+30 
+ 
+generate 
+laboratory data  
+bodies, 
+CDA, IDB, 
+Food 
+Industries 
+and Food 
+Associations 
+(CCC, FPA), 
+2. Support on 
+obtaining 
+accreditation 
+status for food 
+laboratories at 
+regional level 
+Upgraded food 
+safety 
+laboratories at 
+regional level 
+ 
+No of regional 
+food 
+laboratories 
+upgraded 
+3. The National 
+Food Laboratory 
+Management 
+System should be 
+established with 
+the view of 
+registering and 
+mapping of food 
+testing 
+laboratories.  
+National Food 
+Laboratory 
+Management 
+System 
+established and 
+registered and 
+mapped food 
+testing 
+laboratories 
+1. Availability 
+of a National 
+Food 
+laboratory 
+management 
+system  
+2. No of food 
+testing 
+laboratories 
+mapped and 
+registered 
+under National 
+laboratory 
+Management 
+system 
+4. Proficiency 
+Testing services 
+should be 
+expanded and 
+existing PT 
+services in the 
+country should 
+be utilized to a 
+maximum.  
+Proficiency 
+testing services 
+expanded to 
+improve 
+analytical 
+capacity of 
+food laboratory 
+system 
+1. Availability 
+of proficiency 
+testing services 
+in all districts 
+2. No of 
+proficiency 
+testing services 
+available in the 
+country  
+ 
+5. Develop on site 
+laboratory 
+screening test 
+capacity at 
+identified sites / 
+centres.  
+On site 
+laboratory 
+screening test 
+capacity at 
+identified 
+centers 
+developed and 
+implemented 
+Number of 
+onsite 
+Laboratory 
+screening test 
+sites/centers 
+available 
+4.7 Establish a 
+formal risk 
+1.Develop a 
+mechanism for 
+supply chain 
+Supply chain 
+management 
+Availability of 
+supply chain 
+MoH
+
+--- PAGE 37 ---
+31 
+ 
+assessment, 
+management 
+and 
+communication 
+system 
+ 
+management of 
+laboratory testing 
+commodities 
+for food 
+laboratories 
+developed 
+management 
+for food 
+laboratories 
+2.Support on 
+obtaining 
+accreditation status 
+of food laboratories  
+Accreditation 
+of food 
+laboratories 
+obtained 
+No of food 
+laboratories 
+accredited  
+MoH 
+3.Establish scientific 
+risk assessment unit 
+with multi-
+disciplinary team to 
+conduct risk analysis, 
+provide advice and 
+guidance on food 
+safety risk 
+management and risk 
+communication. 
+Scientific risk 
+assessment unit 
+with multi-
+disciplinary 
+team was 
+established  
+Scientific risk 
+assessment unit 
+established and 
+available 
+MoH, 
+relevant 
+Ministries 
+and 
+departments, 
+Research 
+Institutes, 
+Academia, 
+Professional 
+bodies and 
+associations. 
+4.Conduct relevant 
+surveys to support 
+and facilitate risk 
+analysis and 
+assessment.  
+Surveys 
+conducted for 
+risk analysis 
+and 
+assessments 
+Number of 
+surveys 
+conducted to 
+support and 
+facilitate risk 
+analysis and 
+assessment out 
+of planned 
+5.Capacity building 
+on hazard 
+identification, 
+exposure assessment 
+and risk 
+characterization 
+Capacity 
+building 
+programmes on 
+hazard 
+identification, 
+exposure 
+assessment and 
+risk 
+characterization 
+conducted  
+No of Capacity 
+building 
+programmes on 
+hazard 
+identification, 
+exposure 
+assessment and 
+risk 
+characterization 
+done out of 
+planned 
+MoH & 
+other sectors 
+6.Implementation of 
+food safety risk 
+Food safety 
+risk assessment 
+Availability of 
+a mechanism to 
+implementation 
+MoH and 
+other sectors
+
+--- PAGE 38 ---
+32 
+ 
+assessment in all 
+sectors 
+in all sectors 
+implemented  
+of food safety 
+risk assessment 
+in relevant 
+sectors 
+7.Establishment of 
+risk management & 
+communication 
+mechanism 
+Risk 
+management & 
+communication 
+mechanism 
+established  
+Availability of 
+risk 
+management & 
+communication 
+mechanism  
+MoH 
+4.8 Improve 
+responding 
+mechanisms 
+for food safety 
+emergencies 
+and challenges 
+resulting from 
+local and 
+global changes. 
+ 
+1. Establish/ 
+develop a 
+national food 
+safety emergency 
+response plan 
+and rapid food 
+safety alert 
+system among 
+relevant agencies 
+to exchange 
+information on 
+local and global 
+emergencies. 
+National food 
+safety plan and 
+food safety 
+alert system 
+established and 
+implemented to 
+improve 
+responding 
+mechanism for 
+local and global 
+changes 
+ 
+1. Availability 
+of National 
+food safety 
+emergency 
+response plan  
+2. Availability 
+of rapid food 
+safety alert 
+system  
+ 
+MoH, Other 
+relevant 
+Ministries 
+and 
+departments 
+(MoH, 
+MoA, 
+DAPH, etc), 
+Research 
+institutions, 
+Public and 
+Private 
+Laboratories, 
+Academia, 
+NTFC 
+2. Strengthen the 
+response to food 
+safety 
+emergencies & 
+challenges 
+Response to 
+food safety 
+emergencies & 
+challenges 
+strengthened by 
+developing an 
+action plan 
+Availability of 
+an action plan 
+to strengthen 
+the response to 
+food safety 
+emergencies & 
+challenges 
+3. Adopt risk 
+management 
+options to 
+address emerging 
+food borne risks 
+Risk 
+management 
+option to 
+address 
+emerging food 
+borne diseases 
+adopted and 
+made available 
+Availability of 
+a Risk 
+management 
+option to 
+address 
+emerging food 
+borne diseases  
+4. Develop a 
+mechanism to 
+Mechanism to 
+anticipate and 
+Availability of 
+a mechanism to
+
+--- PAGE 39 ---
+33 
+ 
+anticipate and 
+mitigate food 
+safety incidents, 
+natural disasters 
+and other food 
+safety crises 
+mitigate food 
+safety 
+incidents, 
+natural 
+disasters and 
+other crisis 
+developed and 
+implemented 
+anticipate and 
+mitigate food 
+safety 
+incidents, 
+natural 
+disasters and 
+other food 
+safety crises 
+5. Identify and 
+evaluate food 
+safety impacts 
+arising from 
+global changes 
+and food systems 
+transformation 
+Mechanism on 
+food safety 
+impacts arising 
+global changes 
+and food 
+systems 
+transformation 
+identified and 
+evaluated 
+1. No of 
+meetings 
+conducted to 
+identify food 
+safety impacts 
+arising from 
+global changes 
+and food 
+systems 
+transformation 
+2. Availability 
+of a mechanism 
+to evaluate 
+food safety 
+impacts arising 
+from global 
+changes and 
+food systems 
+transformation 
+ 
+6. Conduct regular 
+simulation 
+exercise for food 
+safety emergency 
+response 
+collaborating 
+with others 
+sectors 
+Regular 
+simulation 
+exercises 
+conducted for 
+food safety 
+emergency 
+responses 
+No of 
+simulation 
+exercises 
+conducted for 
+food safety 
+emergency 
+responses with 
+other sectors 
+MoH 
+7. Management of 
+food safety 
+emergencies 
+through Rapid 
+Response Team 
+(RRT)  
+RRT managed 
+food safety 
+emergencies 
+Availability of 
+RRT team to 
+manage food 
+safety 
+emergencies 
+RRT
+
+--- PAGE 40 ---
+34 
+ 
+ 
+8. Post event review 
+& update food 
+safety emergency 
+response plan 
+Post event 
+review done 
+and updated on 
+food safety 
+emergency 
+response plan  
+Availability of 
+review reports 
+on food safety 
+emergency 
+response plan  
+MoH 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Strategy 05 - Capacity development of stakeholders through-out the food chain, risk 
+communication, research and development on healthy and safe food. 
+Sub Strategies  
+Key actions 
+Expected outputs 
+/ outcomes for 
+key actions  
+Monitoring 
+indicators  
+Key Responsible 
+Entities 
+5.6 Enhance the 
+capacity of 
+stakeholders 
+along the 
+food chain 
+1. Mapping 
+target 
+groups and 
+develop 
+ToT 
+programs, 
+standard 
+training 
+programm
+es for all 
+target 
+groups 
+throughout 
+the food 
+chain. 
+Capacity building 
+developed among 
+stakeholders along 
+the food chain for 
+healthy and safe 
+food in the 
+country 
+1. Target 
+groups 
+mapped 
+throughout 
+food chain 
+for standard 
+training 
+programmes 
+2. No: of 
+TOT 
+programmes 
+conducted for 
+target groups 
+out of 
+planned  
+ 
+MoH, relevant 
+Ministries and 
+departments, EDB, 
+CDA, SLSI, 
+Training 
+institutions, 
+Academia, relevant 
+professional bodies 
+/ colleges, UN 
+organizations, Food 
+Industries and Food 
+Associations (CCC, 
+FPA), Research 
+Institutes and 
+Academia, 
+2. Focus 
+capacity 
+building of 
+relevant 
+Capacity building 
+developed for 
+relevant officers 
+1. No: of 
+capacity 
+building 
+programmes 
+conducted for
+
+--- PAGE 41 ---
+35 
+ 
+officers on 
+specific 
+areas; 
+foodborne 
+disease 
+surveillanc
+e, Risk 
+analysis, 
+food safety 
+emergency 
+response, 
+laboratory 
+food 
+testing, 
+technology 
+developme
+nt in 
+relevant 
+areas etc.   
+on specific areas 
+on food safety 
+primary 
+producers on 
+GAP, GAHP 
+targeting 
+agriculture, 
+fisheries, 
+ROP& 
+animal 
+husbandry  
+2. No of 
+capacity 
+building 
+programmes 
+conducted for 
+manufacturer
+s & food 
+processors on 
+regulations, 
+GHP food 
+safety related 
+certifications 
+3. No of 
+capacity 
+building 
+programmes 
+conducted on 
+relevant 
+regulations 
+for 
+transporters 
+and storage 
+workers 
+ 
+3. Capacity 
+building of 
+farmers 
+and 
+consumers 
+with the 
+view of 
+creating a 
+demand 
+for GAP 
+and GAHP 
+Capacity building 
+developed among 
+farmers and 
+consumers for 
+availability and to 
+consume safe and 
+healthy food 
+1. No: of 
+capacity 
+building 
+programmes 
+conducted for 
+farmers for 
+GAP and 
+GAHP to 
+produce 
+certified 
+products in 
+the market
+
+--- PAGE 42 ---
+36 
+ 
+certified 
+food 
+products 
+and 
+advocate / 
+promote 
+relevant 
+authorities 
+to make 
+such GAP 
+and GAHP 
+certified 
+products 
+available 
+in the 
+market. 
+out of 
+planned 
+2. No: of 
+capacity 
+building 
+programmes 
+conducted for 
+consumers to 
+buy GAP and 
+GAHP 
+certified 
+products from 
+the market  
+3. Proportion 
+of products 
+available with 
+GAP and 
+GAHP in the 
+market 
+4. Develop a 
+knowledge 
+hub on 
+FCAU 
+website 
+ 
+4. Establish a 
+publicly 
+accessible 
+knowledge 
+hub for 
+consumers 
+on website 
+Database/knowled
+ge hub on food 
+safety 
+implemented for 
+public with 
+readymade 
+certificate  
+Availability 
+of publicly 
+accessible 
+knowledge 
+hub/database 
+on food with 
+readymade 
+certificate  
+5. Capacity 
+developme
+nt of 
+authorized 
+officers on 
+regulations
+, risk 
+assessment 
+and 
+Capacity 
+development 
+programmes 
+conducted for 
+authorized officers 
+No of 
+capacity 
+development 
+programmes 
+conducted for 
+authorized 
+officers  
+MoH
+
+--- PAGE 43 ---
+37 
+ 
+laboratory 
+services 
+ 
+6. Capacity 
+developme
+nt of legal 
+officers on 
+food act 
+and 
+regulations  
+Capacity 
+development 
+conducted for 
+legal officers 
+No of 
+capacity 
+building 
+programmes 
+conducted for 
+legal officers  
+MOH 
+5.7 Strengthen 
+risk 
+communicati
+on system 
+and public 
+awareness on 
+healthy and 
+safe food. 
+1.Advocacy 
+targeting all 
+stakeholders 
+of the food 
+chain with 
+special 
+emphasis on 
+senior-level 
+politicians and 
+administrators 
+on food safety.  
+Risk 
+communication 
+system improved 
+by advocacy for 
+provision of 
+healthy and safe 
+food in the 
+country 
+No: of 
+advocacy 
+meetings 
+conducted to 
+stakeholders 
+of food chain 
+targeting 
+senior level 
+politicians 
+and 
+administrator
+s on food 
+safety out of 
+planned 
+ 
+MoH, relevant 
+Ministries and 
+departments, 
+Training 
+institutions, 
+Academia, relevant 
+professional bodies 
+/ colleges, UN 
+organizations, 
+ICTA, SL Customs, 
+National Trade 
+Facilitation 
+Committee/Secretar
+iat 
+2.Facilitate 
+interactive 
+communicatio
+n with the 
+view of 
+empowering 
+community 
+and 
+accommodatin
+g and 
+investigating 
+public 
+complaints 
+with timely 
+feedback.  
+Interactive 
+communication 
+facilitated and 
+improved to 
+accommodate and 
+investigate public 
+complaints with 
+timely feedback 
+1. No: of 
+public 
+complaints 
+investigated 
+with timely 
+feedback 
+2. No: of 
+programmes 
+conducted for 
+community 
+empowermen
+t on healthy 
+and safe food 
+ 
+3.Develop IEC 
+materials for 
+public 
+IEC materials 
+developed with 
+No of IEC 
+materials
+
+--- PAGE 44 ---
+38 
+ 
+awareness and 
+risk 
+communicatio
+n with the 
+support of 
+Health 
+Promotion 
+Bureau (HPB) 
+of the MoH  
+the support of 
+HPB 
+developed 
+with the 
+support of 
+HPB for 
+public 
+awareness 
+and risk 
+communicati
+on 
+4.Map the 
+priority areas 
+on food safety 
+and strengthen 
+public 
+awareness 
+program to 
+promote food 
+safety 
+knowledge 
+and literacy 
+among general 
+public, in 
+collaboration 
+with other 
+stakeholder 
+agencies. 
+Priority areas on 
+food safety 
+mapped and 
+improved to 
+promote food 
+safety knowledge 
+and literacy 
+among general 
+public 
+1. No; of 
+meetings 
+conducted 
+with 
+stakeholder 
+agencies for 
+mapping 
+priority areas 
+on food 
+safety to 
+promote food 
+safety 
+knowledge 
+and literacy 
+among 
+general 
+public out of 
+planned 
+2. No of 
+public 
+awareness 
+programmes 
+conducted on 
+food safety 
+out of 
+planned 
+ 
+5.Develop 
+protocols on 
+risk 
+communicatio
+n  
+Protocol 
+developed on risk 
+communication  
+Availability 
+of protocol 
+on risk 
+communicati
+on 
+5.8 Promote 
+research and 
+1. All key 
+institutions 
+Research 
+conducted on food 
+No of 
+research 
+MoH, relevant 
+Ministries and
+
+--- PAGE 45 ---
+39 
+ 
+development 
+on food 
+safety and 
+integrate 
+findings into 
+policy and 
+practice. 
+to conduct 
+the 
+research as 
+identified 
+by the 
+mapping 
+and based 
+on food 
+safety 
+service 
+needs.  
+ 
+safety to facilitate 
+policy decisions 
+and practices in 
+the country 
+ 
+conducted on 
+food safety 
+by key 
+institutions 
+out of 
+planned 
+ 
+departments, 
+Academia, relevant 
+professional bodies 
+/ colleges, UN 
+organizations, 
+CDA. IDB, RRI, 
+CRI, Food 
+Industries and Food 
+Associations (CCC, 
+FPA), Research 
+Institutes and 
+Academia 
+2. Develop 
+framework 
+for 
+partnership
+s with 
+scientific 
+communit
+y including 
+academia 
+and food 
+research 
+institutes 
+to facilitate 
+risk 
+assessment
+.  
+ 
+Framework 
+developed for 
+partnerships with 
+scientific 
+community to 
+facilitate risk 
+assessment  
+Availability 
+of a 
+framework 
+for 
+partnerships 
+with 
+scientific 
+community 
+including 
+academia and 
+food research 
+institutes to 
+facilitate risk 
+assessment.  
+ 
+3. Collaborate 
+and 
+conduct 
+research 
+with local 
+and 
+internation
+al partners 
+for 
+identified 
+research 
+needs 
+related to 
+Research 
+conducted on food 
+safety to make 
+policy decisions to 
+improve healthy 
+and safe food to 
+the nation 
+1. No of 
+research 
+conducted 
+with local 
+partners for 
+identified 
+research 
+needs related 
+to food safety 
+2. No of 
+research 
+conducted 
+with 
+international
+
+--- PAGE 46 ---
+40 
+ 
+food 
+safety. 
+partners for 
+identified 
+research 
+needs related 
+to food safety 
+ 
+4. Develop a 
+research 
+network 
+with 
+relevant 
+governmen
+t 
+institutions
+, private 
+institutions
+, 
+internation
+al 
+organizatio
+n & 
+academia 
+Research network 
+developed with 
+relevant 
+stakeholders  
+Availability 
+of research 
+network 
+relevant 
+government 
+institutions, private 
+institutions, 
+international 
+organization & 
+academia 
+5. Identify 
+funding 
+source for 
+research & 
+developme
+nt 
+activities 
+Research and 
+development 
+activities 
+conducted  
+Availability 
+of funding 
+source for 
+research & 
+development 
+activities 
+MoH
+
+--- PAGE 47 ---
+41 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Strategy 06 - Establishment of mechanism for sustainable implementation and 
+monitoring of food safety policy 
+Sub Strategies  Key actions 
+Expected 
+outputs / 
+outcomes for 
+key actions  
+Monitoring 
+indicators  
+Key 
+Responsible 
+Entities 
+1.Expand and 
+empower the 
+existing 
+institutional 
+mechanism for 
+implementation 
+of the Food 
+Safety Policy. 
+ 
+1. Incorporate 
+proposed 
+governance 
+mechanisms to 
+existing 
+governance / 
+institutional 
+mechanism to 
+strengthen 
+implementation
+, monitoring 
+and 
+coordination of 
+national food 
+safety policy 
+Food safety 
+policy 
+implemented 
+by expanding 
+and 
+empowering 
+existing 
+institutional 
+mechanism 
+1. Proposed 
+governance 
+mechanism 
+incorporated to 
+existing governance 
+/ institutional 
+mechanism  
+2. Availability of 
+organizational 
+framework to 
+strengthen 
+implementation, 
+monitoring and 
+coordination of 
+national food safety 
+policy 
+MoH, MoF, 
+MoI, 
+Ministry of 
+Justice, 
+Prison Affairs 
+and 
+Constitutiona
+l Reforms, 
+other relevant 
+Ministries 
+and 
+departments, 
+Provincial 
+ministries and 
+departments, 
+SL Customs, 
+SLSI, NPQS, 
+DFAR, Min. 
+of Tourism 
+(for the food 
+2. Introduce a 
+technical audit 
+system to assess 
+food safety 
+governance 
+mechanisms 
+and compliance 
+Technical audit 
+system 
+implemented to 
+assess food 
+safety 
+governance 
+mechanisms 
+Availability of 
+technical audit 
+system to assess 
+food safety 
+governance 
+mechanisms and
+
+--- PAGE 48 ---
+42 
+ 
+with food 
+regulations. 
+and to 
+compliance 
+with food 
+regulations 
+compliance with 
+food regulations 
+safety in hotel 
+industry) 
+IDB, Food 
+Industries and 
+Food 
+Associations 
+(CCC, FPA) 
+3. Promote 
+generation of 
+scientific 
+evidence and 
+the use of risk 
+assessment 
+when 
+establishing and 
+reviewing food 
+control 
+measures. 
+Food control 
+measures 
+reviewed and 
+established to 
+promote 
+generation of 
+scientific 
+evidence 
+No of food control 
+measures 
+established and 
+reviewed to 
+promote generation 
+of scientific 
+evidence and use of 
+risk assessment  
+4. Advocate all 
+stakeholders of 
+the food chain 
+to optimally 
+implement and 
+monitor the 
+food safety 
+policy 
+Food safety 
+policy 
+implemented 
+and monitored 
+by advocating 
+all stakeholders  
+1. No of advocacy 
+programmes 
+conducted for 
+implementation of 
+food safety policy  
+2. Proportion of 
+sectors/stakeholder
+s implemented and 
+monitored food 
+safety policy 
+throughout the food 
+chain out of 
+identified 
+sectors/stakeholder
+s 
+5. Identify food 
+safety as a 
+national priority 
+and ensure 
+adequate 
+resources for 
+successful 
+policy 
+implementation
+. 
+Food safety 
+policy 
+implemented 
+successfully as 
+a national 
+priority 
+1. No:  of activities 
+carried out to 
+implement food 
+safety policy by 
+each sector/ 
+stakeholder 
+2. Percentage of 
+sectors/stakeholder
+s identified food 
+safety policy as 
+national priority out 
+of identified 
+stakeholders 
+3. Proportion of 
+activities carried
+
+--- PAGE 49 ---
+43 
+ 
+out to implement 
+food safety policy 
+out of all activities 
+under one strategy 
+2.Identify new 
+innovative 
+financial 
+modalities to 
+support policy 
+implementation
+. 
+ 
+1. Identify the 
+modalities of 
+financial incomes 
+related to food 
+safety policy and 
+make a system to 
+utilize that 
+income for 
+implementation 
+of food safety 
+policy 
+ 
+A system to 
+identify 
+appropriate 
+modalities of 
+financial 
+incomes in 
+relation to food 
+safety policy 
+identified and 
+implemented 
+ 
+1. Availability of a 
+system to identify 
+appropriate 
+modalities of 
+financial incomes 
+in relation to food 
+safety policy 
+2. Availability of a 
+system to utilize 
+those incomes to 
+implement food 
+safety policy 
+MoH, MoF, 
+M/ Tourism, 
+MoI, WHO, 
+WTO, Donor 
+agencies -
+WB, USAID, 
+EU, ADB, 
+IDB, Food 
+Industries and 
+Food 
+Associations 
+(CCC, FPA) 
+2. Establish separate 
+budget lines for 
+each ministry 
+and across all 
+levels of public 
+and private 
+organizations to 
+implement food 
+safety policy. 
+ 
+Separate 
+budget lines 
+for each 
+ministry and 
+across all 
+levels of public 
+and private 
+organizations 
+to implement 
+food safety 
+policy 
+established 
+ 
+1. Availability of 
+separate budget 
+lines for each 
+ministry and across 
+all levels of public 
+and private 
+organizations to 
+implement food 
+safety policy. 
+2. No of Ministries 
+identified with 
+separate budget 
+lines in the 
+government to 
+implement food 
+safety policy 
+3. No of private 
+organizations 
+identified with 
+separate budget 
+lines to implement 
+food safety policy 
+3.Strengthen 
+monitoring and 
+evaluation 
+mechanisms for 
+the 
+implementation 
+of food safety 
+policy 
+1.Establish central 
+and peripheral level 
+systems to monitor 
+the implementation 
+of food safety 
+Policy trough all 
+responsible sectors, 
+Central and 
+peripheral level 
+systems to 
+monitor the 
+implementatio
+n of food 
+1. Availability of a 
+system to monitor 
+the implementation 
+of food safety 
+policy through 
+responsible sectors 
+with collaborative 
+efforts and clearly 
+MoH, MoF, 
+relevant 
+Ministries 
+and 
+Departments, 
+Academia, 
+relevant
+
+--- PAGE 50 ---
+44 
+ 
+throughout the 
+food chain. 
+ 
+with collaborative 
+efforts and clearly 
+defined roles. 
+ 
+safety policy 
+established 
+defined roles 
+established at 
+central level 
+2. Availability of a 
+system to monitor 
+the implementation 
+of food safety 
+policy through 
+responsible sectors 
+with collaborative 
+efforts and clearly 
+defined roles 
+established at 
+peripheral level 
+3. No of 
+supervisions carried 
+out to monitor 
+implementation of 
+food safety policy 
+at district level 
+professional 
+bodies / 
+colleges, UN 
+bodies and 
+Trade 
+Chambers 
+2.Develop inbuilt 
+systems to monitor 
+and evaluate 
+implementation of 
+food safety policy 
+(as specified under 
+substrate 1.1). 
+Inbuilt system 
+for Monitoring 
+and evaluation 
+of food safety 
+policy 
+implemented 
+Availability of an 
+inbuilt systems to 
+monitor and 
+evaluate 
+implementation of 
+food safety policy 
+ 
+3.Conduct regular 
+reviews and update 
+at national and 
+district level to 
+assess the 
+implementation of 
+food safety policy  
+Reviews 
+conducted at 
+national and 
+district level to 
+assess the 
+implementatio
+n of food 
+safety policy  
+1.No of reviews 
+conducted at 
+national to assess 
+the implementation 
+of food safety 
+policy 
+2. No of Reviews 
+conducted at 
+district level to 
+assess the 
+implementation of 
+food safety policy
+
+--- PAGE 51 ---
+45 
+ 
+Annexure 11  
+List of existing policies relevant to the Food Safety Policy 
+• National Nutrition Policy 
+• National Policy on Maternal Child Health 
+• National Policy on Biosafety 
+• The National Fisheries & Aquaculture Policy 
+• Draft National Agricultural Policy 
+• Draft National Dairy policy
+
+--- PAGE 52 ---
+46 
+ 
+Annexure 111: 
+ 
+List of Contributors: 
+ 
+No 
+Name 
+Unit 
+01 
+Mr. MG Ajith Pushpakumara 
+Director – Agri Business – Ministry of Agriculture  
+02 
+Dr. Jeewani Marasinghe 
+Registrar of Pesticides - Department of Agriculture  
+03 
+Ms. Renuka De Silva 
+Horticulture Crops Research and Development Institute Department 
+of Agriculture 
+04 
+Mr. A.S.M. Roshan 
+Agriculture Enterprises Development and Information Service - 
+Department of Agriculture 
+05 
+Ms. Champika Hewaga 
+National Plant Quarantine Service - Department of Agriculture 
+06 
+Ms Champa Magamage  
+Department of Agriculture - Department of Agriculture 
+07 
+Dr. K.M.H.G. Sarath Priyantha Chief Livestock Economist – Department of Animal product and 
+Health 
+08 
+Dr. Chamari Palliyaguru 
+Principal Scientist/Veterinary– Department of Animal product and 
+Health 
+09 
+Dr. Kamalika Ubeyrathna 
+Veterinary Investigation Specialist– Department of Animal product 
+and Health 
+10 
+Dr. M.A.Roshan Priyantha 
+Principal Scientist / Bacteriology & Pathology– Department of 
+Animal product and Health 
+11 
+Ms. Sepalika Wickramasinghe 
+Director Quality Control – Department of Fisheries  
+12 
+Ms. J.P.I Swaranalatha 
+Deputy Director Ocean Resource – Department of Fisheries 
+13 
+Mrs. A.J. Warusawitharana 
+Director Agriculture unit – Ministry of Plantation  
+14 
+Mrs Prasadee Ubayasiri 
+Deputy Director Rubber and Coconut Development– Ministry of 
+Plantation 
+15 
+Mrs. O.P.Weerasekara 
+Assistant Director Processing Division – Coconut Development 
+Authority  
+16 
+Mrs.Nalani Balasubramaniam 
+Director (Sector iii) - Ministry of Industries   
+17 
+Mrs. H.M.A.Sachini Malika 
+Assistant Director- Ministry of Industries   
+18 
+Mr. K. H. Jayaratne 
+Industrial Development - Ministry of Industries   
+19 
+Ms. TD Kumaradasa 
+Senior Assistant Secretary – Ministry of Trade 
+20 
+Ms. KKIS Hewapathirana 
+Deputy Director – Planning – Ministry of Trade 
+21 
+MS. Gilma Dhanayake 
+Additional Secretary – Ministry of Trade 
+22 
+Mr. Kumudu Meegahage 
+Director – Ministry of Trade 
+23 
+Ms. Gayani Wijethilake 
+Assistant Director Export Agriculture – Export Development Board 
+24 
+Mr. Janak Badugama 
+Director Export Agriculture – Export Development Board 
+25 
+Ms. Suganthi Pathmanadan 
+Sri Lanka Custom 
+26 
+Mr. MDPM Perera 
+Sri Lanka Custom 
+27 
+Mr. Suresh Jayalath 
+Sri Lanka Custom 
+28 
+Mr. Asheem Mohomad 
+Sri Lanka Custom 
+29 
+Ms Udakara 
+National Institute of Health Services  
+30 
+Dr Ananda Jayalal 
+DDG EOHFS – Ministry of Health  
+31 
+RMWK Rathnayaka 
+LO – Legal Unit – Ministry of Health 
+32 
+Dr. VTSK Siriwardana 
+Ex/Director EOHFS – Ministry of Health 
+33 
+Dr Chandanee Withana 
+Director EOHFS – Ministry of Health 
+34 
+Dr. Vindya Kumarapeli 
+Director Policy & Planning Unit – Ministry of Health 
+35 
+Dr Suranga Dolamulla 
+Director Lab – Ministry of Health 
+36 
+Dr Bhanuja Wijethilaka 
+CCP EOHFS – Ministry of Health
+
+--- PAGE 53 ---
+47 
+ 
+37 
+Dr Buddhika Sudasinghe 
+CCP EOHFS – Ministry of Health 
+38 
+Dr Hemali Jayasekera 
+CCP EOHFS – Ministry of Health 
+39 
+Dr. Gayan Ariyadasa 
+CCP EOHFS – Ministry of Health 
+40 
+Dr. Mahesh Kumbukage 
+CCO EOHFS – Ministry of Health 
+41 
+Dr Hiranya Jayawickrama 
+CCP FHB – Ministry of Health 
+42 
+Dr Ayesha Lokubalasooriya 
+CCP FHB – Ministry of Health 
+43 
+Dr Supun Wijesingha 
+CCP HPB – Ministry of Health 
+44 
+Dr Amanthi Bandusena 
+CCP HPB – Ministry of Health 
+45 
+Dr Sachinthana Dilhani 
+CCP Nutrition – Ministry of Health 
+46 
+Dr Thushani Dabarera  
+CCP Epid unit – Ministry of Health 
+47 
+Dr Charith Hettiarachchi 
+RDHS Kalutara 
+48 
+Dr Udari Mambulage 
+RDHS Rathnapura 
+49 
+Dr Sujatha Pathirage  
+Consultant Microbiologist MRI 
+50 
+Dr Sherin Balasingham 
+CCP NCD – Ministry of Health 
+51 
+Dr Prasadi 
+MO Policy Development and Analysis  – Ministry of Health 
+52 
+Dr TN Yapa  
+MO Policy Development and Analysis  – Ministry of Health 
+53 
+Dr Hiranthika Hearth 
+MO EOHFS – Ministry of Health 
+54 
+Dr Charuhasini 
+MO EOHFS – Ministry of Health 
+55 
+Dr Kavindya Karunarathna  
+MO EOHFS – Ministry of Health 
+56 
+Dr Indika 
+MOH Dehiwala 
+57 
+Dr Ellawala 
+MOH Battaramulla 
+58 
+Mr. PDN Premarathna 
+AD EOHFS – Ministry of Health 
+59 
+Mr CS Gurusinghe 
+FDI EOHFS – Ministry of Health 
+60 
+Mr Jagath Bandara 
+FDI EOHFS – Ministry of Health 
+61 
+Mr SD Wijeweera 
+FDI EOHFS – Ministry of Health 
+62 
+Mr S Sutharshan 
+FDI EOHFS – Ministry of Health 
+63 
+Mr Bandara 
+FDI RDHS Gampaha 
+64 
+Mr Sangi Gunasekara 
+SPHID RDHS Matale 
+65 
+Mr Samarajeewa 
+FDI Badulla 
+66 
+Mr Pinidiya 
+Pricipal PHI  – Ministry of Health 
+67 
+Mr. Kosala Mendis  
+DO EOHFS – Ministry of Health
+
+--- PAGE 54 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+

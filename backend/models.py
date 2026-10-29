@@ -75,3 +75,15 @@ class AnalysisRecord(Base):
     created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc))
 
     business_profile = relationship("BusinessProfile", back_populates="analysis_records")
+
+
+class ComplianceEvaluationRecord(Base):
+    """Auditable, PII-minimized history for Component 2 evaluations."""
+
+    __tablename__ = "compliance_evaluation_records"
+
+    id = Column(String, primary_key=True, default=generate_uuid)
+    business_context = Column(PortableJSON, nullable=False)
+    result = Column(PortableJSON, nullable=False)
+    retrieval_mode = Column(String, nullable=False)
+    created_at = Column(DateTime, default=lambda: datetime.now(timezone.utc), index=True)

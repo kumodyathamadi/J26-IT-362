@@ -1,0 +1,14 @@
+{
+  "business_type": "clothing",
+  "sector": "retail",
+  "location": "Dehiwala",
+  "province": "Western Province",
+  "district": "Colombo",
+  "local_authority": "Dehiwala-Mount Lavinia Municipal Council",
+  "ownership": "private_limited",
+  "employees": 8,
+  "products_services": ["Clothing retail"],
+  "business_size": "small",
+  "has_physical_premises": true,
+  "is_importing": false
+}

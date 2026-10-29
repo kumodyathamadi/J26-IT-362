@@ -80,6 +80,28 @@ export default function Sidebar({ activeTab, setActiveTab, activeProfile }) {
         })}
       </nav>
 
+      {activeTab === 'new_analysis' && (
+        <div style={{ margin: '0 0 1.25rem', padding: '0.4rem 0 0' }}>
+          <div style={{ color: '#64748b', fontSize: '0.62rem', letterSpacing: '0.8px', fontWeight: 700, textTransform: 'uppercase', marginBottom: '0.45rem', paddingLeft: '0.75rem' }}>
+            New Analysis
+          </div>
+          <button
+            type="button"
+            className="nav-item-btn active"
+            style={{
+              width: '100%',
+              background: 'rgba(96, 165, 250, 0.08)',
+              borderLeft: '3px solid #60a5fa',
+              paddingLeft: '0.85rem',
+              justifyContent: 'flex-start'
+            }}
+          >
+            <ShieldCheck size={18} style={{ color: '#60a5fa' }} />
+            <span style={{ fontWeight: 700, color: '#e2e8f0' }}># Business Registration & Regulatory Compliance</span>
+          </button>
+        </div>
+      )}
+
       {/* Active Business Workspace Navigation */}
       <div className="sidebar-heading" style={{ color: '#64748b', fontSize: '0.68rem', uppercase: 'uppercase', letterSpacing: '0.8px', fontWeight: 700, marginBottom: '0.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <span>BUSINESS WORKSPACE</span>

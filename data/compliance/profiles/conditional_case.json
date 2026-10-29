@@ -1,0 +1,13 @@
+{
+  "business_type": "vehicle_parts",
+  "province": "Western Province",
+  "local_authority": "Colombo Municipal Council",
+  "legal_form": "partnership",
+  "number_of_employees": 6,
+  "has_physical_premises": true,
+  "handles_food": false,
+  "is_manufacturing": false,
+  "is_importing": false,
+  "handles_waste_oil_or_batteries": true,
+  "turnover_band": "10m_50m"
+}

@@ -1,9 +1,11 @@
+
 # Environment
 .env
 
 # Python
 __pycache__/
 *.py[cod]
+.pytest_cache/
 .venv/
 venv/
 
@@ -18,10 +20,14 @@ build/
 *.db
 *.sqlite
 *.sqlite3
+/data/compliance/chroma/
 
 # IDE
 .vscode/
 .idea/
+
+# Avoid nesting another checkout of this repository.
+/AI-Driven-Business-Lifecycle-Decision-Support-System/
 
 # OS
 .DS_Store

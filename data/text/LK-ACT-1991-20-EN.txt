@@ -1,0 +1,30 @@
+--- PAGE 1 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 2 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 3 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 4 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 5 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 6 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 7 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 8 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 9 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+
+--- PAGE 10 ---
+[OCR_ERROR: tesseract is not installed or it's not in your PATH. See README file for more information.]
+

@@ -1,0 +1,183 @@
+{
+  "ASSESS_DATA_PROTECTION_DUTIES": {
+    "action_type": "ASSESS_DATA_PROTECTION_DUTIES",
+    "category": "data_protection_digital",
+    "required_action_name": "No generic licence assumed; determine whether a specific legal duty, notice, request-handling step or registration applies under current provisions.",
+    "target_authority": "Use current official Data Protection Authority of Sri Lanka guidance and verify the current competent contact/channel for the specific question.",
+    "office_location": "Data Protection Authority of Sri Lanka (DPA SL), Colombo",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Inventory of personal data and purposes",
+      "Description of collection, storage, sharing and retention",
+      "Privacy notice and internal records where applicable",
+      "Current official guidance/checklist for the business role"
+    ],
+    "procedural_steps": [
+      "Map what personal data is processed and why.",
+      "Identify the business's role and relevant processing context.",
+      "Check the current in-force provisions and official regulator guidance.",
+      "Document applicable actions and evidence.",
+      "Escalate uncertain obligations for qualified review rather than inventing a deadline."
+    ],
+    "legal_sources": [
+      "Data Protection Act SL - English (2).pdf",
+      "Data Protection Act SL - Sinhala (1).pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  },
+  "CONFIRM_REGISTRATION_PATHWAY": {
+    "action_type": "CONFIRM_REGISTRATION_PATHWAY",
+    "category": "business_registration",
+    "required_action_name": "Business registration or company incorporation record, depending on the legal form",
+    "target_authority": "Confirm the correct route with the Registrar of Companies for company incorporation, or the competent district/provincial business-name registration office for a business name.",
+    "office_location": "Divisional Secretariat (Department of Business Names) / Registrar of Companies (eROC, Colombo)",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Owner/partner/director identification details, as applicable",
+      "Proposed business name and activity",
+      "Business address and supporting evidence, if required",
+      "Current official application form and checklist"
+    ],
+    "procedural_steps": [
+      "Confirm the legal form of the business.",
+      "Check the current official registration procedure and form.",
+      "Confirm the responsible registration office for the business type and location.",
+      "Prepare the official checklist and submit through the stated channel.",
+      "Retain the receipt and registration confirmation."
+    ],
+    "legal_sources": [
+      "Act-7-of-2007-English.pdf",
+      "COMPANIES-AMENDMENT-ACT-No.-12-OF-2025-6389.pdf",
+      "Procedure-to-apply-for-a-License-under-section-34-of-the-Companies-Act-No-7-of-2007_English.pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  },
+  "DISTINGUISH_SALON_VS_PRODUCT_APPROVAL": {
+    "action_type": "DISTINGUISH_SALON_VS_PRODUCT_APPROVAL",
+    "category": "cosmetics_salon",
+    "required_action_name": "Cosmetic product registration/sample process if applicable; separate salon premises/trade approval may need verification",
+    "target_authority": "For cosmetic product registration, verify the current NMRA procedure; for salon premises and public-health conditions, contact the relevant local authority/public-health office.",
+    "office_location": "National Medicines Regulatory Authority (NMRA Colombo 10) & Local Authority Health Unit",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Clarify whether the case concerns salon operation, retail, import or product registration",
+      "Business and premises details for premises-related enquiries",
+      "Product identity and import/manufacture details if product registration applies",
+      "Current official form and checklist for the correct route"
+    ],
+    "procedural_steps": [
+      "Classify the case as salon operation, cosmetic retail, import or product registration.",
+      "Check the current official procedure for that route.",
+      "Confirm the competent authority and exact application type.",
+      "Prepare the route-specific documents from the official checklist.",
+      "Submit and track the application according to the current instructions."
+    ],
+    "legal_sources": [
+      "INFORMATION REQUIRED FOR REGISTRATION OF A COSMETIC.pdf",
+      "Application for Sample license of Cosmetics for Test Registration.pdf",
+      "6a560b35e6ece13141629919_F-ACC-17 Processing Fees for Cosmetics.docx"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  },
+  "VERIFY_ENVIRONMENTAL_APPLICABILITY": {
+    "action_type": "VERIFY_ENVIRONMENTAL_APPLICABILITY",
+    "category": "environmental_waste",
+    "required_action_name": "Environmental Protection Licence (EPL), other environmental approval, or no such approval depending on verified activity and current rules",
+    "target_authority": "Ask the Central Environmental Authority or other competent licensing authority to confirm the applicable category and responsible office based on the exact activity; also check relevant local-authority waste requirements.",
+    "office_location": "Central Environmental Authority (CEA Head Office Battaramulla / District Offices) & Local Authority",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Exact activity/process description and scale",
+      "Premises location and site information",
+      "Wastewater, emissions, noise and waste-handling details where relevant",
+      "Current official application/checklist only after confirming the applicable pathway"
+    ],
+    "procedural_steps": [
+      "Record the exact activity, process, scale and premises.",
+      "Compare the activity with the current official prescribed-activity list and applicable regulations.",
+      "Confirm the competent authority and licence/approval category.",
+      "Obtain the current application and document checklist.",
+      "Submit only if the verified rules require it and retain the decision/evidence."
+    ],
+    "legal_sources": [
+      "1.National_Environmental_Act_No._47_of_1980.pdf",
+      "Order-published-under-the-Gazette-Notification-No.-153316-dated-25.01.2008Re-Environmental-Protection-License-Prescribed-Activities.pdf",
+      "Regulations_published_under_the_Gazette_Notification_No._153418_dated_01.02.2008Re_License_for_discharge_emission_or_disposal_of_wastescheduled_waste_management.pdf",
+      "Order_published_under_the_Gazette_Notification_No._162719_dated_10.11.2009Re_Municipal_Solid_Waste.pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  },
+  "VERIFY_FOOD_PREMISES_REQUIREMENTS": {
+    "action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+    "category": "food_business",
+    "required_action_name": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+    "target_authority": "Contact the relevant local authority and its authorised public-health/food-safety office for the exact premises; verify the competent officer and procedure.",
+    "office_location": "Local Authority Health Department (CMC / Municipal / Urban Council / Pradeshiya Sabha) & MOH / PHI Office",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Business and premises details",
+      "Description of food preparation, storage and sale activities",
+      "Premises/layout information if requested by the official checklist",
+      "Food-handler or hygiene evidence only if required by current rules",
+      "Current official application form"
+    ],
+    "procedural_steps": [
+      "Describe the food activities and premises accurately.",
+      "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+      "Confirm required inspections, food-handler conditions and forms.",
+      "Prepare only the documents listed in the verified checklist.",
+      "Submit the application and follow inspection or correction instructions."
+    ],
+    "legal_sources": [
+      "food_act_no26_1980_en.pdf",
+      "food_amendment_act_no20-_1991_en.pdf",
+      "food_amendment_act2011_en.pdf",
+      "National_Food_Safety_Policy.pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  },
+  "VERIFY_MOTOR_TRADE_PATHWAY": {
+    "action_type": "VERIFY_MOTOR_TRADE_PATHWAY",
+    "category": "vehicle_repair_motor_trade",
+    "required_action_name": "Garage/trade approval or vehicle-related registration document only if the verified procedure applies",
+    "target_authority": "First verify the purpose of the specific DMT form with the Department of Motor Traffic; separately confirm local-authority trade and any garage-specific requirements for the premises.",
+    "office_location": "Department of Motor Traffic (DMT Werahera / Narahenpita) & Local Authority Trade Licensing Unit",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Business and premises details",
+      "Description of repair, resale or parts-trading activity",
+      "The exact form and document checklist confirmed by the competent authority",
+      "Vehicle documents only where the specific process requires them"
+    ],
+    "procedural_steps": [
+      "Identify whether the case concerns garage operation, parts trading, vehicle resale or a vehicle transaction.",
+      "Verify the cited form's intended use and current version.",
+      "Contact the responsible DMT or local-authority office as appropriate.",
+      "Request the current business-specific checklist.",
+      "Submit the correct application and retain proof of submission."
+    ],
+    "legal_sources": [
+      "garaj_application_2023e.pdf",
+      "garaj_reg_cov_letter.pdf",
+      "DMT-GPR-for-e-Motoring.pdf",
+      "mta2_1.pdf",
+      "mta3_2.pdf",
+      "mta5_3.pdf",
+      "mta7_4.pdf",
+      "mta11_6.pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  }
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "obligation_id": "OBL-COMMON-001",
+    "title": "Business Name Registration (Western Provincial Council)",
+    "layer": "common",
+    "authority": "Department of Business Names (Western Provincial Council)",
+    "source_id": "SRC-WP-BN-1990",
+    "source_paragraph": "Section 3(1)",
+    "source_text": "Every individual or firm carrying on business under a business name in the Western Province shall register such business name with the Registrar of Business Names within 14 days of establishment.",
+    "documents_needed": [
+      "Business Registration Application Form A",
+      "Grama Niladhari Verification Certificate",
+      "National Identity Card (NIC) / Passport copy"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "location.province",
+          "op": "==",
+          "value": "Western Province"
+        },
+        {
+          "fact": "physical_premises",
+          "op": "==",
+          "value": true
+        },
+        {
+          "fact": "legal_structure",
+          "op": "in",
+          "value": [
+            "sole_proprietorship",
+            "partnership",
+            "private_limited"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-COMMON-002",
+    "title": "Local Authority Trade Tax & Annual Operating Permit",
+    "layer": "common",
+    "authority": "Local Municipal Council / Urban Council (Western Province)",
+    "source_id": "SRC-MCO-1976",
+    "source_paragraph": "Municipal Councils Ordinance Section 247A",
+    "source_text": "Any person carrying on any trade, business, or commercial profession within municipal limits shall pay the prescribed annual trade tax and obtain a valid operating license.",
+    "documents_needed": [
+      "Trade Tax Assessment Application Form",
+      "Premises Assessment Rates Clearance Receipt",
+      "Deed or Valid Tenancy Agreement"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "location.province",
+          "op": "==",
+          "value": "Western Province"
+        },
+        {
+          "fact": "physical_premises",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-FOOD-001",
+    "title": "CMC Food Premises Hygiene Licence & Commercial Kitchen Clearance",
+    "layer": "food",
+    "authority": "Public Health Department (Municipal Council / MOH)",
+    "source_id": "SRC-FOOD-ACT-1980",
+    "source_paragraph": "Food Act No. 26 of 1980 Section 2(1)",
+    "source_text": "No person shall manufacture, prepare, package, store, or sell any food for public consumption unless the premises and kitchen facilities comply with prescribed hygienic standards.",
+    "documents_needed": [
+      "Kitchen & Food Preparation Facility Layout Plan",
+      "Water Quality Potability Lab Test Report",
+      "Pest Control & Waste Disposal Management Contract"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "business_type",
+          "op": "==",
+          "value": "food"
+        },
+        {
+          "fact": "physical_premises",
+          "op": "==",
+          "value": true
+        },
+        {
+          "fact": "operates_kitchen",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-FOOD-002",
+    "title": "PHI Food Handler Health Clearance & Medical Fitness Certificate",
+    "layer": "food",
+    "authority": "Office of the Medical Officer of Health (MOH) / PHI",
+    "source_id": "SRC-FOOD-REG-2011",
+    "source_paragraph": "Food (Hygiene) Regulations 2011 Reg 14",
+    "source_text": "Every employee or person engaged in handling food or culinary utensils shall undergo periodic medical examination and obtain a valid fitness certificate issued by the Public Health Inspector.",
+    "documents_needed": [
+      "Employee Medical Fitness Reports (Form MOH/PHI)",
+      "Stool & Blood Culture Test Certificates",
+      "Proof of Typhoid Vaccination"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "business_type",
+          "op": "==",
+          "value": "food"
+        },
+        {
+          "fact": "employee_count",
+          "op": ">=",
+          "value": 1
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-SALON-001",
+    "title": "Cosmetic & Chemical Handling Sanitary Registration",
+    "layer": "salon",
+    "authority": "National Medicines Regulatory Authority (NMRA) & Municipal Health Dept",
+    "source_id": "SRC-NMRA-COSMETICS-2015",
+    "source_paragraph": "Part IV Regulation 12(3)",
+    "source_text": "Establishments offering hair, nail, or aesthetic beauty services utilizing chemical hair dyes, perming solutions, or skin bleaching agents shall secure sanitary clearance and verify NMRA registration of all applied cosmetics.",
+    "documents_needed": [
+      "Certified Beautician / Hair Stylist Qualifications",
+      "Material Safety Data Sheets (MSDS) for Chemical Agents Used",
+      "Instrument Autoclave & UV Sterilization Logbook"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "business_type",
+          "op": "==",
+          "value": "salon"
+        },
+        {
+          "fact": "uses_chemicals_or_cosmetics",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-VEHICLE-001",
+    "title": "CEA Environmental Protection Clearance for Waste Oil & Battery Storage",
+    "layer": "vehicle_parts",
+    "authority": "Central Environmental Authority (CEA)",
+    "source_id": "SRC-CEA-ENV-2008",
+    "source_paragraph": "Order No. 1533/16 List B",
+    "source_text": "Any business storing, distributing, or retailing automotive spare parts that generates scheduled waste such as spent lead-acid batteries or used mineral oil shall secure prescribed environmental clearance.",
+    "documents_needed": [
+      "Environmental Protection License (EPL) Application Form",
+      "Hazardous Waste / Spent Battery Storage Layout Plan",
+      "Authorized Waste Collector Agreement"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "business_type",
+          "op": "==",
+          "value": "vehicle_parts"
+        },
+        {
+          "fact": "handles_waste_oil_or_batteries",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  },
+  {
+    "obligation_id": "OBL-CLOTHING-001",
+    "title": "Commercial Garment Retail & Trade Safety Permit",
+    "layer": "clothing",
+    "authority": "Local Municipal Council & Fire Department",
+    "source_id": "SRC-LA-TRADE-1980",
+    "source_paragraph": "Fire Safety By-law Section 4",
+    "source_text": "Any premises engaged in the retail distribution or bulk storage of garments and textiles must maintain certified firefighting equipment and obtain a commercial trade permit.",
+    "documents_needed": [
+      "Fire Department Inspection Clearance Certificate",
+      "Premises Lease or Ownership Agreement",
+      "Rates Assessment Clearance Receipt"
+    ],
+    "rule": {
+      "all_of": [
+        {
+          "fact": "business_type",
+          "op": "==",
+          "value": "clothing"
+        },
+        {
+          "fact": "physical_premises",
+          "op": "==",
+          "value": true
+        }
+      ]
+    }
+  }
+]

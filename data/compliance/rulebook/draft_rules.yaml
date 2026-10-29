@@ -1,0 +1,247 @@
+# ==============================================================================
+# Component 2 — Grounded Statutory Draft Rules
+# Generated from verified non-draft source extractions in data/text/
+# Scopes: company registration, food premises, PDPA, EPL, consumer protection, garage registration
+#
+# Constraints Enforced:
+# - EXACT quote and page verified from data/text/<doc_id>.json
+# - reviewer_status: pending
+# - If source is silent or ambiguous on trigger conditions -> applies_if: UNKNOWN
+# - Zero rules created from draft instruments (e.g. LK-DRAFT-2021-EMOTORING-V5 excluded)
+# ==============================================================================
+
+obligations:
+
+  # ----------------------------------------------------------------------------
+  # 1. SCOPE: Company Registration
+  # ----------------------------------------------------------------------------
+  - id: OBL-CORP-001
+    name: Private Limited Company Incorporation
+    scope: company registration
+    authority: Department of the Registrar of Companies
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Submit an application to the Registrar of Companies in the prescribed form
+      signed by initial shareholders, accompanied by articles of association and
+      statutory consents of initial directors and secretary.
+    status: active
+    effective_from: "2007-05-03"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-ACT-2007-07-EN
+      page: 30
+      quote: >-
+        any person or persons may apply to incorporate a company, other
+        than a company limited by guarantee, by making an application for
+        the same to the Registrar in the prescribed form signed by each of
+        the initial shareholders
+      url: https://www.drc.gov.lk
+    applies_if:
+      rule:
+        all:
+          - fact: legal_structure
+            op: eq
+            value: private_limited
+
+  # ----------------------------------------------------------------------------
+  # 2. SCOPE: Food Premises
+  # ----------------------------------------------------------------------------
+  - id: OBL-FOOD-001
+    name: Food Premises & Commercial Kitchen Registration
+    scope: food premises
+    authority: Ministry of Health / Relevant Food Authority
+    jurisdiction: Western Province
+    required_action: >
+      Register the food preparation premises or commercial kitchen with the
+      relevant local Food Authority / Medical Officer of Health prior to operations.
+    status: active
+    effective_from: "2014-01-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-POL-2014-FOOD
+      page: 21
+      quote: >-
+        registering of food premises including commercial cottage
+        kitchens, as a priority at the relevant Food Authority.
+      url: https://www.health.gov.lk
+    applies_if:
+      rule:
+        all:
+          - fact: business_type
+            op: eq
+            value: food
+          - fact: operates_kitchen
+            op: eq
+            value: true
+
+  - id: OBL-FOOD-002
+    name: Food Handlers Registration and Safety Training
+    scope: food premises
+    authority: Medical Officer of Health (MOH)
+    jurisdiction: Western Province
+    required_action: >
+      Ensure all employees handling food are registered under the relevant
+      Medical Officer of Health (MOH) following formal food safety training.
+    status: active
+    effective_from: "2014-01-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-POL-2014-FOOD
+      page: 21
+      quote: >-
+        All food handlers employed in food industries to be registered
+        under the relevant Medical Officer of Health, following a formal
+        food safety training.
+      url: https://www.health.gov.lk
+    applies_if:
+      rule:
+        all:
+          - fact: business_type
+            op: eq
+            value: food
+          - fact: employee_count
+            op: gte
+            value: 1
+
+  # ----------------------------------------------------------------------------
+  # 3. SCOPE: PDPA (Personal Data Protection)
+  # ----------------------------------------------------------------------------
+  - id: OBL-PDPA-001
+    name: Personal Data Protection Management & Technical Safeguards
+    scope: PDPA
+    authority: Data Protection Authority of Sri Lanka
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Implement appropriate technical and organizational measures to ensure the
+      integrity, confidentiality, and lawful processing of personal data.
+    status: active
+    effective_from: "2023-07-17"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-ACT-2022-09-EN
+      page: 6
+      quote: >-
+        Every controller shall ensure integrity and confidentiality of
+        personal data that is being processed, by using appropriate
+        technical and organizational measures
+      url: https://www.dpa.gov.lk
+    applies_if: UNKNOWN
+
+  # ----------------------------------------------------------------------------
+  # 4. SCOPE: EPL (Environmental Protection Licence)
+  # ----------------------------------------------------------------------------
+  - id: OBL-EPL-001
+    name: EPL for Motor Vehicle Repairing and Maintaining Garages
+    scope: EPL
+    authority: Central Environmental Authority
+    jurisdiction: Western Province
+    required_action: >
+      Obtain an Environmental Protection Licence (EPL) under Section 23A of the
+      National Environmental Act for vehicle repairing and maintenance operations.
+    status: active
+    effective_from: "2008-02-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-GAZ-2008-1533-16
+      page: 6
+      quote: >-
+        21. Vehicle repairing or maintaining garages excluding
+        spray-painting or mobile air-conditioning activities.
+      url: http://www.cea.lk
+    applies_if:
+      rule:
+        all:
+          - fact: business_type
+            op: eq
+            value: vehicle_parts
+          - fact: handles_waste_oil_or_batteries
+            op: eq
+            value: true
+
+  - id: OBL-EPL-002
+    name: EPL for Food Manufacturing & Bakery Products (5 to 24 Workers)
+    scope: EPL
+    authority: Central Environmental Authority
+    jurisdiction: Western Province
+    required_action: >
+      Obtain an Environmental Protection Licence (Part B Prescribed Activity)
+      prior to manufacturing or processing bakery products and confectioneries.
+    status: active
+    effective_from: "2008-02-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-GAZ-2008-1533-16
+      page: 5
+      quote: >-
+        15. Food manufacturing and processing industries including bakery
+        products and confectioneries where 5 or more workers and less than
+        25 workers are employed.
+      url: http://www.cea.lk
+    applies_if:
+      rule:
+        all:
+          - fact: business_type
+            op: eq
+            value: food
+          - fact: is_manufacturing
+            op: eq
+            value: true
+          - fact: employee_count
+            op: gte
+            value: 5
+
+  # ----------------------------------------------------------------------------
+  # 5. SCOPE: Consumer Protection & Packaging Standards
+  # ----------------------------------------------------------------------------
+  - id: OBL-CONS-001
+    name: Prohibition of Thin Polythene Packaging (<= 20 Microns)
+    scope: consumer protection
+    authority: Central Environmental Authority / Ministry of Environment
+    jurisdiction: Sri Lanka (National)
+    required_action: >
+      Cease and refrain from the commercial sale or packaging use of polythene
+      or any polythene product of 20 microns or below in thickness.
+    status: active
+    effective_from: "2007-01-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-GAZ-2006-1466-05-DUP
+      page: 1
+      quote: >-
+        prohibit- (i) the manufacture of polythene or any polythene
+        product of twenty (20) microns or below in thickness for in
+        country use; and (ii) the sale or use of polythene or any
+        polythene product which is twenty (20) microns or below in
+        thickness.
+      url: http://www.cea.lk
+    applies_if: UNKNOWN
+
+  # ----------------------------------------------------------------------------
+  # 6. SCOPE: Garage Registration
+  # ----------------------------------------------------------------------------
+  - id: OBL-GAR-001
+    name: Department of Motor Traffic Garage & Workshop Registration
+    scope: garage registration
+    authority: Department of Motor Traffic
+    jurisdiction: Western Province
+    required_action: >
+      Submit an application for registration of repairer's garage or place
+      of business (CMT 23) under Section 42(1)(a) of the Motor Traffic Act.
+    status: active
+    effective_from: "2023-01-01"
+    reviewer_status: pending
+    evidence:
+      doc_id: LK-FORM-2023-DMT-GAR
+      page: 1
+      quote: >-
+        GARAGE OR PLACE OF BUSENESS
+      url: http://www.dmt.gov.lk
+    applies_if:
+      rule:
+        all:
+          - fact: business_type
+            op: eq
+            value: vehicle_parts
+          - fact: physical_premises
+            op: eq
+            value: true

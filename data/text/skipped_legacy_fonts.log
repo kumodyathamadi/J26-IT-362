@@ -1,0 +1,51 @@
+# Component 2: Skipped Legacy-Font Sinhala Sources
+# These PDFs use non-Unicode legacy glyph encodings (e.g. FMAbhaya) and must be converted via glyph re-mappers.
+
+doc_id: LK-ROC-PROC-S34-SI
+filename: Procedure-to-apply-for-a-License-under-section-34-of-the-Companies-Act-No-7-of-2007_Sinhala.pdf
+reason: Sinhala-tagged document contains non-Unicode legacy character encoding
+------------------------------------------------------------
+doc_id: LK-GAZ-2006-1466-05
+filename: 1.Order-to-prohibit-the-Manufacture-of-Polythene-or-any-Polythene-product-20-microns--below.pdf
+reason: Detected legacy ASCII font(s): ADPGLB+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2017-2034-34
+filename: 2.Order-to-prohibit-the-Manufacture-of-Food-Wrappers.--Lunch-Sheet-etc.pdf
+reason: Detected legacy ASCII font(s): AFJNJB+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2017-2034-35
+filename: 3.Order-to-prohibit-the-Manufacture-of-any-bag-of-high-density-Grocery-Bag.pdf
+reason: Detected legacy ASCII font(s): AHLDCK+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2017-2034-36
+filename: 4.Order-to-prohibit-burning-of-refuse-and-other-combustible-matters-inclusive-of-Plastic.pdf
+reason: Detected legacy ASCII font(s): AJGEFH+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2017-2034-37
+filename: 5.Order-to-prohibit-the-use-of-Polyethylene-products-as-Decorations.pdf
+reason: Detected legacy ASCII font(s): ALAIPG+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2017-2034-38
+filename: 6.Order-to-prohibit-the-manufacure-of-food-containers--plates--cups--spoons-from-expanded-Polystyrene.pdf
+reason: Detected legacy ASCII font(s): ANGPBP+FMAbabld,Bold
+------------------------------------------------------------
+doc_id: LK-GAZ-2008-1534-18-A
+filename: Order-published-under-the-Gazette-Notification-No.-153418-dated-01.02.2008Re-National-Environmental-Protection--Quality-Regulations.pdf
+reason: Detected legacy ASCII font(s): GILJMK+FMAbabldBold
+------------------------------------------------------------
+doc_id: LK-GAZ-2009-1627-19
+filename: Order_published_under_the_Gazette_Notification_No._162719_dated_10.11.2009Re_Municipal_Solid_Waste.pdf
+reason: Detected legacy ASCII font(s): DHGLAO+FMAbabldBold
+------------------------------------------------------------
+doc_id: LK-GAZ-2008-1562-22
+filename: Regulations-published-under-the-Gazette-Notification-No.-156222-dated-15.08.2008Re-Permissible-Ambient-Air-Quality-Standards-in-relation-to-class-of-Air-Pollutants.pdf
+reason: Detected legacy ASCII font(s): MCCMDG+FMAbabldBold
+------------------------------------------------------------
+doc_id: LK-GAZ-2008-1534-18-B
+filename: Regulations_published_under_the_Gazette_Notification_No._153418_dated_01.02.2008Re_License_for_discharge_emission_or_disposal_of_wastescheduled_waste_management.pdf
+reason: Detected legacy ASCII font(s): GILJMK+FMAbabldBold
+------------------------------------------------------------
+doc_id: LK-ACT-2022-09-SI
+filename: Data Protection Act SL - Sinhala (1).pdf
+reason: Detected legacy ASCII font(s): DKOBIN+FMAbabld,Bold, DKOBJN+FMAbhaya
+------------------------------------------------------------

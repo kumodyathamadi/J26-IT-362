@@ -1,0 +1,35 @@
+{
+  "test_input": "Business Type: food_business. Scale: small. District: Colombo. Physical Premises: True. Context: new business. Activity: bakery manufacturing. Inquiry: I want to start a food bakery and need to obtain environmental clearance and trade license.",
+  "predicted_action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+  "action_details": {
+    "action_type": "VERIFY_FOOD_PREMISES_REQUIREMENTS",
+    "category": "food_business",
+    "required_action_name": "Food premises registration/approval or other applicable food-safety approval — exact requirement to be verified",
+    "target_authority": "Contact the relevant local authority and its authorised public-health/food-safety office for the exact premises; verify the competent officer and procedure.",
+    "office_location": "Local Authority Health Department (CMC / Municipal / Urban Council / Pradeshiya Sabha) & MOH / PHI Office",
+    "action_urgency": "Confirm applicable requirements before starting the regulated activity or submitting an application; exact deadline is not established by this dataset.",
+    "required_documents": [
+      "Business and premises details",
+      "Description of food preparation, storage and sale activities",
+      "Premises/layout information if requested by the official checklist",
+      "Food-handler or hygiene evidence only if required by current rules",
+      "Current official application form"
+    ],
+    "procedural_steps": [
+      "Describe the food activities and premises accurately.",
+      "Obtain the current food-premises checklist from the competent local authority/public-health office.",
+      "Confirm required inspections, food-handler conditions and forms.",
+      "Prepare only the documents listed in the verified checklist.",
+      "Submit the application and follow inspection or correction instructions."
+    ],
+    "legal_sources": [
+      "food_act_no26_1980_en.pdf",
+      "food_amendment_act_no20-_1991_en.pdf",
+      "food_amendment_act2011_en.pdf",
+      "National_Food_Safety_Policy.pdf"
+    ],
+    "applicability_status": "UNKNOWN",
+    "review_instructions": "Verify current law, exact authority, office, action/licence name, documents and procedure from official sources before approving this row for model training.",
+    "province_scope": "Western Province (Colombo, Gampaha, Kalutara)"
+  }
+}

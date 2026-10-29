@@ -175,18 +175,7 @@ Assist SMEs in identifying applicable legal, registration, licensing, and regula
 
 ### Key Technology
 
-**Retrieval-Augmented Generation (RAG)** is used to retrieve relevant information from localized regulatory and legal knowledge sources.
-
-The system can consider:
-
-* Business type
-* Business sector
-* Business location
-* Business activities
-* Required licenses
-* Registration requirements
-* Applicable authorities
-* Regulatory conditions
+**Retrieval-Augmented Generation (RAG)** and deterministic rule engine logic are used to evaluate and retrieve relevant information from localized regulatory and legal knowledge sources.
 
 ### Output
 
@@ -205,6 +194,103 @@ Compliance Guidance
 ```
 
 ---
+
+### Component 2 Implementation & Developer Quickstart
+
+The full implementation guide is available at [documentation/Component_2_Implementation_Guide.md](documentation/Component_2_Implementation_Guide.md).
+
+#### Overview & Core Novelty
+Component 2 provides **deterministic, source-grounded regulatory compliance analysis** for Sri Lankan SMEs (initial scope: food businesses in Colombo District — bakeries, cake shops, sweets shops, restaurants).
+
+* **Source register** — every cited law is in `data/compliance/source_register.csv`.
+* **Obligation rulebook** — YAML schema in `data/compliance/rulebook/obligations.yaml`.
+* **Three-valued applicability engine** — returns `applicable` / `conditional` / `unknown` / `not_applicable`; missing facts are never assumed false.
+* **Metadata-aware evidence** — every result is grounded in a registered source + quote.
+* **LLM constraint** — the LLM may only phrase results; it never decides applicability.
+
+#### Directory Structure
+```text
+backend/
+  main.py                          # FastAPI entry point
+  requirements.txt                 # Python dependencies
+  app/
+    api/
+      compliance_routes.py         # POST /compliance/analyze and GET endpoints
+      component2_routes.py         # Legacy mock endpoint (kept for backward compat)
+    compliance/
+      schemas.py                   # Pydantic models: BusinessProfile, ObligationRule, etc.
+      engine.py                    # Deterministic three-valued applicability engine
+      rulebook_loader.py           # YAML loader (cached)
+      source_registry.py           # CSV reader (cached)
+      component1_mapper.py         # Component 1 → Component 2 field mapper
+
+data/compliance/
+  source_register.csv              # Authoritative source document registry
+  raw/                             # Original PDFs (never edited)
+  processed/                       # Extracted text JSON (one file per source_id)
+  rulebook/
+    obligations.yaml               # Obligation definitions with three-valued applies_if
+
+scripts/compliance/
+  register_source.py               # Register a new source document
+  validate_rulebook.py             # Validate rulebook ↔ source register consistency
+
+tests/compliance/
+  test_engine.py                   # Pytest: applicable / not_applicable / unknown / conditional
+
+frontend/src/components/
+  component2.tsx                   # React UI: profile form + grouped results + evidence panel
+```
+
+#### How to Run — Backend
+```bash
+# 1. Install dependencies
+cd backend
+pip install -r requirements.txt
+
+# 2. Start the API server (from repo root)
+python -m uvicorn backend.main:app --reload --port 8000
+```
+
+#### How to Run — Tests
+```bash
+# From repo root
+pytest tests/compliance/ -v
+```
+
+#### How to Run — Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+#### How to Register a New Source Document
+```bash
+python scripts/compliance/register_source.py \
+  --source-id SL-NEW-ACT-2024 \
+  --authority "Ministry of Trade" \
+  --title "New Trade Act 2024" \
+  --doc-type act \
+  --jurisdiction "Sri Lanka (National)" \
+  --effective-date 2024-01-01 \
+  --file data/compliance/raw/new_trade_act_2024.pdf
+```
+
+#### How to Validate the Rulebook
+```bash
+python scripts/compliance/validate_rulebook.py
+```
+
+#### Design Principles
+| Principle | Implementation |
+|---|---|
+| LLM never decides applicability | All logic in `engine.py` is pure Python; LLM is not called |
+| Three-valued logic | `None` → UNKNOWN; never coerced to False |
+| Source-grounded output | Every evidence chunk has `source_id`, `page`, `url`, `quote` |
+| No personal data | `BusinessProfile` has no NIC, name, or personal identifiers |
+| Reviewer workflow | `reviewer_status: draft` marks unverified quotes; validator enforces verbatim match |
+
 
 # Component 3 — AI-Based Financial Management & Fraud Monitoring
 

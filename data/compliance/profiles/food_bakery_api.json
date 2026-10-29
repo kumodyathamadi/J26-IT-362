@@ -1,0 +1,16 @@
+{
+  "business_type": "bakery",
+  "sector": "food",
+  "location": "Colombo",
+  "province": "Western Province",
+  "district": "Colombo",
+  "local_authority": "Colombo Municipal Council",
+  "ownership": "sole_proprietorship",
+  "employees": 4,
+  "products_services": ["Bread", "Cakes", "Retail food sales"],
+  "business_size": "small",
+  "handles_food": true,
+  "has_physical_premises": true,
+  "is_manufacturing": true,
+  "turnover_band": "1m_10m"
+}
